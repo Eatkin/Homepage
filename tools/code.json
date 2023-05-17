@@ -232,9 +232,119 @@
       "javascript",
       "frontend"
     ]
-  }
+  },
   {
-    "comment": "Also certifications from udemy and freecodecamp",
-    "comment": "open source games on github"
+    "title": "Responsive Web Design",
+    "description": "Certification from Freecodecamp's Responsive Web Design course. The course covers HTML, CSS, and Javascript and features 5 projects.",
+    "link": "https://www.freecodecamp.org/certification/Edward-Atkin/responsive-web-design",
+    "tags": [
+      "web",
+      "html",
+      "css",
+      "javascript",
+      "frontend",
+      "freecodecamp",
+      "certification"
+    ]
+  },
+  {
+    "title": "The Git & Github Bootcamp",
+    "description": "Certification from Colt Steele's Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.",
+    "link": "certs/git-github-bootcamp.pdf",
+    "tags": [
+      "git",
+      "github",
+      "udemy",
+      "certification",
+      "command-line"
+    ]
+  },
+  {
+    "title": "Ben Was Assimilated",
+    "description": "Ben Was Assimilated is a hack n slash style game where things only move when you do. Includes assimilation. This game is extremely modular and can be easily modified to create new levels and enemies.",
+    "link": "https://github.com/Eatkin/BenWasAssimilated",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker"
+    ]
+  },
+  {
+    "title": "BalL DuDe AdVENtures TOo",
+    "description": "Ball Dude is back and he has eaten too much jelly (jello if you're American). Sometimes it's good to take a step back and stop worrying so much about making something that's actually good. With great skill as a developer, you have the power to make something really bad. Not just bad by accident, an actively hateful game. This game was made for the Game Breaker's Toolkit 8 game jam.",
+    "link": "https://github.com/Eatkin/gbkt8",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker",
+      "fun",
+      "funny",
+      "stupid"
+    ]
+  },
+  {
+    "title": "A Relaxing Typing Game",
+    "description": "A Relaxing Typing Game is a chill typing game for people who like typing for the sake of typing. To date, this is my most popular game. It was front-paged on Newgrounds with over 20,000 plays.",
+    "link": "https://github.com/Eatkin/Relaxing-Open-Source-Game",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker"
+    ]
+  },
+  {
+    "title": "Other Minds",
+    "description": "Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who you can use for your standard platforming action, whereas Sage can fly around freely and take control of any other character. Other Minds was my first major project and also a major learning experience. It features highly modular character code and complex emergent behaviour.",
+    "link": "https://github.com/Eatkin/OtherMinds",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker"
+    ]
+  },
+  {
+    "title": "Remember Mary",
+    "description": "Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young girl in a world filled with her friends who she can help or hurt. Presented in squigglevision. I made it in about 9 days for the \"I can't write but want to tell a story\" jam. It is purposefully simplistic in its gameplay so that the player can focus on the story and the world. It has a morality system and multiple endings, such that your actions are meaningful and also the order you take your actions in can also affect the game world and feel. It's also secretly a game about how 18th Century feminist philosopher Mary Wollstonecraft found herself driven to suicide because she found her life to be in such a hopeless situation.",
+    "link": "https://github.com/Eatkin/RememberMary",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker"
+    ]
+  },
+  {
+    "title": "Silent Bill",
+    "description": "The evil ducks have trapped you in a beach hut, you must find a way to escape before they kill you! Silent Bill was made for the \"I can't draw but I want to make a game\" game jam, and so, artwork very much takes a back seat here. The game is a simple point and click escape room with a few puzzles.",
+    "link": "https://github.com/Eatkin/SilentBill",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker"
+    ]
+  },
+  {
+    "title": "Justin Wall's Cooking Simulator",
+    "description": "Cook dinner and murder your entire family! Justin Wall's Cooking Simulator is an ARG-styled game that consists of a series of 4 games. Players must both find the link to the next game, and also find the password in order to access the next game. Each game features two endings. One of which will allow you to progress.",
+    "link": "https://github.com/Eatkin/JustinWallsCookingSimulator",
+    "tags": [
+      "game",
+      "game-dev",
+      "gamemaker"
+    ]
+  },
+  {
+    "title": "Codewars Data Analysis",
+    "description": "A Jupyter Notebook which both sources and analyses data gathered from Codewars problems I've solved. This is an all-inclusive project showing data sourcing, cleaning and visualisation.",
+    "link": "https://github.com/Eatkin/codewars-data-analysis",
+    "tags": [
+      "python",
+      "web-scraping",
+      "selenium",
+      "codewars",
+      "regex",
+      "data",
+      "data-analysis",
+      "data-visualisation"
+    ]
   }
 ]
