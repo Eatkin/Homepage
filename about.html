@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <title>The EdSpace</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <input type="checkbox" id="toggle-theme" />
+            <label for="toggle-theme">
+                <img src="images/lightSwitch.png" alt="A light switch" id="lightswitch" />
+            </label>
+
+            <div id="markdown">
+                <h1>About</h1>
+                <p>Hello and welcome to my website! I'm Edward Atkin, mostly known as Ed.</p>
+                <p>This website is my place to host the things I've made. I'm a programmer, game developer, and video
+                    editor. I occasionally do some writing and compose some music.</p>
+                <p>On this website you can find a little bit of everything I've been working on.</p>
+                <h2>More About Me</h2>
+                <p>I first started working with Gamemaker when I was around 11 years old. My friends and I always talked
+                    about these cool games we wanted to make, inspired by PS1 platformers like Spyro the Dragon and
+                    Crash Bandicoot.</p>
+                <p>One day I sat down and actually tried to make games. It didn't really go that well because it turns
+                    out game development is hard and there weren't a huge amount of tools available back in 2003.</p>
+                <p>I've been working on games again since about 2018 and have amassed quite a collection in a variety of
+                    genres, styles and qualities.</p>
+                <p>Other things I like include: playing Lego video games, inline skating, trying to play the guitar,
+                    foraging, growing vegetables and cats.</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; <span id="year">2023</span> Edward Atkin</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+
+</html>

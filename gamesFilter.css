@@ -1,0 +1,567 @@
+div.tag-2006 {
+    display: none;
+}
+
+#tag-2006-check:checked~main section .grid-container div.tag-2006 {
+    display: flex;
+}
+
+input#tag-2006-check {
+    display: none;
+}
+
+div.tag-2020 {
+    display: none;
+}
+
+#tag-2020-check:checked~main section .grid-container div.tag-2020 {
+    display: flex;
+}
+
+input#tag-2020-check {
+    display: none;
+}
+
+div.tag-2021 {
+    display: none;
+}
+
+#tag-2021-check:checked~main section .grid-container div.tag-2021 {
+    display: flex;
+}
+
+input#tag-2021-check {
+    display: none;
+}
+
+div.tag-2022 {
+    display: none;
+}
+
+#tag-2022-check:checked~main section .grid-container div.tag-2022 {
+    display: flex;
+}
+
+input#tag-2022-check {
+    display: none;
+}
+
+div.tag-adventure {
+    display: none;
+}
+
+#tag-adventure-check:checked~main section .grid-container div.tag-adventure {
+    display: flex;
+}
+
+input#tag-adventure-check {
+    display: none;
+}
+
+div.tag-android {
+    display: none;
+}
+
+#tag-android-check:checked~main section .grid-container div.tag-android {
+    display: flex;
+}
+
+input#tag-android-check {
+    display: none;
+}
+
+div.tag-arg {
+    display: none;
+}
+
+#tag-arg-check:checked~main section .grid-container div.tag-arg {
+    display: flex;
+}
+
+input#tag-arg-check {
+    display: none;
+}
+
+div.tag-bad {
+    display: none;
+}
+
+#tag-bad-check:checked~main section .grid-container div.tag-bad {
+    display: flex;
+}
+
+input#tag-bad-check {
+    display: none;
+}
+
+div.tag-ball-dude {
+    display: none;
+}
+
+#tag-ball-dude-check:checked~main section .grid-container div.tag-ball-dude {
+    display: flex;
+}
+
+input#tag-ball-dude-check {
+    display: none;
+}
+
+div.tag-best-of {
+    display: none;
+}
+
+#tag-best-of-check:checked~main section .grid-container div.tag-best-of {
+    display: flex;
+}
+
+input#tag-best-of-check {
+    display: none;
+}
+
+div.tag-bitsy {
+    display: none;
+}
+
+#tag-bitsy-check:checked~main section .grid-container div.tag-bitsy {
+    display: flex;
+}
+
+input#tag-bitsy-check {
+    display: none;
+}
+
+div.tag-booklet {
+    display: none;
+}
+
+#tag-booklet-check:checked~main section .grid-container div.tag-booklet {
+    display: flex;
+}
+
+input#tag-booklet-check {
+    display: none;
+}
+
+div.tag-browser {
+    display: none;
+}
+
+#tag-browser-check:checked~main section .grid-container div.tag-browser {
+    display: flex;
+}
+
+input#tag-browser-check {
+    display: none;
+}
+
+div.tag-bullet-hell {
+    display: none;
+}
+
+#tag-bullet-hell-check:checked~main section .grid-container div.tag-bullet-hell {
+    display: flex;
+}
+
+input#tag-bullet-hell-check {
+    display: none;
+}
+
+div.tag-casual {
+    display: none;
+}
+
+#tag-casual-check:checked~main section .grid-container div.tag-casual {
+    display: flex;
+}
+
+input#tag-casual-check {
+    display: none;
+}
+
+div.tag-cats {
+    display: none;
+}
+
+#tag-cats-check:checked~main section .grid-container div.tag-cats {
+    display: flex;
+}
+
+input#tag-cats-check {
+    display: none;
+}
+
+div.tag-collab {
+    display: none;
+}
+
+#tag-collab-check:checked~main section .grid-container div.tag-collab {
+    display: flex;
+}
+
+input#tag-collab-check {
+    display: none;
+}
+
+div.tag-dank {
+    display: none;
+}
+
+#tag-dank-check:checked~main section .grid-container div.tag-dank {
+    display: flex;
+}
+
+input#tag-dank-check {
+    display: none;
+}
+
+div.tag-demo {
+    display: none;
+}
+
+#tag-demo-check:checked~main section .grid-container div.tag-demo {
+    display: flex;
+}
+
+input#tag-demo-check {
+    display: none;
+}
+
+div.tag-educational {
+    display: none;
+}
+
+#tag-educational-check:checked~main section .grid-container div.tag-educational {
+    display: flex;
+}
+
+input#tag-educational-check {
+    display: none;
+}
+
+div.tag-falling-to-bitsy {
+    display: none;
+}
+
+#tag-falling-to-bitsy-check:checked~main section .grid-container div.tag-falling-to-bitsy {
+    display: flex;
+}
+
+input#tag-falling-to-bitsy-check {
+    display: none;
+}
+
+div.tag-free {
+    display: none;
+}
+
+#tag-free-check:checked~main section .grid-container div.tag-free {
+    display: flex;
+}
+
+input#tag-free-check {
+    display: none;
+}
+
+div.tag-game-jam {
+    display: none;
+}
+
+#tag-game-jam-check:checked~main section .grid-container div.tag-game-jam {
+    display: flex;
+}
+
+input#tag-game-jam-check {
+    display: none;
+}
+
+div.tag-gameboy {
+    display: none;
+}
+
+#tag-gameboy-check:checked~main section .grid-container div.tag-gameboy {
+    display: flex;
+}
+
+input#tag-gameboy-check {
+    display: none;
+}
+
+div.tag-horror {
+    display: none;
+}
+
+#tag-horror-check:checked~main section .grid-container div.tag-horror {
+    display: flex;
+}
+
+input#tag-horror-check {
+    display: none;
+}
+
+div.tag-linux {
+    display: none;
+}
+
+#tag-linux-check:checked~main section .grid-container div.tag-linux {
+    display: flex;
+}
+
+input#tag-linux-check {
+    display: none;
+}
+
+div.tag-mobile {
+    display: none;
+}
+
+#tag-mobile-check:checked~main section .grid-container div.tag-mobile {
+    display: flex;
+}
+
+input#tag-mobile-check {
+    display: none;
+}
+
+div.tag-mod {
+    display: none;
+}
+
+#tag-mod-check:checked~main section .grid-container div.tag-mod {
+    display: flex;
+}
+
+input#tag-mod-check {
+    display: none;
+}
+
+div.tag-open-source {
+    display: none;
+}
+
+#tag-open-source-check:checked~main section .grid-container div.tag-open-source {
+    display: flex;
+}
+
+input#tag-open-source-check {
+    display: none;
+}
+
+div.tag-paid {
+    display: none;
+}
+
+#tag-paid-check:checked~main section .grid-container div.tag-paid {
+    display: flex;
+}
+
+input#tag-paid-check {
+    display: none;
+}
+
+div.tag-personal {
+    display: none;
+}
+
+#tag-personal-check:checked~main section .grid-container div.tag-personal {
+    display: flex;
+}
+
+input#tag-personal-check {
+    display: none;
+}
+
+div.tag-platformer {
+    display: none;
+}
+
+#tag-platformer-check:checked~main section .grid-container div.tag-platformer {
+    display: flex;
+}
+
+input#tag-platformer-check {
+    display: none;
+}
+
+div.tag-point-and-click {
+    display: none;
+}
+
+#tag-point-and-click-check:checked~main section .grid-container div.tag-point-and-click {
+    display: flex;
+}
+
+input#tag-point-and-click-check {
+    display: none;
+}
+
+div.tag-prototype {
+    display: none;
+}
+
+#tag-prototype-check:checked~main section .grid-container div.tag-prototype {
+    display: flex;
+}
+
+input#tag-prototype-check {
+    display: none;
+}
+
+div.tag-puzzle {
+    display: none;
+}
+
+#tag-puzzle-check:checked~main section .grid-container div.tag-puzzle {
+    display: flex;
+}
+
+input#tag-puzzle-check {
+    display: none;
+}
+
+div.tag-racing {
+    display: none;
+}
+
+#tag-racing-check:checked~main section .grid-container div.tag-racing {
+    display: flex;
+}
+
+input#tag-racing-check {
+    display: none;
+}
+
+div.tag-raspberry-pi {
+    display: none;
+}
+
+#tag-raspberry-pi-check:checked~main section .grid-container div.tag-raspberry-pi {
+    display: flex;
+}
+
+input#tag-raspberry-pi-check {
+    display: none;
+}
+
+div.tag-roguelike {
+    display: none;
+}
+
+#tag-roguelike-check:checked~main section .grid-container div.tag-roguelike {
+    display: flex;
+}
+
+input#tag-roguelike-check {
+    display: none;
+}
+
+div.tag-schmup {
+    display: none;
+}
+
+#tag-schmup-check:checked~main section .grid-container div.tag-schmup {
+    display: flex;
+}
+
+input#tag-schmup-check {
+    display: none;
+}
+
+div.tag-soundtrack {
+    display: none;
+}
+
+#tag-soundtrack-check:checked~main section .grid-container div.tag-soundtrack {
+    display: flex;
+}
+
+input#tag-soundtrack-check {
+    display: none;
+}
+
+div.tag-story-rich {
+    display: none;
+}
+
+#tag-story-rich-check:checked~main section .grid-container div.tag-story-rich {
+    display: flex;
+}
+
+input#tag-story-rich-check {
+    display: none;
+}
+
+div.tag-strategy {
+    display: none;
+}
+
+#tag-strategy-check:checked~main section .grid-container div.tag-strategy {
+    display: flex;
+}
+
+input#tag-strategy-check {
+    display: none;
+}
+
+div.tag-tennis {
+    display: none;
+}
+
+#tag-tennis-check:checked~main section .grid-container div.tag-tennis {
+    display: flex;
+}
+
+input#tag-tennis-check {
+    display: none;
+}
+
+div.tag-top-down {
+    display: none;
+}
+
+#tag-top-down-check:checked~main section .grid-container div.tag-top-down {
+    display: flex;
+}
+
+input#tag-top-down-check {
+    display: none;
+}
+
+div.tag-turn-based {
+    display: none;
+}
+
+#tag-turn-based-check:checked~main section .grid-container div.tag-turn-based {
+    display: flex;
+}
+
+input#tag-turn-based-check {
+    display: none;
+}
+
+div.tag-typing {
+    display: none;
+}
+
+#tag-typing-check:checked~main section .grid-container div.tag-typing {
+    display: flex;
+}
+
+input#tag-typing-check {
+    display: none;
+}
+
+div.tag-windows {
+    display: none;
+}
+
+#tag-windows-check:checked~main section .grid-container div.tag-windows {
+    display: flex;
+}
+
+input#tag-windows-check {
+    display: none;
+}
+
+#tag-2006-check:not(:checked)~#tag-2020-check:not(:checked)~#tag-2021-check:not(:checked)~#tag-2022-check:not(:checked)~#tag-adventure-check:not(:checked)~#tag-android-check:not(:checked)~#tag-arg-check:not(:checked)~#tag-bad-check:not(:checked)~#tag-ball-dude-check:not(:checked)~#tag-best-of-check:not(:checked)~#tag-bitsy-check:not(:checked)~#tag-booklet-check:not(:checked)~#tag-browser-check:not(:checked)~#tag-bullet-hell-check:not(:checked)~#tag-casual-check:not(:checked)~#tag-cats-check:not(:checked)~#tag-collab-check:not(:checked)~#tag-dank-check:not(:checked)~#tag-demo-check:not(:checked)~#tag-educational-check:not(:checked)~#tag-falling-to-bitsy-check:not(:checked)~#tag-free-check:not(:checked)~#tag-game-jam-check:not(:checked)~#tag-gameboy-check:not(:checked)~#tag-horror-check:not(:checked)~#tag-linux-check:not(:checked)~#tag-mobile-check:not(:checked)~#tag-mod-check:not(:checked)~#tag-open-source-check:not(:checked)~#tag-paid-check:not(:checked)~#tag-personal-check:not(:checked)~#tag-platformer-check:not(:checked)~#tag-point-and-click-check:not(:checked)~#tag-prototype-check:not(:checked)~#tag-puzzle-check:not(:checked)~#tag-racing-check:not(:checked)~#tag-raspberry-pi-check:not(:checked)~#tag-roguelike-check:not(:checked)~#tag-schmup-check:not(:checked)~#tag-soundtrack-check:not(:checked)~#tag-story-rich-check:not(:checked)~#tag-strategy-check:not(:checked)~#tag-tennis-check:not(:checked)~#tag-top-down-check:not(:checked)~#tag-turn-based-check:not(:checked)~#tag-typing-check:not(:checked)~#tag-windows-check:not(:checked)~main section .grid-container div.hideable {
+    display: flex;
+}

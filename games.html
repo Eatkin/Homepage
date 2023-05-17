@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="stylesheet" type="text/css" href="gamesFilter.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <title>The Edspace</title>
+</head>
+
+<body>
+    <header>
+        <h1>Games</h1>
+        <p>Here you can find all the games I've made in recent years.</p>
+        <p>I have a long history of making games with Gamemaker, starting in around 2003. After a very long break I took
+            up the hobby again in 2018. Since then, I've made many games in a variety of genres, styles and qualities.
+        </p>
+        <p>Filter by <i>best-of</i> for the good stuff.</p>
+    </header>
+    <div id="games-container">
+        <input type="checkbox" id="tag-2006-check"><label for="tag-2006-check" class="filter-label">2006</label>
+        <input type="checkbox" id="tag-2020-check"><label for="tag-2020-check" class="filter-label">2020</label>
+        <input type="checkbox" id="tag-2021-check"><label for="tag-2021-check" class="filter-label">2021</label>
+        <input type="checkbox" id="tag-2022-check"><label for="tag-2022-check" class="filter-label">2022</label>
+        <input type="checkbox" id="tag-adventure-check"><label for="tag-adventure-check"
+            class="filter-label">adventure</label>
+        <input type="checkbox" id="tag-android-check"><label for="tag-android-check"
+            class="filter-label">android</label>
+        <input type="checkbox" id="tag-arg-check"><label for="tag-arg-check" class="filter-label">arg</label>
+        <input type="checkbox" id="tag-bad-check"><label for="tag-bad-check" class="filter-label">bad</label>
+        <input type="checkbox" id="tag-ball-dude-check"><label for="tag-ball-dude-check"
+            class="filter-label">ball-dude</label>
+        <input type="checkbox" id="tag-best-of-check"><label for="tag-best-of-check"
+            class="filter-label">best-of</label>
+        <input type="checkbox" id="tag-bitsy-check"><label for="tag-bitsy-check" class="filter-label">bitsy</label>
+        <input type="checkbox" id="tag-booklet-check"><label for="tag-booklet-check"
+            class="filter-label">booklet</label>
+        <input type="checkbox" id="tag-browser-check"><label for="tag-browser-check"
+            class="filter-label">browser</label>
+        <input type="checkbox" id="tag-bullet-hell-check"><label for="tag-bullet-hell-check"
+            class="filter-label">bullet-hell</label>
+        <input type="checkbox" id="tag-casual-check"><label for="tag-casual-check" class="filter-label">casual</label>
+        <input type="checkbox" id="tag-cats-check"><label for="tag-cats-check" class="filter-label">cats</label>
+        <input type="checkbox" id="tag-collab-check"><label for="tag-collab-check" class="filter-label">collab</label>
+        <input type="checkbox" id="tag-dank-check"><label for="tag-dank-check" class="filter-label">dank</label>
+        <input type="checkbox" id="tag-demo-check"><label for="tag-demo-check" class="filter-label">demo</label>
+        <input type="checkbox" id="tag-educational-check"><label for="tag-educational-check"
+            class="filter-label">educational</label>
+        <input type="checkbox" id="tag-falling-to-bitsy-check"><label for="tag-falling-to-bitsy-check"
+            class="filter-label">falling-to-bitsy</label>
+        <input type="checkbox" id="tag-free-check"><label for="tag-free-check" class="filter-label">free</label>
+        <input type="checkbox" id="tag-game-jam-check"><label for="tag-game-jam-check"
+            class="filter-label">game-jam</label>
+        <input type="checkbox" id="tag-gameboy-check"><label for="tag-gameboy-check"
+            class="filter-label">gameboy</label>
+        <input type="checkbox" id="tag-horror-check"><label for="tag-horror-check" class="filter-label">horror</label>
+        <input type="checkbox" id="tag-linux-check"><label for="tag-linux-check" class="filter-label">linux</label>
+        <input type="checkbox" id="tag-mobile-check"><label for="tag-mobile-check" class="filter-label">mobile</label>
+        <input type="checkbox" id="tag-mod-check"><label for="tag-mod-check" class="filter-label">mod</label>
+        <input type="checkbox" id="tag-open-source-check"><label for="tag-open-source-check"
+            class="filter-label">open-source</label>
+        <input type="checkbox" id="tag-paid-check"><label for="tag-paid-check" class="filter-label">paid</label>
+        <input type="checkbox" id="tag-personal-check"><label for="tag-personal-check"
+            class="filter-label">personal</label>
+        <input type="checkbox" id="tag-platformer-check"><label for="tag-platformer-check"
+            class="filter-label">platformer</label>
+        <input type="checkbox" id="tag-point-and-click-check"><label for="tag-point-and-click-check"
+            class="filter-label">point-and-click</label>
+        <input type="checkbox" id="tag-prototype-check"><label for="tag-prototype-check"
+            class="filter-label">prototype</label>
+        <input type="checkbox" id="tag-puzzle-check"><label for="tag-puzzle-check" class="filter-label">puzzle</label>
+        <input type="checkbox" id="tag-racing-check"><label for="tag-racing-check" class="filter-label">racing</label>
+        <input type="checkbox" id="tag-raspberry-pi-check"><label for="tag-raspberry-pi-check"
+            class="filter-label">raspberry-pi</label>
+        <input type="checkbox" id="tag-roguelike-check"><label for="tag-roguelike-check"
+            class="filter-label">roguelike</label>
+        <input type="checkbox" id="tag-schmup-check"><label for="tag-schmup-check" class="filter-label">schmup</label>
+        <input type="checkbox" id="tag-soundtrack-check"><label for="tag-soundtrack-check"
+            class="filter-label">soundtrack</label>
+        <input type="checkbox" id="tag-story-rich-check"><label for="tag-story-rich-check"
+            class="filter-label">story-rich</label>
+        <input type="checkbox" id="tag-strategy-check"><label for="tag-strategy-check"
+            class="filter-label">strategy</label>
+        <input type="checkbox" id="tag-tennis-check"><label for="tag-tennis-check" class="filter-label">tennis</label>
+        <input type="checkbox" id="tag-top-down-check"><label for="tag-top-down-check"
+            class="filter-label">top-down</label>
+        <input type="checkbox" id="tag-turn-based-check"><label for="tag-turn-based-check"
+            class="filter-label">turn-based</label>
+        <input type="checkbox" id="tag-typing-check"><label for="tag-typing-check" class="filter-label">typing</label>
+        <input type="checkbox" id="tag-windows-check"><label for="tag-windows-check"
+            class="filter-label">windows</label>
+        <main>
+            <section id="games">
+                <div class="grid-container">
+                    <div
+                        class="tag-soundtrack tag-typing tag-casual tag-educational tag-browser tag-windows tag-linux tag-free tag-open-source tag-2021 tag-best-of hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/aRelaxingTypingGame.png" alt="A Relaxing Typing Game Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>A Relaxing Typing Game</h2>
+                            <h3>Type out public domain poetry and stories whilst listening to chill music</h3>
+                            <p>A game I made as a pure typing game.</p>
+                            <p>Includes a variety of public domain stories and poems to type out, along with a custom
+                                text loader in the downloadable version of the game.</p>
+                            <p>It turned out to be an unexpected hit and is my most played game to date.</p>
+                            <a href="https://eatkin.itch.io/a-relaxing-typing-game" class="game-button"
+                                target="_blank">Play A Relaxing Typing Game</a>
+                            <p><b>Tags:</b> soundtrack, typing, casual, educational, browser, windows, linux, free,
+                                open-source, 2021, best-of</p>
+                        </div>
+                    </div>
+                    <div class="tag-bad tag-browser tag-free tag-top-down tag-schmup tag-2006 hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/acidTrip.png" alt="Acid Trip Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Acid Trip</h2>
+                            <h3>You have taken some LSD and now you're trapped playing the worst game ever made</h3>
+                            <p>Here's a game I managed to recover from some old files.</p>
+                            <p>I made it when I was 14, way back in 2006.</p>
+                            <p>It's certainly an experience.</p>
+                            <a href="https://eatkin.itch.io/acid-trip" class="game-button" target="_blank">Play Acid
+                                Trip</a>
+                            <p><b>Tags:</b> bad, browser, free, top-down, schmup, 2006</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-game-jam tag-browser tag-windows tag-linux tag-free tag-platformer tag-puzzle tag-strategy tag-2020 tag-prototype hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/badControlGame.png" alt="Bad Control Game Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Bad Control Game</h2>
+                            <h3>couldn't motivate myself to make a good game</h3>
+                            <p>A short game I made for Game Maker's Toolkit Jam 2020 with the theme "Out of Control".
+                            </p>
+                            <p>It's just a game with unusual controls really.</p>
+                            <a href="https://eatkin.itch.io/bad-control-game" class="game-button" target="_blank">Play
+                                Bad Control Game</a>
+                            <p><b>Tags:</b> game-jam, browser, windows, linux, free, platformer, puzzle, strategy, 2020,
+                                prototype</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-game-jam tag-browser tag-windows tag-raspberry-pi tag-open-source tag-puzzle tag-strategy tag-bad tag-2021 tag-free tag-ball-dude hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/ballDudeAdventures.png" alt="Ball Dude Adventures Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Ball Dude Adventures</h2>
+                            <h3>Oh no, Ball Dude has been turned into a poor quality jpeg.</h3>
+                            <p>Ball Dude Adventures is an epic brick breaking adventure made for the Game Breaker's
+                                Toolkit Game Jam.</p>
+                            <a href="https://eatkin.itch.io/ball-dude-adventures-too" class="game-button"
+                                target="_blank">Play Ball Dude Adventures</a>
+                            <p><b>Tags:</b> game-jam, browser, windows, raspberry-pi, open-source, puzzle, strategy,
+                                bad, 2021, free, ball-dude</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-game-jam tag-browser tag-2022 tag-open-source tag-platformer tag-bad tag-free tag-ball-dude hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/ballDudeAdventuresToo.png" alt="BalL DuDe AdVENtures TOo Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>BalL DuDe AdVENtures TOo</h2>
+                            <h3>Ball Dude is back and he has eaten too much jelly (jello if you're American)</h3>
+                            <p>Ball Dude is back with another epic really cool adventure.</p>
+                            <p>In this game Ball Dude cannot stop bouncing.</p>
+                            <p>Made for the Game Breaker's Toolkit Game Jam.</p>
+                            <a href="https://eatkin.itch.io/ball-dude-adventures-too" class="game-button"
+                                target="_blank">Play BalL DuDe AdVENtures TOo</a>
+                            <p><b>Tags:</b> game-jam, browser, 2022, open-source, platformer, bad, free, ball-dude</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-bitsy tag-falling-to-bitsy tag-browser tag-free tag-story-rich tag-2020 tag-personal tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/beer.png" alt="Beer (Falling to Bitsy #2) Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Beer (Falling to Bitsy #2)</h2>
+                            <h3>A story about beer</h3>
+                            <p>A short narrative about alcoholism.</p>
+                            <a href="https://eatkin.itch.io/beer" class="game-button" target="_blank">Play Beer (Falling
+                                to Bitsy #2)</a>
+                            <p><b>Tags:</b> bitsy, falling-to-bitsy, browser, free, story-rich, 2020, personal, mobile
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-free tag-paid tag-open-source tag-adventure tag-roguelike tag-turn-based tag-raspberry-pi tag-windows tag-linux tag-2020 tag-best-of tag-booklet tag-top-down tag-soundtrack hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/benWasAssimilated.png" alt="Ben Was Assimilated Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Ben Was Assimilated</h2>
+                            <h3>A hack n slash where you can run around, kill bad guys and get assimilated.</h3>
+                            <p>A turn based not-really-roguelike game where you play as Ben.</p>
+                            <p>Some unexpected things may happen.</p>
+                            <a href="https://eatkin.itch.io/ben-was-assimilated" class="game-button"
+                                target="_blank">Play Ben Was Assimilated</a>
+                            <p><b>Tags:</b> free, paid, open-source, adventure, roguelike, turn-based, raspberry-pi,
+                                windows, linux, 2020, best-of, booklet, top-down, soundtrack</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-free tag-browser tag-bitsy tag-story-rich tag-2021 tag-personal tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/boardHunting.png" alt="Board Hunting Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Board Hunting</h2>
+                            <h3>Some weird and obscure internet history from GameFAQs in the early 00's.</h3>
+                            <p>This is a game mostly just to talk about some obscure internet community I was a part of
+                                back in around 2004.</p>
+                            <a href="https://eatkin.itch.io/board-hunting" class="game-button" target="_blank">Play
+                                Board Hunting</a>
+                            <p><b>Tags:</b> free, browser, bitsy, story-rich, 2021, personal, mobile</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-game-jam tag-browser tag-free tag-open-source tag-windows tag-linux tag-bullet-hell tag-2021 tag-platformer tag-best-of hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/carrotHell.png" alt="Carrot Hell Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Carrot Hell</h2>
+                            <h3>The hills are alive with the sound of carrots.</h3>
+                            <p>Game Jam game made for Bullet Hell Jam. A bullet hell with added beta-carotene.</p>
+                            <p>Mostly I just wanted to show off my friends band, <a href="https://ickfx.bandcamp.com/"
+                                    target="_blank">ICK FX</a>.</p>
+                            <p>Sit back, experience some insane metal, and get killed by vegetables.</p>
+                            <a href="https://eatkin.itch.io/carrot-hell" class="game-button" target="_blank">Play Carrot
+                                Hell</a>
+                            <p><b>Tags:</b> game-jam, browser, free, open-source, windows, linux, bullet-hell, 2021,
+                                platformer, best-of</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-gameboy tag-game-jam tag-free tag-browser tag-platformer tag-cats tag-2021 tag-mobile tag-prototype hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/catInSpace.png" alt="Cat in Space Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Cat in Space</h2>
+                            <h3>Cat is in space and has to track down the crystals</h3>
+                            <p>A little game made for cat jam, I won! Although there were only 3 submissions.</p>
+                            <p>This is a Gameboy game made with Gameboy Studio, it will actually run on a Gameboy.</p>
+                            <p>It's still a prototype.</p>
+                            <a href="https://eatkin.itch.io/cat-in-space" class="game-button" target="_blank">Play Cat
+                                in Space</a>
+                            <p><b>Tags:</b> gameboy, game-jam, free, browser, platformer, cats, 2021, mobile, prototype
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2006 tag-bad tag-game-jam tag-free tag-browser tag-racing tag-windows tag-open-source hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/cucumberRacing.png" alt="Cucumber Racing Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Cucumber Racing</h2>
+                            <h3>a terrible game I made when I was about 12. Seriously, don't play it.</h3>
+                            <p>I was trying to make games in every genre when I was younger, even if I hadn't played any
+                                games in said genre. Here's my attempt at a racer.</p>
+                            <p>I actually quite liked Micro Machines V3 at the time, so it's probably based on that,
+                                although it's a bit of an insult to compare them.</p>
+                            <p>The original title was "Matchbox Racing".</p>
+                            <a href="https://eatkin.itch.io/match-box-racing-gbtk6" class="game-button"
+                                target="_blank">Play Cucumber Racing</a>
+                            <p><b>Tags:</b> 2006, bad, game-jam, free, browser, racing, windows, open-source</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-bad tag-game-jam tag-free tag-browser tag-mod tag-collab tag-top-down hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/fallGuys.png"
+                                alt="Fall Guys But Someone Else Made it in 1 Hour and I Just Changed Some Things Which Probably Made it Worse Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Fall Guys But Someone Else Made it in 1 Hour and I Just Changed Some Things Which
+                                Probably Made it Worse</h2>
+                            <h3>Fall Guys but somebody else made it in 1 hour and I modded it</h3>
+                            <p>My friend Adrien made a parody of Fall Guys. I made it much worse.</p>
+                            <a href="https://eatkin.itch.io/fall-guys-but-someone-else-made-it-in-1-hour-and-i-just-changed-some-things"
+                                class="game-button" target="_blank">Play Fall Guys But Someone Else Made it in 1 Hour
+                                and I Just Changed Some Things Which Probably Made it Worse</a>
+                            <p><b>Tags:</b> 2020, bad, game-jam, free, browser, mod, collab, top-down</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2021 tag-bitsy tag-falling-to-bitsy tag-free tag-browser tag-story-rich tag-personal tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/friends.png" alt="Friends (Falling to Bitsy #4) Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Friends (Falling to Bitsy #4)</h2>
+                            <h3>Friends and growing up</h3>
+                            <p>A little Bitsy game about growing apart from your childhood friends.</p>
+                            <a href="https://eatkin.itch.io/friends" class="game-button" target="_blank">Play Friends
+                                (Falling to Bitsy #4)</a>
+                            <p><b>Tags:</b> 2021, bitsy, falling-to-bitsy, free, browser, story-rich, personal, mobile
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-bitsy tag-falling-to-bitsy tag-free tag-browser tag-story-rich tag-personal tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/imposter.png" alt="Impostor (Falling to Bitsy #3) Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Impostor (Falling to Bitsy #3)</h2>
+                            <h3>A poem about imposter syndrome</h3>
+                            <p>It's easy to feel like we're not good enough or capable enough of things.</p>
+                            <a href="https://eatkin.itch.io/impostor" class="game-button" target="_blank">Play Impostor
+                                (Falling to Bitsy #3)</a>
+                            <p><b>Tags:</b> 2020, bitsy, falling-to-bitsy, free, browser, story-rich, personal, mobile
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-bitsy tag-free tag-browser tag-story-rich tag-game-jam tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/edgar.png" alt="It's Not Easy Being Green Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>It's Not Easy Being Green</h2>
+                            <h3>Spend a night out with Edgar the Goblin!</h3>
+                            <p>Experience life as a Goblin!</p>
+                            <p>Join Edgar the Goblin and his pals on an ordinary Goblin's night out. You'll find out
+                                life as a Goblin isn't so easy.</p>
+                            <p>Also hidden in the game is a super secret tile you can find!</p>
+                            <a href="https://eatkin.itch.io/its-not-easy-being-green" class="game-button"
+                                target="_blank">Play It's Not Easy Being Green</a>
+                            <p><b>Tags:</b> 2020, bitsy, free, browser, story-rich, game-jam, mobile</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-collab tag-puzzle tag-arg tag-free tag-browser tag-story-rich tag-game-jam tag-open-source hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/justin.png" alt="Justin Wall's Cooking Simulator Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Justin Wall's Cooking Simulator</h2>
+                            <h3>Cook dinner and murder your entire family!</h3>
+                            <p>A game in five parts. That is, if you can find the other games.</p>
+                            <a href="https://eatkin.itch.io/justin-walls-cooking-simulator" class="game-button"
+                                target="_blank">Play Justin Wall's Cooking Simulator</a>
+                            <p><b>Tags:</b> 2020, collab, puzzle, arg, free, browser, story-rich, game-jam, open-source
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tag-2022 tag-collab tag-bad tag-free tag-browser tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/life.png" alt="Life Simulator Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Life Simulator</h2>
+                            <h3>A 100% accurate life simulator</h3>
+                            <p>Joke game.</p>
+                            <a href="https://eatkin.itch.io/life-simulator" class="game-button" target="_blank">Play
+                                Life Simulator</a>
+                            <p><b>Tags:</b> 2022, collab, bad, free, browser, mobile</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-bitsy tag-falling-to-bitsy tag-free tag-browser tag-story-rich tag-personal tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/monotony.png" alt="Monotony (Falling to Bitsy #1) Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Monotony (Falling to Bitsy #1)</h2>
+                            <h3>Sometimes life is monotonous</h3>
+                            <p>Feeling stuck in a perpetual cycle of medicority and nothing ever changing, I make a
+                                game.</p>
+                            <a href="https://eatkin.itch.io/monotony" class="game-button" target="_blank">Play Monotony
+                                (Falling to Bitsy #1)</a>
+                            <p><b>Tags:</b> 2020, bitsy, falling-to-bitsy, free, browser, story-rich, personal, mobile
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-collab tag-bad tag-free tag-browser tag-windows tag-linux tag-open-source tag-platformer tag-game-jam hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/veryGood.png" alt="my very good game Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>my very good game</h2>
+                            <h3>hello this is my very good game pls play it i hope you like it</h3>
+                            <p>hello everyy everybody i hope you u are having a nice day</p>
+                            <p>i make this gameam with my frend jusst ball wall games and fendbenaman fearn for th gam
+                                breakser's tool kit jim jam</p>
+                            <a href="https://eatkin.itch.io/my-very-good-game" class="game-button" target="_blank">Play
+                                my very good game</a>
+                            <p><b>Tags:</b> 2020, collab, bad, free, browser, windows, linux, open-source, platformer,
+                                game-jam</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-soundtrack tag-2021 tag-platformer tag-demo tag-paid tag-windows tag-linux tag-open-source tag-best-of hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/otherminds.png" alt="Other Minds Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Other Minds</h2>
+                            <h3>Brutal collectathon platforming action with added mind control</h3>
+                            <p>Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who
+                                you can use for your standard platforming action, whereas Sage can fly around freely and
+                                take control of any other character.</p>
+                            <p>You will take advantage of the other character&rsquo;s abilities to solve puzzles, beat
+                                levels and uncover the nefarious plot of Dr Death. Ed and Sage must save the world
+                                because everybody else is too busy standing around thinking about things.</p>
+                            <a href="https://eatkin.itch.io/other-minds" class="game-button" target="_blank">Play Other
+                                Minds</a>
+                            <p><b>Tags:</b> soundtrack, 2021, platformer, demo, paid, windows, linux, open-source,
+                                best-of</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-soundtrack tag-2020 tag-story-rich tag-free tag-browser tag-windows tag-linux tag-open-source tag-best-of tag-mobile tag-booklet tag-top-down tag-casual hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/remembermary.png" alt="Remember Mary Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Remember Mary</h2>
+                            <h3>A surreal squigglevision adventure about Mary and her friends.</h3>
+                            <p>Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young
+                                girl in a world filled with her friends who she can help or hurt. Presented in
+                                squigglevision.</p>
+                            <p>I made it in about 9 days for the "I can't write but want to tell a story" jam.</p>
+                            <p>Featured in <a href="https://pizzapranks.itch.io/indiepocalypse-10">Indiepocalypse Issue
+                                    #10</a>.</p>
+                            <a href="https://eatkin.itch.io/remember-mary" class="game-button" target="_blank">Play
+                                Remember Mary</a>
+                            <p><b>Tags:</b> soundtrack, 2020, story-rich, free, browser, windows, linux, open-source,
+                                best-of, mobile, booklet, top-down, casual</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-point-and-click tag-puzzle tag-free tag-browser tag-windows tag-linux tag-open-source tag-mobile tag-booklet tag-raspberry-pi tag-android tag-horror tag-game-jam hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/silentBillJam.png" alt="Silent Bill (Jam Version) Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Silent Bill (Jam Version)</h2>
+                            <h3>The worst looking point and click horror game you'll ever see</h3>
+                            <p>The evil ducks have trapped you in a beach hut, you must find a way to escape before they
+                                kill you!</p>
+                            <a href="https://eatkin.itch.io/silent-bill-jam-version" class="game-button"
+                                target="_blank">Play Silent Bill (Jam Version)</a>
+                            <p><b>Tags:</b> 2020, point-and-click, puzzle, free, browser, windows, linux, open-source,
+                                mobile, booklet, raspberry-pi, android, horror, game-jam</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2022 tag-point-and-click tag-puzzle tag-free tag-windows tag-browser tag-best-of tag-horror tag-ball-dude tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/silentbill.png" alt="Silent Bill (2022) Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Silent Bill (2022)</h2>
+                            <h3>Escape the quacking deathtrap.</h3>
+                            <p>Silent Bill is a point and click puzzle adventure with unique scribble art graphics.</p>
+                            <p>You're trapped in a room with some seriously angry ducks who want you dead. The only way
+                                to escape is by cracking some codes and stabbing some ducks.</p>
+                            <a href="https://eatkin.itch.io/silent-bill" class="game-button" target="_blank">Play Silent
+                                Bill (2022)</a>
+                            <p><b>Tags:</b> 2022, point-and-click, puzzle, free, windows, browser, best-of, horror,
+                                ball-dude, mobile</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-bad tag-collab tag-game-jam tag-dank tag-free tag-windows tag-linux tag-top-down hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/stevie.png" alt="Stoner Stevie in Asstown Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Stoner Stevie in Asstown</h2>
+                            <h3>dank game</h3>
+                            <p>Stoner Stevie needs to collect all the dank weed so he can be cool!</p>
+                            <a href="https://eatkin.itch.io/stoner-stevie-in-asstown-gbtk-3-jam" class="game-button"
+                                target="_blank">Play Stoner Stevie in Asstown</a>
+                            <p><b>Tags:</b> 2020, bad, collab, game-jam, dank, free, windows, linux, top-down</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-adventure tag-collab tag-game-jam tag-tennis tag-free tag-windows tag-linux tag-open-source tag-top-down tag-best-of tag-ball-dude hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/tennisTower.png" alt="Tennis Tower Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Tennis Tower</h2>
+                            <h3>A game made with the process of gamedev tennis</h3>
+                            <p>Tennis Tower is a game about scaling a tower and picking up treasures along the way.</p>
+                            <p>It was made by the process known as "Gamedev Tennis", in which a dev makes a game and
+                                sends it to another dev who adds a level then sends it to the first dev who adds a level
+                                and sends it to the other dev etc etc etc.</p>
+                            <a href="https://adriendittrick.itch.io/tennis-tower" class="game-button"
+                                target="_blank">Play Tennis Tower</a>
+                            <p><b>Tags:</b> 2020, adventure, collab, game-jam, tennis, free, windows, linux,
+                                open-source, top-down, best-of, ball-dude</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2020 tag-bitsy tag-free tag-browser tag-story-rich tag-game-jam tag-mobile hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/trapped.png" alt="Trapped Inside My Own Head Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Trapped Inside My Own Head</h2>
+                            <h3>There's No Escape</h3>
+                            <p>A commentary on sense of self, the paradox of caring about others and how nobody is
+                                important, life is pointless and we&rsquo;ll all be forgotten.</p>
+                            <p>Made for the Bitsy Essay Jam.</p>
+                            <a href="https://eatkin.itch.io/trapped-inside-my-own-head" class="game-button"
+                                target="_blank">Play Trapped Inside My Own Head</a>
+                            <p><b>Tags:</b> 2020, bitsy, free, browser, story-rich, game-jam, mobile</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-2021 tag-free tag-browser tag-story-rich tag-game-jam tag-mobile tag-raspberry-pi tag-open-source tag-windows tag-collab tag-cats tag-platformer tag-casual hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/trash.png" alt="Trash Cat Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Trash Cat</h2>
+                            <h3>Certified Cool&trade; Cat Game</h3>
+                            <p>Trash Cat - featuring shallow gameplay, a story so metaphorical it's barely
+                                comprehendible, weird 1-bit graphics and a soundtrack that hardly anyone will want to
+                                listen to.</p>
+                            <p>Made for the Pompous Trash Jam.</p>
+                            <a href="https://eatkin.itch.io/trash-cat" class="game-button" target="_blank">Play Trash
+                                Cat</a>
+                            <p><b>Tags:</b> 2021, free, browser, story-rich, game-jam, mobile, raspberry-pi,
+                                open-source, windows, collab, cats, platformer, casual</p>
+                        </div>
+                    </div>
+                    <div class="tag-2021 tag-paid tag-windows tag-game-jam tag-typing tag-educational hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/ulysses.png"
+                                alt="Type The Entire Of Ulysses. That's it. That's the game. Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Type The Entire Of Ulysses. That's it. That's the game.</h2>
+                            <h3>Have you ever wanted to type out the entire of Ulysses? No? Me neither.</h3>
+                            <p>Finally, a typing game with the entire of James Joyce's Ulysses in it. In "Type The
+                                Entire Of Ulysses. That's It. That's The Game." you will type out Ulysses and pretty
+                                much nothing else.</p>
+                            <a href="https://eatkin.itch.io/type-the-entire-of-ulysses-thats-it-thats-the-game"
+                                class="game-button" target="_blank">Play Type The Entire Of Ulysses. That's it. That's
+                                the game.</a>
+                            <p><b>Tags:</b> 2021, paid, windows, game-jam, typing, educational</p>
+                        </div>
+                    </div>
+                    <div class="tag-2020 tag-free tag-browser tag-windows tag-game-jam tag-linux tag-bad hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/broken.png"
+                                alt="&#x1F171;roken game for game &#x1F171;reakers toolkit Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>&#x1F171;roken game for game &#x1F171;reakers toolkit</h2>
+                            <h3>Game doesn't work sorry</h3>
+                            <p>I made this game in 5 seconds</p>
+                            <p>Is it even a game?</p>
+                            <p>What even is a game?</p>
+                            <a href="https://eatkin.itch.io/broken-game-for-game-reakers-toolkit" class="game-button"
+                                target="_blank">Play &#x1F171;roken game for game &#x1F171;reakers toolkit</a>
+                            <p><b>Tags:</b> 2020, free, browser, windows, game-jam, linux, bad</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+            <section>
+                <p>Page info for nerds: This page is generated using a Python script.</p>
+                <p>The filtering is done with absolutely no javascript. CSS only. If you want an idea of what absolute
+                    sins against programming I had to do to accomplish this, check out <a
+                        href="gamesFilter.css">gamesFilter.css</a>.</p>
+                <p>You might see why I got a script to generate the page and stylesheet for me.</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; <span id="year">2023</span> Edward Atkin</p>
+
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,529 @@
+[
+    {
+        "gameTitle": "A Relaxing Typing Game",
+        "shortDesc": "Type out public domain poetry and stories whilst listening to chill music",
+        "longDesc": "<p>A game I made as a pure typing game.</p><p>Includes a variety of public domain stories and poems to type out, along with a custom text loader in the downloadable version of the game.</p><p>It turned out to be an unexpected hit and is my most played game to date.</p>",
+        "img": "aRelaxingTypingGame.png",
+        "link": "https://eatkin.itch.io/a-relaxing-typing-game",
+        "tags": [
+            "soundtrack",
+            "typing",
+            "casual",
+            "educational",
+            "browser",
+            "windows",
+            "linux",
+            "free",
+            "open-source",
+            "2021",
+            "best-of"
+        ]
+    },
+    {
+        "gameTitle": "Acid Trip",
+        "shortDesc": "You have taken some LSD and now you're trapped playing the worst game ever made",
+        "longDesc": "<p>Here's a game I managed to recover from some old files.</p><p>I made it when I was 14, way back in 2006.</p><p>It's certainly an experience.</p>",
+        "img": "acidTrip.png",
+        "link": "https://eatkin.itch.io/acid-trip",
+        "tags": [
+            "bad",
+            "browser",
+            "free",
+            "top-down",
+            "schmup",
+            "2006"
+        ]
+    },
+    {
+        "gameTitle": "Bad Control Game",
+        "shortDesc": "couldn't motivate myself to make a good game",
+        "longDesc": "<p>A short game I made for Game Maker's Toolkit Jam 2020 with the theme \"Out of Control\".</p><p>It's just a game with unusual controls really.</p>",
+        "img": "badControlGame.png",
+        "link": "https://eatkin.itch.io/bad-control-game",
+        "tags": [
+            "game-jam",
+            "browser",
+            "windows",
+            "linux",
+            "free",
+            "platformer",
+            "puzzle",
+            "strategy",
+            "2020",
+            "prototype"
+        ]
+    },
+    {
+        "gameTitle": "Ball Dude Adventures",
+        "shortDesc": "Oh no, Ball Dude has been turned into a poor quality jpeg.",
+        "longDesc": "<p>Ball Dude Adventures is an epic brick breaking adventure made for the Game Breaker's Toolkit Game Jam.</p>",
+        "img": "ballDudeAdventures.png",
+        "link": "https://eatkin.itch.io/ball-dude-adventures-too",
+        "tags": [
+            "game-jam",
+            "browser",
+            "windows",
+            "raspberry-pi",
+            "open-source",
+            "puzzle",
+            "strategy",
+            "bad",
+            "2021",
+            "free",
+            "ball-dude"
+        ]
+    },
+    {
+        "gameTitle": "BalL DuDe AdVENtures TOo",
+        "shortDesc": "Ball Dude is back and he has eaten too much jelly (jello if you're American)",
+        "longDesc": "<p>Ball Dude is back with another epic really cool adventure.</p><p>In this game Ball Dude cannot stop bouncing.</p><p>Made for the Game Breaker's Toolkit Game Jam.</p>",
+        "img": "ballDudeAdventuresToo.png",
+        "link": "https://eatkin.itch.io/ball-dude-adventures-too",
+        "tags": [
+            "game-jam",
+            "browser",
+            "2022",
+            "open-source",
+            "platformer",
+            "bad",
+            "free",
+            "ball-dude"
+        ]
+    },
+    {
+        "gameTitle": "Beer (Falling to Bitsy #2)",
+        "shortDesc": "A story about beer",
+        "longDesc": "<p>A short narrative about alcoholism.</p>",
+        "img": "beer.png",
+        "link": "https://eatkin.itch.io/beer",
+        "tags": [
+            "bitsy",
+            "falling-to-bitsy",
+            "browser",
+            "free",
+            "story-rich",
+            "2020",
+            "personal",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Ben Was Assimilated",
+        "shortDesc": "A hack n slash where you can run around, kill bad guys and get assimilated.",
+        "longDesc": "<p>A turn based not-really-roguelike game where you play as Ben.</p><p>Some unexpected things may happen.</p>",
+        "img": "benWasAssimilated.png",
+        "link": "https://eatkin.itch.io/ben-was-assimilated",
+        "tags": [
+            "free",
+            "paid",
+            "open-source",
+            "adventure",
+            "roguelike",
+            "turn-based",
+            "raspberry-pi",
+            "windows",
+            "linux",
+            "2020",
+            "best-of",
+            "booklet",
+            "top-down",
+            "soundtrack"
+        ]
+    },
+    {
+        "gameTitle": "Board Hunting",
+        "shortDesc": "Some weird and obscure internet history from GameFAQs in the early 00's.",
+        "longDesc": "<p>This is a game mostly just to talk about some obscure internet community I was a part of back in around 2004.</p>",
+        "img": "boardHunting.png",
+        "link": "https://eatkin.itch.io/board-hunting",
+        "tags": [
+            "free",
+            "browser",
+            "bitsy",
+            "story-rich",
+            "2021",
+            "personal",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Carrot Hell",
+        "shortDesc": "The hills are alive with the sound of carrots.",
+        "longDesc": "<p>Game Jam game made for Bullet Hell Jam. A bullet hell with added beta-carotene.</p><p>Mostly I just wanted to show off my friends band, <a href=\"https://ickfx.bandcamp.com/\" target=\"_blank\">ICK FX</a>.</p><p>Sit back, experience some insane metal, and get killed by vegetables.</p>",
+        "img": "carrotHell.png",
+        "link": "https://eatkin.itch.io/carrot-hell",
+        "tags": [
+            "game-jam",
+            "browser",
+            "free",
+            "open-source",
+            "windows",
+            "linux",
+            "bullet-hell",
+            "2021",
+            "platformer",
+            "best-of"
+        ]
+    },
+    {
+        "gameTitle": "Cat in Space",
+        "shortDesc": "Cat is in space and has to track down the crystals",
+        "longDesc": "<p>A little game made for cat jam, I won! Although there were only 3 submissions.</p><p>This is a Gameboy game made with Gameboy Studio, it will actually run on a Gameboy.</p><p>It's still a prototype.</p>",
+        "img": "catInSpace.png",
+        "link": "https://eatkin.itch.io/cat-in-space",
+        "tags": [
+            "gameboy",
+            "game-jam",
+            "free",
+            "browser",
+            "platformer",
+            "cats",
+            "2021",
+            "mobile",
+            "prototype"
+        ]
+    },
+    {
+        "gameTitle": "Cucumber Racing",
+        "shortDesc": "a terrible game I made when I was about 12. Seriously, don't play it.",
+        "longDesc": "<p>I was trying to make games in every genre when I was younger, even if I hadn't played any games in said genre. Here's my attempt at a racer.</p><p>I actually quite liked Micro Machines V3 at the time, so it's probably based on that, although it's a bit of an insult to compare them.</p><p>The original title was \"Matchbox Racing\".</p>",
+        "img": "cucumberRacing.png",
+        "link": "https://eatkin.itch.io/match-box-racing-gbtk6",
+        "tags": [
+            "2006",
+            "bad",
+            "game-jam",
+            "free",
+            "browser",
+            "racing",
+            "windows",
+            "open-source"
+        ]
+    },
+    {
+        "gameTitle": "Fall Guys But Someone Else Made it in 1 Hour and I Just Changed Some Things Which Probably Made it Worse",
+        "shortDesc": "Fall Guys but somebody else made it in 1 hour and I modded it",
+        "longDesc": "<p>My friend Adrien made a parody of Fall Guys. I made it much worse.</p>",
+        "img": "fallGuys.png",
+        "link": "https://eatkin.itch.io/fall-guys-but-someone-else-made-it-in-1-hour-and-i-just-changed-some-things",
+        "tags": [
+            "2020",
+            "bad",
+            "game-jam",
+            "free",
+            "browser",
+            "mod",
+            "collab",
+            "top-down"
+        ]
+    },
+    {
+        "gameTitle": "Friends (Falling to Bitsy #4)",
+        "shortDesc": "Friends and growing up",
+        "longDesc": "<p>A little Bitsy game about growing apart from your childhood friends.</p>",
+        "img": "friends.png",
+        "link": "https://eatkin.itch.io/friends",
+        "tags": [
+            "2021",
+            "bitsy",
+            "falling-to-bitsy",
+            "free",
+            "browser",
+            "story-rich",
+            "personal",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Impostor (Falling to Bitsy #3)",
+        "shortDesc": "A poem about imposter syndrome",
+        "longDesc": "<p>It's easy to feel like we're not good enough or capable enough of things.</p>",
+        "img": "imposter.png",
+        "link": "https://eatkin.itch.io/impostor",
+        "tags": [
+            "2020",
+            "bitsy",
+            "falling-to-bitsy",
+            "free",
+            "browser",
+            "story-rich",
+            "personal",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "It's Not Easy Being Green",
+        "shortDesc": "Spend a night out with Edgar the Goblin!",
+        "longDesc": "<p>Experience life as a Goblin!</p><p>Join Edgar the Goblin and his pals on an ordinary Goblin's night out. You'll find out life as a Goblin isn't so easy.</p><p>Also hidden in the game is a super secret tile you can find!</p>",
+        "img": "edgar.png",
+        "link": "https://eatkin.itch.io/its-not-easy-being-green",
+        "tags": [
+            "2020",
+            "bitsy",
+            "free",
+            "browser",
+            "story-rich",
+            "game-jam",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Justin Wall's Cooking Simulator",
+        "shortDesc": "Cook dinner and murder your entire family!",
+        "longDesc": "<p>A game in five parts. That is, if you can find the other games.</p>",
+        "img": "justin.png",
+        "link": "https://eatkin.itch.io/justin-walls-cooking-simulator",
+        "tags": [
+            "2020",
+            "collab",
+            "puzzle",
+            "arg",
+            "free",
+            "browser",
+            "story-rich",
+            "game-jam",
+            "open-source"
+        ]
+    },
+    {
+        "gameTitle": "Life Simulator",
+        "shortDesc": "A 100% accurate life simulator",
+        "longDesc": "<p>Joke game.</p>",
+        "img": "life.png",
+        "link": "https://eatkin.itch.io/life-simulator",
+        "tags": [
+            "2022",
+            "collab",
+            "bad",
+            "free",
+            "browser",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Monotony (Falling to Bitsy #1)",
+        "shortDesc": "Sometimes life is monotonous",
+        "longDesc": "<p>Feeling stuck in a perpetual cycle of medicority and nothing ever changing, I make a game.</p>",
+        "img": "monotony.png",
+        "link": "https://eatkin.itch.io/monotony",
+        "tags": [
+            "2020",
+            "bitsy",
+            "falling-to-bitsy",
+            "free",
+            "browser",
+            "story-rich",
+            "personal",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "my very good game",
+        "shortDesc": "hello this is my very good game pls play it i hope you like it",
+        "longDesc": "<p>hello everyy everybody i hope you u are having a nice day</p><p>i make this gameam with my frend jusst ball wall games and fendbenaman fearn for th gam breakser's tool kit jim jam</p>",
+        "img": "veryGood.png",
+        "link": "https://eatkin.itch.io/my-very-good-game",
+        "tags": [
+            "2020",
+            "collab",
+            "bad",
+            "free",
+            "browser",
+            "windows",
+            "linux",
+            "open-source",
+            "platformer",
+            "game-jam"
+        ]
+    },
+    {
+        "gameTitle": "Other Minds",
+        "shortDesc": "Brutal collectathon platforming action with added mind control",
+        "longDesc": "<p>Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who you can use for your standard platforming action, whereas Sage can fly around freely and take control of any other character.</p><p>You will take advantage of the other character&rsquo;s abilities to solve puzzles, beat levels and uncover the nefarious plot of Dr Death. Ed and Sage must save the world because everybody else is too busy standing around thinking about things.</p>",
+        "img": "otherminds.png",
+        "link": "https://eatkin.itch.io/other-minds",
+        "tags": [
+            "soundtrack",
+            "2021",
+            "platformer",
+            "demo",
+            "paid",
+            "windows",
+            "linux",
+            "open-source",
+            "best-of"
+        ]
+    },
+    {
+        "gameTitle": "Remember Mary",
+        "shortDesc": "A surreal squigglevision adventure about Mary and her friends.",
+        "longDesc": "<p>Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young girl in a world filled with her friends who she can help or hurt. Presented in squigglevision.</p><p>I made it in about 9 days for the \"I can't write but want to tell a story\" jam.</p><p>Featured in <a href=\"https://pizzapranks.itch.io/indiepocalypse-10\">Indiepocalypse Issue #10</a>.</p>",
+        "img": "remembermary.png",
+        "link": "https://eatkin.itch.io/remember-mary",
+        "tags": [
+            "soundtrack",
+            "2020",
+            "story-rich",
+            "free",
+            "browser",
+            "windows",
+            "linux",
+            "open-source",
+            "best-of",
+            "mobile",
+            "booklet",
+            "top-down",
+            "casual"
+        ]
+    },
+    {
+        "gameTitle": "Silent Bill (Jam Version)",
+        "shortDesc": "The worst looking point and click horror game you'll ever see",
+        "longDesc": "<p>The evil ducks have trapped you in a beach hut, you must find a way to escape before they kill you!</p>",
+        "img": "silentBillJam.png",
+        "link": "https://eatkin.itch.io/silent-bill-jam-version",
+        "tags": [
+            "2020",
+            "point-and-click",
+            "puzzle",
+            "free",
+            "browser",
+            "windows",
+            "linux",
+            "open-source",
+            "mobile",
+            "booklet",
+            "raspberry-pi",
+            "android",
+            "horror",
+            "game-jam"
+        ]
+    },
+    {
+        "gameTitle": "Silent Bill (2022)",
+        "shortDesc": "Escape the quacking deathtrap.",
+        "longDesc": "<p>Silent Bill is a point and click puzzle adventure with unique scribble art graphics.</p><p>You're trapped in a room with some seriously angry ducks who want you dead. The only way to escape is by cracking some codes and stabbing some ducks.</p>",
+        "img": "silentbill.png",
+        "link": "https://eatkin.itch.io/silent-bill",
+        "tags": [
+            "2022",
+            "point-and-click",
+            "puzzle",
+            "free",
+            "windows",
+            "browser",
+            "best-of",
+            "horror",
+            "ball-dude",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Stoner Stevie in Asstown",
+        "shortDesc": "dank game",
+        "longDesc": "<p>Stoner Stevie needs to collect all the dank weed so he can be cool!</p>",
+        "img": "stevie.png",
+        "link": "https://eatkin.itch.io/stoner-stevie-in-asstown-gbtk-3-jam",
+        "tags": [
+            "2020",
+            "bad",
+            "collab",
+            "game-jam",
+            "dank",
+            "free",
+            "windows",
+            "linux",
+            "top-down"
+        ]
+    },
+    {
+        "gameTitle": "Tennis Tower",
+        "shortDesc": "A game made with the process of gamedev tennis",
+        "longDesc": "<p>Tennis Tower is a game about scaling a tower and picking up treasures along the way.</p><p>It was made by the process known as \"Gamedev Tennis\", in which a dev makes a game and sends it to another dev who adds a level then sends it to the first dev who adds a level and sends it to the other dev etc etc etc.</p>",
+        "img": "tennisTower.png",
+        "link": "https://adriendittrick.itch.io/tennis-tower",
+        "tags": [
+            "2020",
+            "adventure",
+            "collab",
+            "game-jam",
+            "tennis",
+            "free",
+            "windows",
+            "linux",
+            "open-source",
+            "top-down",
+            "best-of",
+            "ball-dude"
+        ]
+    },
+    {
+        "gameTitle": "Trapped Inside My Own Head",
+        "shortDesc": "There's No Escape",
+        "longDesc": "<p>A commentary on sense of self, the paradox of caring about others and how nobody is important, life is pointless and we&rsquo;ll all be forgotten.</p><p>Made for the Bitsy Essay Jam.</p>",
+        "img": "trapped.png",
+        "link": "https://eatkin.itch.io/trapped-inside-my-own-head",
+        "tags": [
+            "2020",
+            "bitsy",
+            "free",
+            "browser",
+            "story-rich",
+            "game-jam",
+            "mobile"
+        ]
+    },
+    {
+        "gameTitle": "Trash Cat",
+        "shortDesc": "Certified Cool&trade; Cat Game",
+        "longDesc": "<p>Trash Cat - featuring shallow gameplay, a story so metaphorical it's barely comprehendible, weird 1-bit graphics and a soundtrack that hardly anyone will want to listen to.</p><p>Made for the Pompous Trash Jam.</p>",
+        "img": "trash.png",
+        "link": "https://eatkin.itch.io/trash-cat",
+        "tags": [
+            "2021",
+            "free",
+            "browser",
+            "story-rich",
+            "game-jam",
+            "mobile",
+            "raspberry-pi",
+            "open-source",
+            "windows",
+            "collab",
+            "cats",
+            "platformer",
+            "casual"
+        ]
+    },
+    {
+        "gameTitle": "Type The Entire Of Ulysses. That's it. That's the game.",
+        "shortDesc": "Have you ever wanted to type out the entire of Ulysses? No? Me neither.",
+        "longDesc": "<p>Finally, a typing game with the entire of James Joyce's Ulysses in it. In \"Type The Entire Of Ulysses. That's It. That's The Game.\" you will type out Ulysses and pretty much nothing else.</p>",
+        "img": "ulysses.png",
+        "link": "https://eatkin.itch.io/type-the-entire-of-ulysses-thats-it-thats-the-game",
+        "tags": [
+            "2021",
+            "paid",
+            "windows",
+            "game-jam",
+            "typing",
+            "educational"
+        ]
+    },
+    {
+        "gameTitle": "&#x1F171;roken game for game &#x1F171;reakers toolkit",
+        "shortDesc": "Game doesn't work sorry",
+        "longDesc": "<p>I made this game in 5 seconds</p><p>Is it even a game?</p><p>What even is a game?</p>",
+        "img": "broken.png",
+        "link": "https://eatkin.itch.io/broken-game-for-game-reakers-toolkit",
+        "tags": [
+            "2020",
+            "free",
+            "browser",
+            "windows",
+            "game-jam",
+            "linux",
+            "bad"
+        ]
+    }
+]

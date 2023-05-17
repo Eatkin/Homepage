@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css?v=2.1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <title>The Edspace</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <input type="checkbox" id="toggle-theme" />
+    <label for="toggle-theme">
+        <img src="images/lightSwitch.png" alt="A light switch" id="lightswitch" />
+    </label>
+
+    <div id="markdown">
+        <h1>Hello</h1>
+        <p>You shouldn't be able to read this. But if you are, you probably have javascript disabled.</p>
+    </div>
+
+    <script>
+        const queryString = window.location.search;
+        const params = new URLSearchParams(queryString);
+        const fileName = decodeURIComponent(params.get('file'));
+        console.log(fileName);
+
+        const xhr = new XMLHttpRequest();
+        xhr.open('GET', fileName, true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4) {
+                if (xhr.status === 200) {
+                    const markdown = xhr.responseText;
+                    const html = marked.parse(markdown);
+                    const markdownDiv = document.getElementById('markdown');
+                    markdownDiv.innerHTML = html;
+
+                    // Set document title based on blog title - this should work as long as blog format is consistsent!!
+                    // Get the second h1 element
+                    var secondH1 = document.getElementsByTagName('h1')[1];
+                    // Set the document title to the text of the second h1 element
+                    document.title = secondH1.textContent;
+                }
+                else {
+                    const html = "404 Error: brain not found";
+                    const markdownDiv = document.getElementById('markdown');
+                    markdownDiv.innerHTML = html;
+                }
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+
+</html>
