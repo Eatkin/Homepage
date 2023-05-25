@@ -9,7 +9,7 @@ I never ate a banana again.
 
 The End.
 
-![Stock image of a banana in somebody's hand](images/blog/2023/banana.jpg)
+![A really badly drawn, out of proportion banana](images/blog/2023/banana.png)
 
 Actually more recently, I've been trying to get over my preconceptions of foods I don't "like". Despite never touching oranges, clementines or kiwis, I now regularly eat all of them.
 
