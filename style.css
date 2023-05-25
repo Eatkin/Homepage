@@ -305,10 +305,23 @@ input[type="checkbox"]:checked+.filter-label {
     border-bottom: 2px solid #cddbf9;
 }
 
+/* There's some weird stuff going on with the video thumbnails
+Video thumbnails show black bars, playlists (mostly) don't
+So I have to apply different properties for both */
+
 .video-container img {
+    width: 300px;
+    height: auto;
+}
+
+.video-container .video-thumbnail {
     clip-path: inset(12.5% 0 12.5% 0);
     width: 300px;
     height: auto;
+}
+
+.video-container .playlist-thumbnail {
+    padding: 10px 0;
 }
 
 .video-info {
