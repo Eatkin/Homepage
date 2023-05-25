@@ -27,10 +27,10 @@
         const queryString = window.location.search;
         const params = new URLSearchParams(queryString);
         const fileName = decodeURIComponent(params.get('file'));
-        console.log(fileName);
+        const baseURL = window.location.origin;
 
         const xhr = new XMLHttpRequest();
-        xhr.open('GET', fileName, true);
+        xhr.open('GET', baseURL + fileName, true);
         xhr.onreadystatechange = function () {
             if (xhr.readyState === 4) {
                 if (xhr.status === 200) {

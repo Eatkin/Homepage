@@ -39,7 +39,12 @@
     <script>
         const txtLinks = document.querySelectorAll('a.txt-link');
         txtLinks.forEach(link => {
-            const fileName = link.href.replace('.txt', '.md'); // get filename
+            let fileName = link.href.replace('.txt', '.md'); // get filename
+            // Extract the base URL
+            const baseURL = window.location.origin;
+            // Rename the file
+            fileName = fileName.replace(baseURL, '');
+            // Encode the filename
             const url = encodeURIComponent(fileName);
             const newHref = `mdreader.html?file=${url}`;
             link.setAttribute('href', newHref);
