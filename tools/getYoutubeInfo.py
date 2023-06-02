@@ -4,7 +4,7 @@ import pyperclip
 
 # Get api key and channel id via command line input
 api_key = input("Enter your YouTube API key: ")
-channel_id = input("Enter the YouTube channel ID: ")
+channel_id = "UCSdC_KL-it-m3Z-CK9VUUrg"
 depth = 3  # Number of videos to retrieve
 
 

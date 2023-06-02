@@ -346,5 +346,17 @@
       "data-analysis",
       "data-visualisation"
     ]
+  },
+  {
+    "title": "DOScord",
+    "description": "A static website with a visual style inspired by DOS. The website is based off Discord, allowing you to explore different servers and channels and see what people have been saying. The website is built using HTML, CSS and Javascript. It is very much a work in progress.",
+    "link": "https://github.com/Eatkin/DOScord",
+    "tags": [
+      "web",
+      "frontend",
+      "html",
+      "css",
+      "javascript",
+    ]
   }
 ]
