@@ -37,7 +37,7 @@ Do you know how long I tried to play guitar for without success? 13 years. But I
 
 I've also taken up active hobbies. I go running, I go out on inline skates and recently I've taken up surfskating. These are all things I would never have done before because I would have been too hungover, or I wouldn't have felt like it, or I'd have made some excuse, or I'd just be feeling too anxious and self-conscious to go out and do something.
 
-Actually I still feel self-conscious now, but because I actually get a good, undisturbed night's sleep and wake up feeling good, I can leave the house at 6am to practice things when nobody else is about.
+Actually I still feel self-conscious now, but because I actually get a good, undisturbed night's sleep and wake up feeling good, I can leave the house at 6am to practise things when nobody else is about.
 
 ### I Made A Game
 
