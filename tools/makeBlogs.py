@@ -67,8 +67,6 @@ def get_blogs():
 
 
 def construct_blog(blog):
-    # Don't forget the open graph tags!!!
-
     # Load boilerplate html
     with open(
         os.path.join(os.path.dirname(os.path.abspath(__file__)), "blogBoilerplate.html")
@@ -91,19 +89,66 @@ def construct_blog(blog):
     with open(blog["filepath"].replace(".md", ".html"), "w") as f:
         f.write(boilerplate)
 
+    # Don't forget the open graph tags!!!
+
 
 def construct_blog_index(blogs_list):
-    # We want to sort our dictionary by year, then month, then day (newest first)
-    # We can do this by using the sorted function and passing in a lambda function
     # We can then iterate over the sorted dictionary and construct the html for the blog page as follows:
     # For every change in year we add a year heading followed by and opening unordered list
     # For every blog we add a list item containing the date and title of the blog
     # At change of year we close the unordered list
     # After looping through the dictionary we close the unordered list because otherwise it will be left open
     # We'll have some boilerplate html and can insert it into the blog-container div
-    pass
+
+    # Sort the blogs_list by year, month, then day
+    blogs_list = sorted(
+        blogs_list, key=lambda k: (k["year"], k["month"], k["day"]), reverse=True
+    )
+
+    html = ""
+    currentYear = 0
+
+    for blog in blogs_list:
+        # If the year changes, add a new year heading and open an undered list
+        if blog["year"] != currentYear:
+            # Close the unordered list
+            if currentYear != 0:
+                html += "</ul>"
+
+            currentYear = blog["year"]
+            html += """<div class="year-box">
+                            <h2>2023</h2>
+                    </div>"""
+
+            # Open the unordered list
+            html += '<ul class="post-list">'
+
+        # Add the blog to the list
+        html += f"""<li><a href="{blog["url"].replace('.md', '.html')}" class="txt-link">{blog["day"]}/{blog["month"]}/{blog["year"]} - {blog["title"]}</a>
+            </li>"""
+
+    # Close the unordered list
+    html += "</ul>"
+
+    # Now we need to insert the html into the blog-container div
+    with open(
+        os.path.join(
+            os.path.dirname(os.path.abspath(__file__)), "blogIndexBoilerplate.html"
+        )
+    ) as f:
+        boilerplate = f.read()
+
+    boilerplate = boilerplate.replace("[REPLACE-WITH-BLOG-INDEX]", html)
+
+    # Now go up one working directory and save the file as blog.html
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    dir = os.path.join(script_dir, os.pardir)
+    with open(os.path.join(dir, "blog.html"), "w") as f:
+        f.write(boilerplate)
 
 
 blog_information = get_blogs()
 for blog in blog_information:
     construct_blog(blog)
+
+construct_blog_index(blog_information)
