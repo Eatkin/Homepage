@@ -21,7 +21,7 @@ If you woke up every day and threw yourself down the stairs, you wouldn't think 
 
 2023 will be my 5th year of no alcohol and thus far, there has not been one single day that I've woken up thinking "I wish I'd had a drink last night". I suspect there never will be.
 
-![A drawing of a stickman falling down some stairs](images/blog/2023/stairs.png)
+![A drawing of a stickman falling down some stairs](/images/blog/2023/stairs.png)
 
 ## The Positives
 

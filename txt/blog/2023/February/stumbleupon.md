@@ -22,7 +22,7 @@ Mix is bad. It's been almost 5 years since StumbleUpon shut down now and there's
 People used to make things for the sake of it. Now there seems to be a ton of focus on monetisation. Even this website that I personally made just points you to stuff I've made, some of which requires you to pay money to access.
 
 
-![Drawing of me using StumbleUpon](images/blog/2023/stumbleUpon.png)
+![Drawing of me using StumbleUpon](/images/blog/2023/stumbleUpon.png)
 
 ## Neocities
 
