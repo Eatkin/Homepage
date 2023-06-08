@@ -41,7 +41,7 @@ Actually I still feel self-conscious now, but because I actually get a good, und
 
 ### I Made A Game
 
-One thing that really hit me when I stopped drinking was just how bored I felt. It was like the only reason I found anything entertianing was because I had a drink in my hand.
+One thing that really hit me when I stopped drinking was just how bored I felt. It was like the only reason I found anything entertaining was because I had a drink in my hand.
 
 When I was younger I used to mess around making games in Gamemaker, so I thought hey, maybe I'll give that a shot again. And I did.
 
@@ -65,6 +65,7 @@ Quitting drinking, for me, was the first step in a long journey of self-improvem
 
 I write this blog for my friend who has just started his journey of sobriety.
 
-Here's some good links:  
-- [Reddit's Stop Drinking subreddit - A great, understanding community of people who want to support you](https://www.reddit.com/r/stopdrinking/)
-- [Beer - A bitsy game I made about drinking. You can walk around and read the narrative](https://eatkin.itch.io/beer)
+Here's some good links:
+
+* [Reddit's Stop Drinking subreddit - A great, understanding community of people who want to support you](https://www.reddit.com/r/stopdrinking/)
+* [Beer - A bitsy game I made about drinking. You can walk around and read the narrative](https://eatkin.itch.io/beer)

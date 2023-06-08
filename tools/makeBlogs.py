@@ -1,24 +1,19 @@
-# I haven't written this yet but here's the outline:
-"""
-Now we need to construct the blog page itself
-It will be a dictionary of dictionaries
-It needs to contain the year, the date, the name and the url of the blog
-For each dictionary we need to iterate over them to determine the order that they will be placed on the page
-We can take the dates from the dictionary and insert them into a list, sort the list from latest to earliest
-We can then make one final dictionary that has years as the keys, and dictionaries containing the link text and URL to the blog
-We can then iterate over that dictionary and construct the html for the blog page
-This will then be inserted into boilerplate html that we have stored for the blog page
-Done!
-Should be fun
-"""
 import os
 import re
 import markdown
 
 
 def get_blogs():
-    # First start the crawl - go up one directory then open the blog folder
-    # We will then crawl through the blog folder and find all the .md files
+    """
+    This function will crawl the blog directory and return a list of dictionaries containing the following information:
+    - year
+    - month
+    - day
+    - title
+    - image
+    - url
+    - filepath
+    """
     script_dir = os.path.dirname(os.path.abspath(__file__))
     dir = os.path.join(script_dir, os.pardir, "txt", "blog")
 
@@ -67,6 +62,10 @@ def get_blogs():
 
 
 def construct_blog(blog):
+    """
+    This function will take a dictionary containing blog information and construct the html for the blog page
+    It will then save the html file in the same directory as the blog's source markdown file
+    """
     # Load boilerplate html
     with open(
         os.path.join(os.path.dirname(os.path.abspath(__file__)), "blogBoilerplate.html")
@@ -93,12 +92,11 @@ def construct_blog(blog):
 
 
 def construct_blog_index(blogs_list):
-    # We can then iterate over the sorted dictionary and construct the html for the blog page as follows:
-    # For every change in year we add a year heading followed by and opening unordered list
-    # For every blog we add a list item containing the date and title of the blog
-    # At change of year we close the unordered list
-    # After looping through the dictionary we close the unordered list because otherwise it will be left open
-    # We'll have some boilerplate html and can insert it into the blog-container div
+    """
+    This function will take a list of dictionaries containing blog information and construct the html for the blog index page
+    It will then save the html file in the same directory as the blog's source markdown file
+    It organises blogs in reverse chronological order and groups them by year
+    """
 
     # Sort the blogs_list by year, month, then day
     blogs_list = sorted(
