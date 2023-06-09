@@ -65,6 +65,7 @@ def construct_blog(blog):
     """
     This function will take a dictionary containing blog information and construct the html for the blog page
     It will then save the html file in the same directory as the blog's source markdown file
+    This function will also generate the open graph tags for the blog
     """
     # Load boilerplate html
     with open(
@@ -87,11 +88,42 @@ def construct_blog(blog):
     # Now replace the markdown text
     boilerplate = boilerplate.replace("[REPLACE-WITH-BLOG]", html)
 
+    # Generate the open graph tags for title, description and image
+    og = {}
+    og["title"] = blog["title"]
+    og["image"] = blog["image"]
+
+    # Let's read the description directly from the markdown file
+    # Loop over the lines until we find the first line that doesn't start with a #
+    # This should be the first paragraph
+    og["description"] = ""
+    max_description_length = 160  # 155-160 characters recommended
+    for line in markdown_text.split("\n"):
+        if not line.startswith("#") and line != "":
+            og["description"] += line + " "
+            if len(line) > max_description_length:
+                og["description"] = og["description"][:max_description_length] + "..."
+                break
+
+    # Type is article
+    og["type"] = "article"
+
+    # Now we can construct the open graph tags
+    # Format: <meta property="og:KEY" content="VALUE" />
+    og_tags = []
+    for key, value in og.items():
+        og_tags.append(f'<meta property="og:{key}" content="{value}" />')
+
+    og_tags = "\n".join(og_tags)
+
+    # Now replace the og tags in the boilerplate
+    boilerplate = boilerplate.replace("[REPLACE-WITH-OG-TAGS]", og_tags)
+
     # Save the boilerplate as .html
     with open(blog["filepath"].replace(".md", ".html"), "w") as f:
         f.write(boilerplate)
 
-    # Don't forget the open graph tags!!!
+    print(f"Generated blog: {blog['title']}")
 
 
 def construct_blog_index(blogs_list):
@@ -150,9 +182,15 @@ def construct_blog_index(blogs_list):
     with open(os.path.join(dir, "blog.html"), "w") as f:
         f.write(boilerplate)
 
+    print("Generated blog index")
+
 
 blog_information = get_blogs()
+print(f"Found {len(blog_information)} blogs")
+
 for blog in blog_information:
     construct_blog(blog)
 
 construct_blog_index(blog_information)
+
+print("Finished generating blogs")
