@@ -1,8 +1,118 @@
 [
   {
-    "title": "Vaporwave Button",
-    "description": "A very aesthetic button.",
-    "link": "https://codepen.io/eatkin/pen/WNgjOoz",
+    "title": "Homepage",
+    "description": "The repository for this website. It's my website for showing things I've worked on and for occassionally writing meaningless blog posts. The repo contains various tools I use to generate some of the pages for this website (like this one!)",
+    "link": "https://github.com/Eatkin/Homepage",
+    "tags": [
+      "web",
+      "html",
+      "css",
+      "javascript",
+      "python",
+      "frontend"
+    ]
+  },
+  {
+    "title": "Responsive Web Design",
+    "description": "Certification from Freecodecamp's Responsive Web Design course. The course covers HTML, CSS, and Javascript and features 5 projects.",
+    "link": "https://www.freecodecamp.org/certification/Edward-Atkin/responsive-web-design",
+    "tags": [
+      "web",
+      "html",
+      "css",
+      "javascript",
+      "frontend",
+      "freecodecamp",
+      "certificate"
+    ]
+  },
+  {
+    "title": "The Git & Github Bootcamp",
+    "description": "Certification from Colt Steele's Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.",
+    "link": "certs/git-github-bootcamp.pdf",
+    "tags": [
+      "git",
+      "udemy",
+      "certificate",
+      "command-line"
+    ]
+  },
+  {
+    "title": "Codewars Solutions Scraper",
+    "description": "Offline Beautiful Soup or live Selenium web scraper for Codewars solutions. Scrapes solutions from Codewars and categorises them into files and folders.",
+    "link": "https://github.com/Eatkin/codewars-scraper",
+    "tags": [
+      "python",
+      "web-scraping",
+      "beautiful-soup",
+      "selenium",
+      "codewars"
+    ]
+  },
+  {
+    "title": "Codewars Solutions Set",
+    "description": "This is my solutions set for all Codewars problems I have solved. I scrape the solutions using the solutions scraper I made. The problems are categorised into files and folders for easy navigation. Each individual solution links back to the original problem on Codewars.",
+    "link": "https://github.com/Eatkin/codewars-solutions/",
+    "tags": [
+      "algorithms",
+      "python",
+      "mathematics",
+      "regex",
+      "codewars",
+      "javascript",
+      "c",
+      "c-sharp",
+      "sql",
+      "shell",
+      "command-line",
+      "brainfuck",
+      "esoteric-programming",
+      "prolog",
+      "powershell",
+      "oop"
+    ]
+  },
+  {
+    "title": "Codewars Data Analysis",
+    "description": "A Jupyter Notebook which both sources and analyses data gathered from Codewars problems I've solved. This is an all-inclusive project showing data sourcing, cleaning and visualisation.",
+    "link": "https://github.com/Eatkin/codewars-data-analysis",
+    "tags": [
+      "python",
+      "web-scraping",
+      "selenium",
+      "codewars",
+      "regex",
+      "data"
+    ]
+  },
+  {
+    "title": "DOScord",
+    "description": "A static website with a visual style inspired by DOS. The website is based off Discord, allowing you to explore different servers and channels and see what people have been saying. The website is built using HTML, CSS and Javascript. It is very much a work in progress.",
+    "link": "https://github.com/Eatkin/DOScord",
+    "tags": [
+      "web",
+      "frontend",
+      "html",
+      "css",
+      "javascript"
+    ]
+  },
+  {
+    "title": "Tombstone Tapes",
+    "description": "Tombstone Tapes is a website in the style of Windows 95. It features a Windows 95 theme, real time clock, and functional Start Menu.",
+    "link": "https://github.com/Eatkin/tombstone-tapes",
+    "tags": [
+      "web",
+      "html",
+      "css",
+      "javascript",
+      "frontend"
+    ]
+  },
+  {
+    "title": "No-Javascript Tag Filtering",
+    "description": "A simple tag filtering system that uses only CSS. No Javascript required. It's used on this site!",
+    "link": "https://codepen.io/eatkin/pen/yLxbxgL",
     "tags": [
       "web",
       "html",
@@ -12,9 +122,80 @@
     ]
   },
   {
-    "title": "No-Javascript Tag Filtering",
-    "description": "A simple tag filtering system that uses only CSS. No Javascript required. It's used on this site!",
-    "link": "https://codepen.io/eatkin/pen/yLxbxgL",
+    "title": "Ben Was Assimilated",
+    "description": "Ben Was Assimilated is a hack n slash style game where things only move when you do. Includes assimilation. This game is extremely modular and can be easily modified to create new levels and enemies.",
+    "link": "https://github.com/Eatkin/BenWasAssimilated",
+    "tags": [
+      "game-dev"
+    ]
+  },
+  {
+    "title": "A Relaxing Typing Game",
+    "description": "A Relaxing Typing Game is a chill typing game for people who like typing for the sake of typing. To date, this is my most popular game. It was front-paged on Newgrounds with over 20,000 plays.",
+    "link": "https://github.com/Eatkin/Relaxing-Open-Source-Game",
+    "tags": [
+      "game-dev"
+    ]
+  },
+  {
+    "title": "Other Minds",
+    "description": "Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who you can use for your standard platforming action, whereas Sage can fly around freely and take control of any other character. Other Minds was my first major project and also a major learning experience. It features highly modular character code and complex emergent behaviour.",
+    "link": "https://github.com/Eatkin/OtherMinds",
+    "tags": [
+      "game-dev"
+    ]
+  },
+  {
+    "title": "Remember Mary",
+    "description": "Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young girl in a world filled with her friends who she can help or hurt. Presented in squigglevision. I made it in about 9 days for the \"I can't write but want to tell a story\" jam. It is purposefully simplistic in its gameplay so that the player can focus on the story and the world. It has a morality system and multiple endings, such that your actions are meaningful and also the order you take your actions in can also affect the game world and feel. It's also secretly a game about how 18th Century feminist philosopher Mary Wollstonecraft found herself driven to suicide because she found her life to be in such a hopeless situation.",
+    "link": "https://github.com/Eatkin/RememberMary",
+    "tags": [
+      "game-dev"
+    ]
+  },
+  {
+    "title": "Silent Bill",
+    "description": "The evil ducks have trapped you in a beach hut, you must find a way to escape before they kill you! Silent Bill was made for the \"I can't draw but I want to make a game\" game jam, and so, artwork very much takes a back seat here. The game is a simple point and click escape room with a few puzzles.",
+    "link": "https://github.com/Eatkin/SilentBill",
+    "tags": [
+      "game-dev"
+    ]
+  },
+  {
+    "title": "Justin Wall's Cooking Simulator",
+    "description": "Cook dinner and murder your entire family! Justin Wall's Cooking Simulator is an ARG-styled game that consists of a series of 4 games. Players must both find the link to the next game, and also find the password in order to access the next game. Each game features two endings. One of which will allow you to progress.",
+    "link": "https://github.com/Eatkin/JustinWallsCookingSimulator",
+    "tags": [
+      "game-dev"
+    ]
+  },
+  {
+    "title": "BalL DuDe AdVENtures TOo",
+    "description": "Ball Dude is back and he has eaten too much jelly (jello if you're American). Sometimes it's good to take a step back and stop worrying so much about making something that's actually good. With great skill as a developer, you have the power to make something really bad. Not just bad by accident, an actively hateful game. This game was made for the Game Breaker's Toolkit 8 game jam.",
+    "link": "https://github.com/Eatkin/gbkt8",
+    "tags": [
+      "game-dev",
+      "fun",
+      "esoteric-programming"
+    ]
+  },
+  {
+    "title": "Sudoku Solve Algorithm",
+    "description": "Algorithm built in Python that uses recursion to test every possible valid combination of numbers until a solution is found. Can solve human-unsolvable sudokus.",
+    "link": "https://gist.github.com/Eatkin/b966c14a9528931eac866d021c58b6a3",
+    "tags": [
+      "python",
+      "gist",
+      "algorithms",
+      "mathematics",
+      "backtracking",
+      "recursion"
+    ]
+  },
+  {
+    "title": "Vaporwave Button",
+    "description": "A very aesthetic button.",
+    "link": "https://codepen.io/eatkin/pen/WNgjOoz",
     "tags": [
       "web",
       "html",
@@ -43,20 +224,18 @@
       "python",
       "data-structures",
       "gist",
-      "OOP",
+      "oop",
       "unit-testing"
     ]
   },
   {
     "title": "Hello World but it's stupid",
-    "description": "A really stupid Hello World program that I made.",
+    "description": "A really stupid Hello World program in Javascript.",
     "link": "https://gist.github.com/Eatkin/5ce14427172dc81640dede821d81eb46",
     "tags": [
       "javascript",
       "gist",
-      "funny",
       "hello-world",
-      "stupid",
       "fun",
       "esoteric-programming"
     ]
@@ -79,7 +258,7 @@
     "tags": [
       "python",
       "gist",
-      "OOP",
+      "oop",
       "fun",
       "esoteric-programming"
     ]
@@ -91,272 +270,9 @@
     "tags": [
       "javascript",
       "gist",
-      "funny",
       "hello-world",
-      "stupid",
       "fun",
       "esoteric-programming"
-    ]
-  },
-  {
-    "title": "Sudoku brute-force solver",
-    "description": "Sudoku Brute Forcer. Uses recursion to test every possible valid combination of numbers until a solution is found. Can solve human-unsolvable sudokus.",
-    "link": "https://gist.github.com/Eatkin/b966c14a9528931eac866d021c58b6a3",
-    "tags": [
-      "python",
-      "gist",
-      "algorithms",
-      "mathematics",
-      "backtracking",
-      "recursion"
-    ]
-  },
-  {
-    "title": "Codewars Solutions Scraper",
-    "description": "Offline Beautiful Soup or live Selenium web scraper for Codewars solutions. Scrapes solutions from Codewars and categorises them into files and folders.",
-    "link": "https://github.com/Eatkin/codewars-scraper",
-    "tags": [
-      "python",
-      "web-scraping",
-      "beautiful-soup",
-      "selenium",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewars Python Solutions Set",
-    "description": "This is my solutions set for Python problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/Python",
-    "tags": [
-      "algorithms",
-      "python",
-      "mathematics",
-      "OOP",
-      "regex",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewars Javascript Solutions Set",
-    "description": "<a href=\"https://www.codewars.com/about\">Codewars</a> is a website where you can solve programming problems. This is my solutions set for Javascript problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/JavaScript",
-    "tags": [
-      "algorithms",
-      "javascript",
-      "mathematics",
-      "regex",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewars C Solutions Set",
-    "description": "<a href=\"https://www.codewars.com/about\">Codewars</a> is a website where you can solve programming problems. This is my solutions set for C problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/C",
-    "tags": [
-      "algorithms",
-      "C",
-      "mathematics",
-      "regex",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewars SQL Solutions Set",
-    "description": "<a href=\"https://www.codewars.com/about\">Codewars</a> is a website where you can solve programming problems. This is my solutions set for SQL problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/SQL",
-    "tags": [
-      "algorithms",
-      "SQL",
-      "mathematics",
-      "regex",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewars Shell Solutions Set",
-    "description": "<a href=\"https://www.codewars.com/about\">Codewars</a> is a website where you can solve programming problems. This is my solutions set for Shell problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/Shell",
-    "tags": [
-      "algorithms",
-      "shell",
-      "mathematics",
-      "command-line",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewars C# Solution Set",
-    "description": "<a href=\"https://www.codewars.com/about\">Codewars</a> is a website where you can solve programming problems. This is my solutions set for C# problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/C%23",
-    "tags": [
-      "algorithms",
-      "C#",
-      "mathematics",
-      "regex",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Codewawrs Brainfuck Solution Set",
-    "description": "<a href=\"https://www.codewars.com/about\">Codewars</a> is a website where you can solve programming problems. This is my solutions set for Brainfuck problems. The problems are ranked by 'kata', where the lower the number, the more difficult the problem. Each problem links back to the original Codewars problem page.",
-    "link": "https://github.com/Eatkin/codewars-solutions/tree/master/BF",
-    "tags": [
-      "algorithms",
-      "Brainfuck",
-      "mathematics",
-      "esoteric-programming",
-      "codewars"
-    ]
-  },
-  {
-    "title": "Homepage",
-    "description": "The repository for this website. It's my website for showing things I've worked on and for occassionally writing meaningless blog posts. The repo contains various tools I use to generate some of the pages for this website (like this one!)",
-    "link": "https://github.com/Eatkin/Homepage",
-    "tags": [
-      "web",
-      "html",
-      "css",
-      "javascript",
-      "python",
-      "frontend"
-    ]
-  },
-  {
-    "title": "Tombstone Tapes",
-    "description": "Tombstone Tapes is a website in the style of Windows 95. It features a Windows 95 theme, real time clock, and functional Start Menu.",
-    "link": "https://github.com/Eatkin/tombstone-tapes",
-    "tags": [
-      "web",
-      "html",
-      "css",
-      "javascript",
-      "frontend"
-    ]
-  },
-  {
-    "title": "Responsive Web Design",
-    "description": "Certification from Freecodecamp's Responsive Web Design course. The course covers HTML, CSS, and Javascript and features 5 projects.",
-    "link": "https://www.freecodecamp.org/certification/Edward-Atkin/responsive-web-design",
-    "tags": [
-      "web",
-      "html",
-      "css",
-      "javascript",
-      "frontend",
-      "freecodecamp",
-      "certificate"
-    ]
-  },
-  {
-    "title": "The Git & Github Bootcamp",
-    "description": "Certification from Colt Steele's Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.",
-    "link": "certs/git-github-bootcamp.pdf",
-    "tags": [
-      "git",
-      "github",
-      "udemy",
-      "certificate",
-      "command-line"
-    ]
-  },
-  {
-    "title": "Ben Was Assimilated",
-    "description": "Ben Was Assimilated is a hack n slash style game where things only move when you do. Includes assimilation. This game is extremely modular and can be easily modified to create new levels and enemies.",
-    "link": "https://github.com/Eatkin/BenWasAssimilated",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker"
-    ]
-  },
-  {
-    "title": "BalL DuDe AdVENtures TOo",
-    "description": "Ball Dude is back and he has eaten too much jelly (jello if you're American). Sometimes it's good to take a step back and stop worrying so much about making something that's actually good. With great skill as a developer, you have the power to make something really bad. Not just bad by accident, an actively hateful game. This game was made for the Game Breaker's Toolkit 8 game jam.",
-    "link": "https://github.com/Eatkin/gbkt8",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker",
-      "fun",
-      "funny",
-      "stupid"
-    ]
-  },
-  {
-    "title": "A Relaxing Typing Game",
-    "description": "A Relaxing Typing Game is a chill typing game for people who like typing for the sake of typing. To date, this is my most popular game. It was front-paged on Newgrounds with over 20,000 plays.",
-    "link": "https://github.com/Eatkin/Relaxing-Open-Source-Game",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker"
-    ]
-  },
-  {
-    "title": "Other Minds",
-    "description": "Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who you can use for your standard platforming action, whereas Sage can fly around freely and take control of any other character. Other Minds was my first major project and also a major learning experience. It features highly modular character code and complex emergent behaviour.",
-    "link": "https://github.com/Eatkin/OtherMinds",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker"
-    ]
-  },
-  {
-    "title": "Remember Mary",
-    "description": "Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young girl in a world filled with her friends who she can help or hurt. Presented in squigglevision. I made it in about 9 days for the \"I can't write but want to tell a story\" jam. It is purposefully simplistic in its gameplay so that the player can focus on the story and the world. It has a morality system and multiple endings, such that your actions are meaningful and also the order you take your actions in can also affect the game world and feel. It's also secretly a game about how 18th Century feminist philosopher Mary Wollstonecraft found herself driven to suicide because she found her life to be in such a hopeless situation.",
-    "link": "https://github.com/Eatkin/RememberMary",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker"
-    ]
-  },
-  {
-    "title": "Silent Bill",
-    "description": "The evil ducks have trapped you in a beach hut, you must find a way to escape before they kill you! Silent Bill was made for the \"I can't draw but I want to make a game\" game jam, and so, artwork very much takes a back seat here. The game is a simple point and click escape room with a few puzzles.",
-    "link": "https://github.com/Eatkin/SilentBill",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker"
-    ]
-  },
-  {
-    "title": "Justin Wall's Cooking Simulator",
-    "description": "Cook dinner and murder your entire family! Justin Wall's Cooking Simulator is an ARG-styled game that consists of a series of 4 games. Players must both find the link to the next game, and also find the password in order to access the next game. Each game features two endings. One of which will allow you to progress.",
-    "link": "https://github.com/Eatkin/JustinWallsCookingSimulator",
-    "tags": [
-      "game",
-      "game-dev",
-      "gamemaker"
-    ]
-  },
-  {
-    "title": "Codewars Data Analysis",
-    "description": "A Jupyter Notebook which both sources and analyses data gathered from Codewars problems I've solved. This is an all-inclusive project showing data sourcing, cleaning and visualisation.",
-    "link": "https://github.com/Eatkin/codewars-data-analysis",
-    "tags": [
-      "python",
-      "web-scraping",
-      "selenium",
-      "codewars",
-      "regex",
-      "data",
-      "data-analysis",
-      "data-visualisation"
-    ]
-  },
-  {
-    "title": "DOScord",
-    "description": "A static website with a visual style inspired by DOS. The website is based off Discord, allowing you to explore different servers and channels and see what people have been saying. The website is built using HTML, CSS and Javascript. It is very much a work in progress.",
-    "link": "https://github.com/Eatkin/DOScord",
-    "tags": [
-      "web",
-      "frontend",
-      "html",
-      "css",
-      "javascript",
     ]
   }
 ]

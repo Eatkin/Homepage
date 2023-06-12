@@ -1,0 +1,334 @@
+div.tag-algorithms {
+            display: none;
+        }
+        #tag-algorithms-check:checked~main section .grid-container div.tag-algorithms {
+            display: flex;
+        }
+        input#tag-algorithms-check {
+            display: none;
+        }
+        div.tag-backtracking {
+            display: none;
+        }
+        #tag-backtracking-check:checked~main section .grid-container div.tag-backtracking {
+            display: flex;
+        }
+        input#tag-backtracking-check {
+            display: none;
+        }
+        div.tag-beautiful-soup {
+            display: none;
+        }
+        #tag-beautiful-soup-check:checked~main section .grid-container div.tag-beautiful-soup {
+            display: flex;
+        }
+        input#tag-beautiful-soup-check {
+            display: none;
+        }
+        div.tag-brainfuck {
+            display: none;
+        }
+        #tag-brainfuck-check:checked~main section .grid-container div.tag-brainfuck {
+            display: flex;
+        }
+        input#tag-brainfuck-check {
+            display: none;
+        }
+        div.tag-c {
+            display: none;
+        }
+        #tag-c-check:checked~main section .grid-container div.tag-c {
+            display: flex;
+        }
+        input#tag-c-check {
+            display: none;
+        }
+        div.tag-c-sharp {
+            display: none;
+        }
+        #tag-c-sharp-check:checked~main section .grid-container div.tag-c-sharp {
+            display: flex;
+        }
+        input#tag-c-sharp-check {
+            display: none;
+        }
+        div.tag-certificate {
+            display: none;
+        }
+        #tag-certificate-check:checked~main section .grid-container div.tag-certificate {
+            display: flex;
+        }
+        input#tag-certificate-check {
+            display: none;
+        }
+        div.tag-codepen {
+            display: none;
+        }
+        #tag-codepen-check:checked~main section .grid-container div.tag-codepen {
+            display: flex;
+        }
+        input#tag-codepen-check {
+            display: none;
+        }
+        div.tag-codewars {
+            display: none;
+        }
+        #tag-codewars-check:checked~main section .grid-container div.tag-codewars {
+            display: flex;
+        }
+        input#tag-codewars-check {
+            display: none;
+        }
+        div.tag-command-line {
+            display: none;
+        }
+        #tag-command-line-check:checked~main section .grid-container div.tag-command-line {
+            display: flex;
+        }
+        input#tag-command-line-check {
+            display: none;
+        }
+        div.tag-css {
+            display: none;
+        }
+        #tag-css-check:checked~main section .grid-container div.tag-css {
+            display: flex;
+        }
+        input#tag-css-check {
+            display: none;
+        }
+        div.tag-data {
+            display: none;
+        }
+        #tag-data-check:checked~main section .grid-container div.tag-data {
+            display: flex;
+        }
+        input#tag-data-check {
+            display: none;
+        }
+        div.tag-data-structures {
+            display: none;
+        }
+        #tag-data-structures-check:checked~main section .grid-container div.tag-data-structures {
+            display: flex;
+        }
+        input#tag-data-structures-check {
+            display: none;
+        }
+        div.tag-esoteric-programming {
+            display: none;
+        }
+        #tag-esoteric-programming-check:checked~main section .grid-container div.tag-esoteric-programming {
+            display: flex;
+        }
+        input#tag-esoteric-programming-check {
+            display: none;
+        }
+        div.tag-freecodecamp {
+            display: none;
+        }
+        #tag-freecodecamp-check:checked~main section .grid-container div.tag-freecodecamp {
+            display: flex;
+        }
+        input#tag-freecodecamp-check {
+            display: none;
+        }
+        div.tag-frontend {
+            display: none;
+        }
+        #tag-frontend-check:checked~main section .grid-container div.tag-frontend {
+            display: flex;
+        }
+        input#tag-frontend-check {
+            display: none;
+        }
+        div.tag-fun {
+            display: none;
+        }
+        #tag-fun-check:checked~main section .grid-container div.tag-fun {
+            display: flex;
+        }
+        input#tag-fun-check {
+            display: none;
+        }
+        div.tag-game-dev {
+            display: none;
+        }
+        #tag-game-dev-check:checked~main section .grid-container div.tag-game-dev {
+            display: flex;
+        }
+        input#tag-game-dev-check {
+            display: none;
+        }
+        div.tag-gist {
+            display: none;
+        }
+        #tag-gist-check:checked~main section .grid-container div.tag-gist {
+            display: flex;
+        }
+        input#tag-gist-check {
+            display: none;
+        }
+        div.tag-git {
+            display: none;
+        }
+        #tag-git-check:checked~main section .grid-container div.tag-git {
+            display: flex;
+        }
+        input#tag-git-check {
+            display: none;
+        }
+        div.tag-hello-world {
+            display: none;
+        }
+        #tag-hello-world-check:checked~main section .grid-container div.tag-hello-world {
+            display: flex;
+        }
+        input#tag-hello-world-check {
+            display: none;
+        }
+        div.tag-html {
+            display: none;
+        }
+        #tag-html-check:checked~main section .grid-container div.tag-html {
+            display: flex;
+        }
+        input#tag-html-check {
+            display: none;
+        }
+        div.tag-javascript {
+            display: none;
+        }
+        #tag-javascript-check:checked~main section .grid-container div.tag-javascript {
+            display: flex;
+        }
+        input#tag-javascript-check {
+            display: none;
+        }
+        div.tag-mathematics {
+            display: none;
+        }
+        #tag-mathematics-check:checked~main section .grid-container div.tag-mathematics {
+            display: flex;
+        }
+        input#tag-mathematics-check {
+            display: none;
+        }
+        div.tag-oop {
+            display: none;
+        }
+        #tag-oop-check:checked~main section .grid-container div.tag-oop {
+            display: flex;
+        }
+        input#tag-oop-check {
+            display: none;
+        }
+        div.tag-powershell {
+            display: none;
+        }
+        #tag-powershell-check:checked~main section .grid-container div.tag-powershell {
+            display: flex;
+        }
+        input#tag-powershell-check {
+            display: none;
+        }
+        div.tag-prolog {
+            display: none;
+        }
+        #tag-prolog-check:checked~main section .grid-container div.tag-prolog {
+            display: flex;
+        }
+        input#tag-prolog-check {
+            display: none;
+        }
+        div.tag-python {
+            display: none;
+        }
+        #tag-python-check:checked~main section .grid-container div.tag-python {
+            display: flex;
+        }
+        input#tag-python-check {
+            display: none;
+        }
+        div.tag-recursion {
+            display: none;
+        }
+        #tag-recursion-check:checked~main section .grid-container div.tag-recursion {
+            display: flex;
+        }
+        input#tag-recursion-check {
+            display: none;
+        }
+        div.tag-regex {
+            display: none;
+        }
+        #tag-regex-check:checked~main section .grid-container div.tag-regex {
+            display: flex;
+        }
+        input#tag-regex-check {
+            display: none;
+        }
+        div.tag-selenium {
+            display: none;
+        }
+        #tag-selenium-check:checked~main section .grid-container div.tag-selenium {
+            display: flex;
+        }
+        input#tag-selenium-check {
+            display: none;
+        }
+        div.tag-shell {
+            display: none;
+        }
+        #tag-shell-check:checked~main section .grid-container div.tag-shell {
+            display: flex;
+        }
+        input#tag-shell-check {
+            display: none;
+        }
+        div.tag-sql {
+            display: none;
+        }
+        #tag-sql-check:checked~main section .grid-container div.tag-sql {
+            display: flex;
+        }
+        input#tag-sql-check {
+            display: none;
+        }
+        div.tag-udemy {
+            display: none;
+        }
+        #tag-udemy-check:checked~main section .grid-container div.tag-udemy {
+            display: flex;
+        }
+        input#tag-udemy-check {
+            display: none;
+        }
+        div.tag-unit-testing {
+            display: none;
+        }
+        #tag-unit-testing-check:checked~main section .grid-container div.tag-unit-testing {
+            display: flex;
+        }
+        input#tag-unit-testing-check {
+            display: none;
+        }
+        div.tag-web {
+            display: none;
+        }
+        #tag-web-check:checked~main section .grid-container div.tag-web {
+            display: flex;
+        }
+        input#tag-web-check {
+            display: none;
+        }
+        div.tag-web-scraping {
+            display: none;
+        }
+        #tag-web-scraping-check:checked~main section .grid-container div.tag-web-scraping {
+            display: flex;
+        }
+        input#tag-web-scraping-check {
+            display: none;
+        }
+        #tag-algorithms-check:not(:checked)~#tag-backtracking-check:not(:checked)~#tag-beautiful-soup-check:not(:checked)~#tag-brainfuck-check:not(:checked)~#tag-c-check:not(:checked)~#tag-c-sharp-check:not(:checked)~#tag-certificate-check:not(:checked)~#tag-codepen-check:not(:checked)~#tag-codewars-check:not(:checked)~#tag-command-line-check:not(:checked)~#tag-css-check:not(:checked)~#tag-data-check:not(:checked)~#tag-data-structures-check:not(:checked)~#tag-esoteric-programming-check:not(:checked)~#tag-freecodecamp-check:not(:checked)~#tag-frontend-check:not(:checked)~#tag-fun-check:not(:checked)~#tag-game-dev-check:not(:checked)~#tag-gist-check:not(:checked)~#tag-git-check:not(:checked)~#tag-hello-world-check:not(:checked)~#tag-html-check:not(:checked)~#tag-javascript-check:not(:checked)~#tag-mathematics-check:not(:checked)~#tag-oop-check:not(:checked)~#tag-powershell-check:not(:checked)~#tag-prolog-check:not(:checked)~#tag-python-check:not(:checked)~#tag-recursion-check:not(:checked)~#tag-regex-check:not(:checked)~#tag-selenium-check:not(:checked)~#tag-shell-check:not(:checked)~#tag-sql-check:not(:checked)~#tag-udemy-check:not(:checked)~#tag-unit-testing-check:not(:checked)~#tag-web-check:not(:checked)~#tag-web-scraping-check:not(:checked)~main section .grid-container div.hideable {display: flex;}
