@@ -124,15 +124,6 @@ div.tag-algorithms {
         input#tag-esoteric-programming-check {
             display: none;
         }
-        div.tag-freecodecamp {
-            display: none;
-        }
-        #tag-freecodecamp-check:checked~main section .grid-container div.tag-freecodecamp {
-            display: flex;
-        }
-        input#tag-freecodecamp-check {
-            display: none;
-        }
         div.tag-frontend {
             display: none;
         }
@@ -331,4 +322,4 @@ div.tag-algorithms {
         input#tag-web-scraping-check {
             display: none;
         }
-        #tag-algorithms-check:not(:checked)~#tag-backtracking-check:not(:checked)~#tag-beautiful-soup-check:not(:checked)~#tag-brainfuck-check:not(:checked)~#tag-c-check:not(:checked)~#tag-c-sharp-check:not(:checked)~#tag-certificate-check:not(:checked)~#tag-codepen-check:not(:checked)~#tag-codewars-check:not(:checked)~#tag-command-line-check:not(:checked)~#tag-css-check:not(:checked)~#tag-data-check:not(:checked)~#tag-data-structures-check:not(:checked)~#tag-esoteric-programming-check:not(:checked)~#tag-freecodecamp-check:not(:checked)~#tag-frontend-check:not(:checked)~#tag-fun-check:not(:checked)~#tag-game-dev-check:not(:checked)~#tag-gist-check:not(:checked)~#tag-git-check:not(:checked)~#tag-hello-world-check:not(:checked)~#tag-html-check:not(:checked)~#tag-javascript-check:not(:checked)~#tag-mathematics-check:not(:checked)~#tag-oop-check:not(:checked)~#tag-powershell-check:not(:checked)~#tag-prolog-check:not(:checked)~#tag-python-check:not(:checked)~#tag-recursion-check:not(:checked)~#tag-regex-check:not(:checked)~#tag-selenium-check:not(:checked)~#tag-shell-check:not(:checked)~#tag-sql-check:not(:checked)~#tag-udemy-check:not(:checked)~#tag-unit-testing-check:not(:checked)~#tag-web-check:not(:checked)~#tag-web-scraping-check:not(:checked)~main section .grid-container div.hideable {display: flex;}
+        #tag-algorithms-check:not(:checked)~#tag-backtracking-check:not(:checked)~#tag-beautiful-soup-check:not(:checked)~#tag-brainfuck-check:not(:checked)~#tag-c-check:not(:checked)~#tag-c-sharp-check:not(:checked)~#tag-certificate-check:not(:checked)~#tag-codepen-check:not(:checked)~#tag-codewars-check:not(:checked)~#tag-command-line-check:not(:checked)~#tag-css-check:not(:checked)~#tag-data-check:not(:checked)~#tag-data-structures-check:not(:checked)~#tag-esoteric-programming-check:not(:checked)~#tag-frontend-check:not(:checked)~#tag-fun-check:not(:checked)~#tag-game-dev-check:not(:checked)~#tag-gist-check:not(:checked)~#tag-git-check:not(:checked)~#tag-hello-world-check:not(:checked)~#tag-html-check:not(:checked)~#tag-javascript-check:not(:checked)~#tag-mathematics-check:not(:checked)~#tag-oop-check:not(:checked)~#tag-powershell-check:not(:checked)~#tag-prolog-check:not(:checked)~#tag-python-check:not(:checked)~#tag-recursion-check:not(:checked)~#tag-regex-check:not(:checked)~#tag-selenium-check:not(:checked)~#tag-shell-check:not(:checked)~#tag-sql-check:not(:checked)~#tag-udemy-check:not(:checked)~#tag-unit-testing-check:not(:checked)~#tag-web-check:not(:checked)~#tag-web-scraping-check:not(:checked)~main section .grid-container div.hideable {display: flex;}
