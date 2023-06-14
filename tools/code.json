@@ -179,6 +179,16 @@
     ]
   },
   {
+    "title": "Discord Comic Sans-ifier",
+    "description": "A Google Chrome browser extension to replace all text on Discord with Comic Sans.",
+    "link": "https://github.com/Eatkin/DiscordComicSansifier",
+    "tags": [
+      "javascript",
+      "web",
+      "browser-extension"
+    ]
+  },
+  {
     "title": "Vaporwave Button",
     "description": "A very aesthetic button.",
     "link": "https://codepen.io/eatkin/pen/WNgjOoz",
