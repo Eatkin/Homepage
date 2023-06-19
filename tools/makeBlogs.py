@@ -157,7 +157,7 @@ def construct_blog_index(blogs_list):
             html += '<ul class="post-list">'
 
         # Add the blog to the list
-        html += f"""<li><a href="{blog["url"].replace('.md', '.html')}" class="txt-link">{blog["day"]}/{blog["month"]}/{blog["year"]} - {blog["title"]}</a>
+        html += f"""<li><a href=".{blog["url"].replace('.md', '.html')}" class="txt-link">{blog["day"]}/{blog["month"]}/{blog["year"]} - {blog["title"]}</a>
             </li>"""
 
     # Close the unordered list
