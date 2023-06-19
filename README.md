@@ -6,7 +6,7 @@ This is the Github repo containing the source for my personal website, including
 
 This website is a place for me to host my projects and things I've worked on in one place.
 
-The website is pure HTMl and CSS with absolutely no reliance on Javascript, but still has features such as [filtering by tags](https://eatkin.neocities.org/code) and [theme switching](https://eatkin.neocities.org/about).
+The website is pure HTML and CSS with absolutely no reliance on Javascript, but still has features such as [filtering by tags](https://eatkin.neocities.org/code) and [theme switching](https://eatkin.neocities.org/about).
 
 ## Viewing the Website
 
