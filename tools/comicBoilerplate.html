@@ -11,35 +11,40 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="stylesheet" href="/style.css?v=3">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
     <title>The Edspace</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>Edward Atkin</h1>
+        <h1>Pixelated Peculiarities</h1>
     </header>
-    <main>
-        <nav>
-            <div id="buttonsContainer">
-                <a href="about.html" class="button">About</a>
-                <a href="games.html" class="button">Games</a>
-                <a href="videos.html" class="button">Videos</a>
-                <a href="code.html" class="button">Code</a>
-                <a href="blog.html" class="button">Blog</a>
-                <a href="/comics/pages/comic_2.html" class="button">Comics</a>
+
+    <div class="comic-container">
+        <div class="comic-details">
+            <h2>[REPLACE WITH TITLE]</h2>
+            <h3>[REPLACE WITH DATE]</h3>
+        </div>
+        <div class="comic-image-container">
+            <img class="comic-image" src="[REPLACE WITH IMAGE]" alt="[REPLACE WITH TITLE]" \>
+        </div>
+        <div class="comic-description">
+            <p>[REPLACE WITH DESCRIPTION]</p>
+        </div>
+        <nav class="comic-navigation">
+            <div class="nav-images">
+                [REPLACE WITH NAV]
             </div>
+            <p>
+                <a href="/index.html"><-- Back to home</a>
+            </p>
         </nav>
-    </main>
-    <footer id="homepage-footer">
-        <p>Copyright &copy; <span id="year">2023</span> Edward Atkin</p>
-        <script>
-            document.getElementById("year").innerHTML = new Date().getFullYear();
-        </script>
-    </footer>
+    </div>
+
 </body>
 
 </html>

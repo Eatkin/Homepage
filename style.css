@@ -404,6 +404,76 @@ So I have to apply different properties for both */
     text-decoration: underline;
 }
 
+/* Comics page */
+
+.comic-container {
+    margin: 20px auto;
+    background-color: #292c34;
+    color: #cddbf9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 1080px;
+}
+
+.comic-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.comic-details h2,
+.comic-details h3 {
+    margin: 0;
+}
+
+.comic-image {
+    width: 100%;
+    max-width: 1080px;
+}
+
+.comic-navigation {
+    display: flex;
+}
+
+.comic-description {
+    text-align: left;
+}
+
+.comic-navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.nav-images img {
+    opacity: 1;
+    border-radius: 0;
+    transition: opacity 0.5s ease-in-out, border-radius 0.5s ease-in-out;
+}
+
+.nav-images img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+.comic-navigation p {
+    text-align: left;
+}
+
 /*Media queries*/
 @media (max-width: 1280px) {
     #markdown {
@@ -444,6 +514,10 @@ So I have to apply different properties for both */
 
     .video-info {
         padding: 10px;
+    }
+
+    .comic-container {
+        max-width: 90%;
     }
 }
 

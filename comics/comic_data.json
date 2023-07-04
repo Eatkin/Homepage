@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Sonic the Hedgehog in Chilli Dog Zone",
+        "description": "Sonic the Hedgehog tells Commander Keen to have a chilli dog but finds out he doesn't know what they are, so they go to Chilli Dog Zone.",
+        "date": "2023-07-03",
+        "src": "comic1.png"
+    },
+    {
+        "name": "Gotta Grow Pasta",
+        "description": "Knuckles the Echidna tries to punch Sonic but it doesn't work because he's too fast, so he grows pasta.",
+        "date": "2023-07-04",
+        "src": "comic2.png"
+    }
+]
