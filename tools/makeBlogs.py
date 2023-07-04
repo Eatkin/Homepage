@@ -83,7 +83,7 @@ def construct_blog(blog):
     html = markdown.markdown(markdown_text)
 
     # Append a back button
-    html += """<p><a href="/blog.html"><- Back to blog index</a></p>"""
+    html += """<p><a href="/blog.html">&#60;- Back to blog index</a></p>"""
 
     # Now replace the markdown text
     boilerplate = boilerplate.replace("[REPLACE-WITH-BLOG]", html)
@@ -164,7 +164,7 @@ def construct_blog_index(blogs_list):
     html += "</ul>"
 
     # Append a back home link
-    html += """<p><a href="/index.html"><- Back to home</a></p>"""
+    html += """<p><a href="/index.html">&#60;- Back to home</a></p>"""
 
     # Now we need to insert the html into the blog-container div
     with open(

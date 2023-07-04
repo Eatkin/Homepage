@@ -105,6 +105,10 @@ def parse_comics(data):
         # Replace navigation
         html = html.replace("[REPLACE WITH NAV]", nav)
 
+        # Get the open graph info
+        og = make_OG_tags(comic, comic_num)
+        html = html.replace("[REPLACE WITH OG]", og)
+
         # Write the html to a file in the comics directory
         with open(f"comics/pages/comic_{comic_num}.html", "w") as f:
             f.write(html)
@@ -137,6 +141,28 @@ def parse_comics(data):
             with open("index.html", "w") as f:
                 f.write(index_html)
         print("Index.html updated")
+
+
+def make_OG_tags(comic, comic_num):
+    # Make a dictionary
+    og = {
+        "title": comic["name"],
+        "image": f"/comics/og/comic_{comic_num}.png",
+        "description": comic["description"],
+        "url": f"/comics/pages/comic_{comic_num}.html",
+        "type": "article",
+    }
+
+    # Make the tags
+    # Copied from makeBlogs.py
+    # Format: <meta property="og:KEY" content="VALUE" />
+    og_tags = []
+    for key, value in og.items():
+        og_tags.append(f'<meta property="og:{key}" content="{value}" />')
+
+    og_tags = "\n".join(og_tags)
+
+    return og_tags
 
 
 data = get_comic_data()
