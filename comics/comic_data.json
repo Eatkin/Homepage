@@ -10,5 +10,11 @@
         "description": "Knuckles the Echidna tries to punch Sonic but it doesn't work because he's too fast, so he grows pasta.",
         "date": "2023-07-04",
         "src": "comic2.png"
+    },
+    {
+        "name": "Alex Kidd's Whacky Wheelie Adventure",
+        "description": "Alex Kidd drives a car and it's whacky and wheelie.",
+        "date": "2023-07-04",
+        "src": "comic3.png"
     }
 ]

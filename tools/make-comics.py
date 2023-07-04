@@ -126,21 +126,20 @@ def parse_comics(data):
             f"Created page for comic {comic['name']}. {comic_num - 1} of {num_comics}"
         )
 
-        if last:
-            # Update index.html - find the button with the content "Comics" and replace the href
-            with open("index.html", "r") as f:
-                index_html = f.read()
+    # Update index.html - find the button with the content "Comics" and replace the href
+    with open("index.html", "r") as f:
+        index_html = f.read()
 
-            # Match regex for the button link - it is of the form "/comics/.*", we want to capture the bit between the quotes and replace it
-            regex = r'(?<=<a href=")/comics/.*(?=" class="button">)'
-            replacement = links_dict["last"]
+    # Match regex for the button link - it is of the form "/comics/.*", we want to capture the bit between the quotes and replace it
+    regex = r'(?<=<a href=")/comics/.*(?=" class="button">)'
+    replacement = links_dict["last"]
 
-            index_html = re.sub(regex, replacement, index_html)
+    index_html = re.sub(regex, replacement, index_html)
 
-            # Update
-            with open("index.html", "w") as f:
-                f.write(index_html)
-        print("Index.html updated")
+    # Update
+    with open("index.html", "w") as f:
+        f.write(index_html)
+    print("Index.html updated")
 
 
 def make_OG_tags(comic, comic_num):
