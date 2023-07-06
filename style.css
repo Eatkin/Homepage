@@ -474,6 +474,15 @@ So I have to apply different properties for both */
     text-align: left;
 }
 
+/* Rollover tooltips */
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
 /*Media queries*/
 @media (max-width: 1280px) {
     #markdown {

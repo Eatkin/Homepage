@@ -3,24 +3,35 @@
         "name": "Sonic the Hedgehog in Chilli Dog Zone",
         "description": "Sonic the Hedgehog tells Commander Keen to have a chilli dog but finds out he doesn't know what they are, so they go to Chilli Dog Zone.",
         "date": "2023-07-03",
-        "src": "comic1.png"
+        "src": "comic1.png",
+        "tooltip": "Sonk 3"
     },
     {
         "name": "Gotta Grow Pasta",
         "description": "Knuckles the Echidna tries to punch Sonic but it doesn't work because he's too fast, so he grows pasta.",
         "date": "2023-07-04",
-        "src": "comic2.png"
+        "src": "comic2.png",
+        "tooltip": "BBC pasta woman"
     },
     {
         "name": "Alex Kidd's Whacky Wheelie Adventure",
         "description": "Alex Kidd drives a car and it's whacky and wheelie.",
         "date": "2023-07-04",
-        "src": "comic3.png"
+        "src": "comic3.png",
+        "tooltip": "Read Alex Kidd Buys Heroin"
     },
     {
         "name": "Guybrush Threepwood and the Ordinary Rubber Chicken With a Pulley in the Middle of Th eK",
         "description": "Guybrush Threepwood finds a perfectly normal rurbber chicken with a pulley in the middle. OR DOES HE? (He does.) Oh, and there's a monkey. And a pirate. named LeChuck. And a ghost. nee nee noo noo",
         "date": "2023-07-06",
-        "src": "comic4.png"
+        "src": "comic4.png",
+        "tooltip": "Guybrush Th eK Threepwood w o w"
+    },
+    {
+        "name": "Mario and Luigi Drink England Juice",
+        "description": "I'm here to make ironic sprite comics and drink England juice, and I'm all out of England juice.",
+        "date": "2023-07-07",
+        "src": "comic5.png",
+        "tooltip": "Bowser: Ha ha ha ha ha ha"
     }
 ]

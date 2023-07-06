@@ -105,6 +105,9 @@ def parse_comics(data):
         # Replace navigation
         html = html.replace("[REPLACE WITH NAV]", nav)
 
+        # Replace tooltip
+        html = html.replace("[REPLACE WITH TOOLTIP]", comic["tooltip"])
+
         # Get the open graph info
         og = make_OG_tags(comic, comic_num)
         html = html.replace("[REPLACE WITH OG]", og)
