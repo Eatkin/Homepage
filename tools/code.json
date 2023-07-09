@@ -213,6 +213,19 @@
     ]
   },
   {
+    "title": "The Worst CSS Ever!",
+    "description": "I was tasked with making the worst CSS ever for the Gamebreaker's Toolkit 8 game jam. I think I succeeded.",
+    "link": "https://github.com/Eatkin/badCss",
+    "tags": [
+      "web",
+      "html",
+      "css",
+      "frontend",
+      "fun",
+      "esoteric-programming"
+    ]
+  },
+  {
     "title": "Python Implementation of Linked Lists",
     "description": "A linked list implementation including a few methods: insert at position, remove at position, get position, reverse, and more. Also includes a few unit tests.",
     "link": "https://gist.github.com/Eatkin/a0dddcc948ee966b9991e6ed70a22be5",

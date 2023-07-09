@@ -67,6 +67,8 @@ def construct_code_page(info):
         for tag in item["tags"]:
             all_tags.add("tag-" + tag)
 
+        print("Added " + title)
+
     # Sort tags
     all_tags = sorted(all_tags)
 
@@ -93,6 +95,8 @@ def construct_code_page(info):
 
     # Add the last bit to style_append to make it work
     style_append += "main section .grid-container div.hideable {display: flex;}"
+
+    print("Generated style sheet")
 
     # Now load the boilerplate
     script_dir = os.path.dirname(os.path.abspath(__file__))
