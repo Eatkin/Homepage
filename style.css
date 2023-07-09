@@ -327,6 +327,9 @@ input[type="checkbox"]:checked+.filter-label {
     align-items: center;
     /* Add a bottom border */
     border-bottom: 2px solid #cddbf9;
+    background-color: #292c34;
+    color: #cddbf9;
+    padding: 20px;
 }
 
 /* There's some weird stuff going on with the video thumbnails
@@ -336,6 +339,7 @@ So I have to apply different properties for both */
 .video-container img {
     width: 300px;
     height: auto;
+    padding: 5px;
 }
 
 .video-container .video-thumbnail {
@@ -354,6 +358,11 @@ So I have to apply different properties for both */
 
 .video-info a {
     text-decoration: none;
+}
+
+.video-thumbnail {
+    /* Just make sure it doesn't overflow */
+    max-width: 100%;
 }
 
 /* Blog page */

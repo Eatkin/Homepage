@@ -30,8 +30,22 @@
     {
         "name": "Mario and Luigi Drink England Juice",
         "description": "I'm here to make ironic sprite comics and drink England juice, and I'm all out of England juice.",
-        "date": "2023-07-07",
+        "date": "2023-07-06",
         "src": "comic5.png",
         "tooltip": "Bowser: Ha ha ha ha ha ha"
+    },
+    {
+        "name": "Hewligg Urobokkle and the Mysterious Case of the Missing Pencil",
+        "description": "Hewligg Urobokkle is a detective and he's trying to find a pencil but he can't find it because it's missing.",
+        "date": "2023-07-06",
+        "src": "comic6.png",
+        "tooltip": "Hewligg Urobokkle was a sprite comic I made when I was about 12. This is a remake of the first comic."
+    },
+    {
+        "name": "Inspected Gadget and Kuzco the Emperor's New Groove Ride a Rollercoaster",
+        "description": "Inspected Gadget and Kuzco the Emperor's New Groove ride a rollercoaster and they DO NOT die. They are both very happy.",
+        "date": "2023-07-08",
+        "src": "comic7.png",
+        "tooltip": "Wow Kuzco is so happy and he's not dead"
     }
 ]
