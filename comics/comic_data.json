@@ -47,5 +47,12 @@
         "date": "2023-07-08",
         "src": "comic7.png",
         "tooltip": "Wow Kuzco is so happy and he's not dead"
+    },
+    {
+        "name": "Commander Keen 3 Keen Must Die True Ending",
+        "description": "The Vorticons are dead and Commander Keen is happy. He is also a bit sad because he killed them.",
+        "date": "2023-07-09",
+        "src": "comic8.png",
+        "tooltip": "Cooking Mama 2: Dinner with Friends"
     }
 ]

@@ -7,7 +7,10 @@ import csv
 CSV_NAME = "file_modified_dates.csv"
 CSV_LOCATION = os.path.dirname(os.path.realpath(__file__))
 IGNORE_FOLDERS = ["tools", "api_testing"]
-IGNORE_FILES = ["README.md"]
+IGNORE_FILES = [
+    "README.md",
+    "comic_data.json",
+]
 
 
 def neocities_init():
