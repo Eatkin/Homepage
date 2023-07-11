@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Edward Atkin's Blog</title>
+  <link>https://eatkin.neocities.org/blog</link>
+  <description>I am starting a blog to write about pointless anecdotes, mundane things and random musings. It will have some pictures. I hope you like it.</description>
+  <item>
+    <title>In Which I Discuss Multiple Failed Attempts At Making Websites</title>
+    <link>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</link>
+    <description>This website isn't my first rodeo. Or my second. Or my third. I think it's probably my 6th or so? So let's talk about some internet history that surely nobody w...</description>
+  </item>
+  <item>
+    <title>In Which I Discuss My Alcoholism</title>
+    <link>https://eatkin.neocities.org/txt/blog/2023/June/alcoholism</link>
+    <description>Often when you think of alcoholics, you think of the people who are drinking in Wetherspoons (a cheap British pub chain for the uninitiated) at 7am. You think o...</description>
+  </item>
+  <item>
+    <title>In Which I Break Free From My Sister's Banana Boycott</title>
+    <link>https://eatkin.neocities.org/txt/blog/2023/April/bananas</link>
+    <description>I was the younger sibling in my household, thus, I had the tendancy to copy what my older sister did. I used to eat bananas, until one day, she said she hated b...</description>
+  </item>
+  <item>
+    <title>In Which I Reminisce About The Early Days Of The Internet</title>
+    <link>https://eatkin.neocities.org/txt/blog/2023/February/stumbleupon</link>
+    <description>Remember the internet? Back when everything was less centralised, and things looked worse. I spend most of my time on Discord and Reddit now, never leaving much...</description>
+  </item>
+</channel>
+
+</rss>

@@ -119,6 +119,8 @@ def upload_file(filepath, upload_url):
     else:
         print(f"Upload for {filepath} failed with status code:", response.status_code)
 
+    return success
+
 
 def update_site(files_to_upload, upload_url, passthrough=False):
     # Upload each file
