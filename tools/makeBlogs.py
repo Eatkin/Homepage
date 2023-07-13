@@ -3,6 +3,7 @@ import re
 import markdown
 import json
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 
 def get_blogs():
@@ -208,17 +209,35 @@ def make_rss_feed(blogs_list):
     with open("tools/rss_feed_components.json", "r") as f:
         rss_components = json.load(f)
 
+    # Get the current feed and parse it into its component items
+    with open("rss/blog_feed.xml", "r") as f:
+        feed = f.read()
+
+    soup = BeautifulSoup(feed, "xml")
+
+    # Get all items
+    items = soup.find_all("item")
+
+    # Loop through the comics and create new items for any that are missing from the feed
+    # Use the blog title as the unique identifier
+    latest_title = items[0].find("title").text
+
     xml = []
     xml.append(rss_components["header"])
     xml.append("<channel>")
     xml.append(rss_components["blog_header"])
 
     i = len(blogs_list)
+    count = 0
     for blog in blogs_list[-max_items:]:
+        # If the blog is already in the feed, we've reached the end of the new blogs, so break
+        if blog["title"] == latest_title:
+            break
+
         date = blog["year"] + "-" + blog["month"] + "-" + blog["day"]
         date_formatted = datetime.strptime(date, "%Y-%m-%d").strftime("%a, %d %b %Y")
-        # Add a time of midnight
-        date_formatted += " 00:00:00 GMT"
+        # Add the current time
+        date_formatted += datetime.now().strftime(" %H:%M:%S GMT")
 
         xml_item = (
             rss_components["blog_item"]
@@ -230,6 +249,17 @@ def make_rss_feed(blogs_list):
 
         xml.append(xml_item)
         i -= 1
+        count += 1
+
+    print(f"Added {count} new blogs to the RSS feed")
+
+    # Now we need to add the existing items to reach max_items
+    for i in range(max_items - count):
+        # Use a try except block to catch the case where there are fewer than max_items comics
+        try:
+            xml.append(str(items[i]))
+        except:
+            break
 
     # Finish the xml
     xml.append("</channel>")

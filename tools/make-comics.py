@@ -2,6 +2,7 @@ import os
 import json
 import re
 from datetime import datetime
+from bs4 import BeautifulSoup
 
 # What are we gonna do?
 """
@@ -186,14 +187,34 @@ def make_rss_feed(data):
         )
     )
 
-    # Now start creating the components
+    # Get the current feed and parse it into its component items
+    with open("rss/comic_feed.xml", "r") as f:
+        feed = f.read()
+
+    soup = BeautifulSoup(feed, "xml")
+
+    # Get all items
+    items = soup.find_all("item")
+
+    # Loop through the comics and create new items for any that are missing from the feed
+    # To do this I basically have to extract the comic title because that's probably the best unique identifier
+    latest_title = items[0].find("title").text
+
+    # Start creating the item components
+    # Iterate over the comics in reverse order to start with most recent
     i = len(data)
+    count = 0
     for comic in data[-max_items:][::-1]:
+        # If the comic's title is the same as the latest title, we've reached the end of the feed
+        if comic["name"] == latest_title:
+            break
+
+        # Otherwise we can add the comic to the feed
         date_formatted = datetime.strptime(comic["date"], "%Y-%m-%d").strftime(
             "%a, %d %b %Y"
         )
-        # Add a time of midnight
-        date_formatted += " 00:00:00 GMT"
+        # Add the current time
+        date_formatted += datetime.now().strftime(" %H:%M:%S GMT")
         xml_item = (
             rss_components["comic_item"]
             .replace("[COMIC_LINK]", base_url + f"/comics/pages/comic_{i}.html")
@@ -204,6 +225,17 @@ def make_rss_feed(data):
         )
         xml.append(xml_item)
         i -= 1
+        count += 1
+
+    print(f"Added {count} new items to the RSS feed")
+
+    # Now we need to add the existing items to reach max_items
+    for i in range(max_items - count):
+        # Use a try except block to catch the case where there are fewer than max_items comics
+        try:
+            xml.append(str(items[i]))
+        except:
+            break
 
     xml.append("</channel>")
     xml.append("</rss>")
