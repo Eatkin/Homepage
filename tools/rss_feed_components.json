@@ -1,0 +1,7 @@
+{
+    "header": "<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\">",
+    "blog_header": "<title>Edward Atkin's Blog</title>\n<link>https://eatkin.neocities.org/blog</link>\n<description>I am starting a blog to write about pointless anecdotes, mundane things and random musings. It will have some pictures. I hope you like it.</description>\n<atom:link href=\"https://eatkin.neocities.org/rss/blog_feed.xml\" rel=\"self\" type=\"application/rss+xml\"/>",
+    "comic_header": "<title>Pixelated Peculiarities</title>\n<link>[LATEST_COMIC_LINK]</link>\n<description>An absolute dumpster fire of a sprite comic</description>\n<atom:link href=\"https://eatkin.neocities.org/rss/comic_feed.xml\" rel=\"self\" type=\"application/rss+xml\"/>",
+    "blog_item": "<item>\n<title>[BLOG_TITLE]</title>\n<link>[BLOG_LINK]</link>\n<description>[BLOG_DESCRIPTION]</description>\n<guid>[BLOG_LINK]</guid>\n<pubDate>[BLOG_DATE]</pubDate>\n<dc:creator>Edward Atkin</dc:creator></item>",
+    "comic_item": " <item>\n<title>[COMIC_TITLE]</title>\n<link>[COMIC_LINK]</link>\n<description><![CDATA[ <a href=\"[COMIC_LINK]\"><img src=\"[COMIC_IMAGE_LINK]\" /></a><p>[COMIC_DESCRIPTION]</p>]]></description>\n<guid>[COMIC_LINK]</guid>\n<pubDate>[COMIC_DATE]</pubDate>\n<dc:creator>Edward Atkin</dc:creator></item>"
+}

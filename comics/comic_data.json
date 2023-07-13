@@ -54,5 +54,12 @@
         "date": "2023-07-09",
         "src": "comic8.png",
         "tooltip": "Cooking Mama 2: Dinner with Friends"
+    },
+    {
+        "name": "Drunk Bush and the Mystery of the Missing Beer",
+        "description": "A drunk George Bush is trying to find his beer but it's missing. He is very sad. Birdo is also there. She is also very sad.",
+        "date": "2023-07-13",
+        "src": "comic9.png",
+        "tooltip": "Birbo is sad because she can't find her beer either but she doesn't know that yet"
     }
 ]

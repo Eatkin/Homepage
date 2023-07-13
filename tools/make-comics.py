@@ -1,6 +1,7 @@
 import os
 import json
 import re
+from datetime import datetime
 
 # What are we gonna do?
 """
@@ -167,6 +168,55 @@ def make_OG_tags(comic, comic_num):
     return og_tags
 
 
+def make_rss_feed(data):
+    max_items = 10
+
+    base_url = "https://eatkin.neocities.org"
+
+    # Load the rss feed components as json
+    with open("tools/rss_feed_components.json", "r") as f:
+        rss_components = json.load(f)
+
+    xml = []
+    xml.append(rss_components["header"])
+    xml.append("<channel>")
+    xml.append(
+        rss_components["comic_header"].replace(
+            "[LATEST_COMIC_LINK]", base_url + links_dict["last"]
+        )
+    )
+
+    # Now start creating the components
+    i = len(data)
+    for comic in data[-max_items:][::-1]:
+        date_formatted = datetime.strptime(comic["date"], "%Y-%m-%d").strftime(
+            "%a, %d %b %Y"
+        )
+        # Add a time of midnight
+        date_formatted += " 00:00:00 GMT"
+        xml_item = (
+            rss_components["comic_item"]
+            .replace("[COMIC_LINK]", base_url + f"/comics/pages/comic_{i}.html")
+            .replace("[COMIC_TITLE]", comic["name"])
+            .replace("[COMIC_DESCRIPTION]", comic["description"])
+            .replace("[COMIC_DATE]", date_formatted)
+            .replace("[COMIC_IMAGE_LINK]", base_url + base_dir + comic["src"])
+        )
+        xml.append(xml_item)
+        i -= 1
+
+    xml.append("</channel>")
+    xml.append("</rss>")
+    xml = "\n".join(xml)
+
+    # Write to file
+    with open("rss/comic_feed.xml", "w") as f:
+        f.write(xml)
+
+    print("RSS feed created")
+
+
 data = get_comic_data()
 set_comic_links(data)
 parse_comics(data)
+make_rss_feed(data)

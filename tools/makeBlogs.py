@@ -1,6 +1,8 @@
 import os
 import re
 import markdown
+import json
+from datetime import datetime
 
 
 def get_blogs():
@@ -108,6 +110,9 @@ def construct_blog(blog):
     # Type is article
     og["type"] = "article"
 
+    # Save the description into the blog dictionary
+    blog["description"] = og["description"]
+
     # Now we can construct the open graph tags
     # Format: <meta property="og:KEY" content="VALUE" />
     og_tags = []
@@ -119,11 +124,19 @@ def construct_blog(blog):
     # Now replace the og tags in the boilerplate
     boilerplate = boilerplate.replace("[REPLACE-WITH-OG-TAGS]", og_tags)
 
-    # Save the boilerplate as .html
-    with open(blog["filepath"].replace(".md", ".html"), "w") as f:
-        f.write(boilerplate)
+    # Because the site updater detects changes we should compare the new html with the old html
+    if os.path.exists(blog["filepath"].replace(".md", ".html")):
+        with open(blog["filepath"].replace(".md", ".html"), "r") as f:
+            old_html = f.read()
 
-    print(f"Generated blog: {blog['title']}")
+        if old_html != boilerplate:
+            # Save the boilerplate as .html
+            with open(blog["filepath"].replace(".md", ".html"), "w") as f:
+                f.write(boilerplate)
+
+            print(f"Generated blog: {blog['title']}")
+        else:
+            print(f"Blog {blog['title']} already up to date")
 
 
 def construct_blog_index(blogs_list):
@@ -179,10 +192,55 @@ def construct_blog_index(blogs_list):
     # Now go up one working directory and save the file as blog.html
     script_dir = os.path.dirname(os.path.abspath(__file__))
     dir = os.path.join(script_dir, os.pardir)
+
     with open(os.path.join(dir, "blog.html"), "w") as f:
         f.write(boilerplate)
 
     print("Generated blog index")
+
+
+def make_rss_feed(blogs_list):
+    max_items = 10
+
+    base_url = "https://eatkin.neocities.org"
+
+    # Load the rss feed components as json
+    with open("tools/rss_feed_components.json", "r") as f:
+        rss_components = json.load(f)
+
+    xml = []
+    xml.append(rss_components["header"])
+    xml.append("<channel>")
+    xml.append(rss_components["blog_header"])
+
+    i = len(blogs_list)
+    for blog in blogs_list[-max_items:]:
+        date = blog["year"] + "-" + blog["month"] + "-" + blog["day"]
+        date_formatted = datetime.strptime(date, "%Y-%m-%d").strftime("%a, %d %b %Y")
+        # Add a time of midnight
+        date_formatted += " 00:00:00 GMT"
+
+        xml_item = (
+            rss_components["blog_item"]
+            .replace("[BLOG_TITLE]", blog["title"])
+            .replace("[BLOG_LINK]", base_url + blog["url"].replace(".md", ".html"))
+            .replace("[BLOG_DESCRIPTION]", blog["description"])
+            .replace("[BLOG_DATE]", date_formatted)
+        )
+
+        xml.append(xml_item)
+        i -= 1
+
+    # Finish the xml
+    xml.append("</channel>")
+    xml.append("</rss>")
+    xml = "\n".join(xml)
+
+    # Write to file
+    with open("rss/blog_feed.xml", "w") as f:
+        f.write(xml)
+
+    print("RSS feed created")
 
 
 blog_information = get_blogs()
@@ -192,5 +250,7 @@ for blog in blog_information:
     construct_blog(blog)
 
 construct_blog_index(blog_information)
+
+make_rss_feed(blog_information)
 
 print("Finished generating blogs")
