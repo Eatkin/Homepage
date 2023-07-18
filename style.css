@@ -49,6 +49,11 @@ footer {
     max-width: 100vw;
 }
 
+/* This is for the rss feeds page */
+#markdown ul {
+    margin: 20px 0 40px 0;
+}
+
 /*Homepage buttons*/
 
 #buttonsContainer {

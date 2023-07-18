@@ -61,6 +61,12 @@ def get_blogs():
                     }
                     blogs_list.append(blog_dict)
 
+    # Blogs aren't sorted so let's sort them
+    blogs_list = sorted(
+        blogs_list,
+        key=lambda k: datetime.strptime(k["year"] + k["month"] + k["day"], "%Y%m%d"),
+    )
+
     return blogs_list
 
 
@@ -126,18 +132,23 @@ def construct_blog(blog):
     boilerplate = boilerplate.replace("[REPLACE-WITH-OG-TAGS]", og_tags)
 
     # Because the site updater detects changes we should compare the new html with the old html
-    if os.path.exists(blog["filepath"].replace(".md", ".html")):
-        with open(blog["filepath"].replace(".md", ".html"), "r") as f:
-            old_html = f.read()
+    if not os.path.exists(blog["filepath"].replace(".md", ".html")):
+        # Create the file
+        f = open(blog["filepath"].replace(".md", ".html"), "w")
+        # Close the file
+        f.close()
 
-        if old_html != boilerplate:
-            # Save the boilerplate as .html
-            with open(blog["filepath"].replace(".md", ".html"), "w") as f:
-                f.write(boilerplate)
+    with open(blog["filepath"].replace(".md", ".html"), "r") as f:
+        old_html = f.read()
 
-            print(f"Generated blog: {blog['title']}")
-        else:
-            print(f"Blog {blog['title']} already up to date")
+    if old_html != boilerplate:
+        # Save the boilerplate as .html
+        with open(blog["filepath"].replace(".md", ".html"), "w") as f:
+            f.write(boilerplate)
+
+        print(f"Generated blog: {blog['title']}")
+    else:
+        print(f"Blog {blog['title']} already up to date")
 
 
 def construct_blog_index(blogs_list):
@@ -219,8 +230,8 @@ def make_rss_feed(blogs_list):
     items = soup.find_all("item")
 
     # Loop through the comics and create new items for any that are missing from the feed
-    # Use the blog title as the unique identifier
-    latest_title = items[0].find("title").text
+    # Get all titles already in the feed
+    titles = [item.find("title").text for item in items]
 
     xml = []
     xml.append(rss_components["header"])
@@ -231,13 +242,17 @@ def make_rss_feed(blogs_list):
     count = 0
     for blog in blogs_list[-max_items:]:
         # If the blog is already in the feed, we've reached the end of the new blogs, so break
-        if blog["title"] == latest_title:
-            break
+        if blog["title"] in titles:
+            continue
 
         date = blog["year"] + "-" + blog["month"] + "-" + blog["day"]
         date_formatted = datetime.strptime(date, "%Y-%m-%d").strftime("%a, %d %b %Y")
         # Add the current time
         date_formatted += datetime.now().strftime(" %H:%M:%S GMT")
+
+        # If count is 0, this is the first item, so we'll update lastBuildDate here
+        if count == 0:
+            xml[0] = xml[0].replace("[LAST_BUILD_DATE]", date_formatted)
 
         xml_item = (
             rss_components["blog_item"]
@@ -251,26 +266,29 @@ def make_rss_feed(blogs_list):
         i -= 1
         count += 1
 
-    print(f"Added {count} new blogs to the RSS feed")
+    if count == 0:
+        print("No new blogs to add to RSS feed")
+    else:
+        print(f"Added {count} new blogs to the RSS feed")
 
-    # Now we need to add the existing items to reach max_items
-    for i in range(max_items - count):
-        # Use a try except block to catch the case where there are fewer than max_items comics
-        try:
-            xml.append(str(items[i]))
-        except:
-            break
+        # Now we need to add the existing items to reach max_items
+        for i in range(max_items - count):
+            # Use a try except block to catch the case where there are fewer than max_items comics
+            try:
+                xml.append(str(items[i]))
+            except:
+                break
 
-    # Finish the xml
-    xml.append("</channel>")
-    xml.append("</rss>")
-    xml = "\n".join(xml)
+        # Finish the xml
+        xml.append("</channel>")
+        xml.append("</rss>")
+        xml = "\n".join(xml)
 
-    # Write to file
-    with open("rss/blog_feed.xml", "w") as f:
-        f.write(xml)
+        # Write to file
+        with open("rss/blog_feed.xml", "w") as f:
+            f.write(xml)
 
-    print("RSS feed created")
+        print("RSS feed created")
 
 
 blog_information = get_blogs()

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -11,31 +11,36 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="stylesheet" href="style.css?v=3.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
-    <title>The Edspace</title>
+    <title>The EdSpace</title>
 </head>
 
 <body>
-    <header>
-        <h1>Edward Atkin</h1>
-    </header>
     <main>
-        <nav>
-            <div id="buttonsContainer">
-                <a href="about.html" class="button">About</a>
-                <a href="games.html" class="button">Games</a>
-                <a href="videos.html" class="button">Videos</a>
-                <a href="code.html" class="button">Code</a>
-                <a href="blog.html" class="button">Blog</a>
-                <a href="/comics/pages/comic_9.html" class="button">Comics</a>
-                <a href="feeds.html" class="button">Follow Site Updates</a>
+        <article>
+            <input type="checkbox" id="toggle-theme" />
+            <label for="toggle-theme">
+                <img src="images/lightSwitch.png" alt="A light switch" id="lightswitch" />
+            </label>
+
+            <div id="markdown">
+                <h1>RSS Feeds</h1>
+                <p>Follow my blog posts and other updates using the following RSS feeds:</p>
+                <ul>
+                    <li><a href="rss/blog_feed.xml" target="_blank">Blog</a></li>
+                    <li><a href="rss/comic_feed.xml" target="_blank">Comics</a></li>
+                </ul>
+                <p><a href="https://www.youneedfeeds.com/what-is-a-web-feed" target="_blank">But what the hell is
+                        RSS?</a></p>
+                <p><a href="/index.html">&lt;- Back to home</a></p>
             </div>
-        </nav>
+        </article>
     </main>
-    <footer id="homepage-footer">
+
+    <footer>
         <p>Copyright &copy; <span id="year">2023</span> Edward Atkin</p>
         <script>
             document.getElementById("year").innerHTML = new Date().getFullYear();

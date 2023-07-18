@@ -197,8 +197,7 @@ def make_rss_feed(data):
     items = soup.find_all("item")
 
     # Loop through the comics and create new items for any that are missing from the feed
-    # To do this I basically have to extract the comic title because that's probably the best unique identifier
-    latest_title = items[0].find("title").text
+    titles = [item.find("title").text for item in items]
 
     # Start creating the item components
     # Iterate over the comics in reverse order to start with most recent
@@ -206,8 +205,8 @@ def make_rss_feed(data):
     count = 0
     for comic in data[-max_items:][::-1]:
         # If the comic's title is the same as the latest title, we've reached the end of the feed
-        if comic["name"] == latest_title:
-            break
+        if comic["name"] in titles:
+            continue
 
         # Otherwise we can add the comic to the feed
         date_formatted = datetime.strptime(comic["date"], "%Y-%m-%d").strftime(
@@ -215,6 +214,11 @@ def make_rss_feed(data):
         )
         # Add the current time
         date_formatted += datetime.now().strftime(" %H:%M:%S GMT")
+
+        # If count = 0, this is the latest comic, so update last build date
+        if count == 0:
+            xml[0] = xml[0].replace("[LAST_BUILD_DATE]", date_formatted)
+
         xml_item = (
             rss_components["comic_item"]
             .replace("[COMIC_LINK]", base_url + f"/comics/pages/comic_{i}.html")
