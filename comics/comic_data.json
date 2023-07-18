@@ -61,5 +61,12 @@
         "date": "2023-07-13",
         "src": "comic9.png",
         "tooltip": "Birbo is sad because she can't find her beer either but she doesn't know that yet"
+    },
+    {
+        "name": "Fry Day",
+        "description": "Mario's head from Mario Teaches Typing 2 tries to kill Bowser but Somersault Guy from Impossible Mission for the Commodore 64 stops him.",
+        "date": "2023-07-18",
+        "src": "comic10.png",
+        "tooltip": "Cooking Mama makes a cameo appearance in this comic but she doesn't do anything"
     }
 ]

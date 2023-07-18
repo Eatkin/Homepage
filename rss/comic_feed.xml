@@ -1,9 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
 <channel>
 <title>Pixelated Peculiarities</title>
-<link>https://eatkin.neocities.org/comics/pages/comic_9.html</link>
+<link>https://eatkin.neocities.org/comics/pages/comic_10.html</link>
 <description>An absolute dumpster fire of a sprite comic</description>
 <atom:link href="https://eatkin.neocities.org/rss/comic_feed.xml" rel="self" type="application/rss+xml"/>
+<lastBuildDate>Tue, 18 Jul 2023 13:18:36 GMT</lastBuildDate>
+ <item>
+<title>Fry Day</title>
+<link>https://eatkin.neocities.org/comics/pages/comic_10.html</link>
+<description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_10.html"><img src="https://eatkin.neocities.org/comics/img/comic10.png" /></a><p>Mario's head from Mario Teaches Typing 2 tries to kill Bowser but Somersault Guy from Impossible Mission for the Commodore 64 stops him.</p>]]></description>
+<guid>https://eatkin.neocities.org/comics/pages/comic_10.html</guid>
+<pubDate>Tue, 18 Jul 2023 13:18:36 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator></item>
 <item>
 <title>Drunk Bush and the Mystery of the Missing Beer</title>
 <link>https://eatkin.neocities.org/comics/pages/comic_9.html</link>
