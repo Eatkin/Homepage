@@ -140,6 +140,14 @@ a.button:nth-of-type(6):hover {
     background-color: rgba(186, 85, 211, 1);
 }
 
+a.button:nth-of-type(7) {
+    border-color: rgb(0, 0, 0);
+}
+
+a.button:nth-of-type(7):hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
 /*Homepage footer specific (it has to be absolutely positioned)*/
 #homepage-footer {
     position: absolute;
