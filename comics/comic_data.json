@@ -68,5 +68,12 @@
         "date": "2023-07-18",
         "src": "comic10.png",
         "tooltip": "Cooking Mama makes a cameo appearance in this comic but she doesn't do anything"
+    },
+    {
+        "name": "Batman Giraffe and the Mystery of the Missing Giraffe Suit",
+        "description": "Batman is on a giraffe mission but he can't find his giraffe suit. He is also a giraffe.",
+        "date": "2023-07-21",
+        "src": "comic11.png",
+        "tooltip": "Batman is not actually a giraffe but he is wearing a giraffe suit. He is also a giraffe."
     }
 ]

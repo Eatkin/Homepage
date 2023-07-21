@@ -215,10 +215,6 @@ def make_rss_feed(data):
         # Add the current time
         date_formatted += datetime.now().strftime(" %H:%M:%S GMT")
 
-        # If count = 0, this is the latest comic, so update last build date
-        if count == 0:
-            xml[0] = xml[0].replace("[LAST_BUILD_DATE]", date_formatted)
-
         xml_item = (
             rss_components["comic_item"]
             .replace("[COMIC_LINK]", base_url + f"/comics/pages/comic_{i}.html")
@@ -231,25 +227,32 @@ def make_rss_feed(data):
         i -= 1
         count += 1
 
-    print(f"Added {count} new items to the RSS feed")
+    if count == 0:
+        print("No new items to add to the RSS feed")
+    else:
+        print(f"Added {count} new items to the RSS feed")
 
-    # Now we need to add the existing items to reach max_items
-    for i in range(max_items - count):
-        # Use a try except block to catch the case where there are fewer than max_items comics
-        try:
-            xml.append(str(items[i]))
-        except:
-            break
+        # Now we need to add the existing items to reach max_items
+        for i in range(max_items - count):
+            # Use a try except block to catch the case where there are fewer than max_items comics
+            try:
+                xml.append(str(items[i]))
+            except:
+                break
 
-    xml.append("</channel>")
-    xml.append("</rss>")
-    xml = "\n".join(xml)
+        xml.append("</channel>")
+        xml.append("</rss>")
+        xml = "\n".join(xml)
 
-    # Write to file
-    with open("rss/comic_feed.xml", "w") as f:
-        f.write(xml)
+        # Replace last build date with current date and time
+        date_formatted = datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT")
+        xml = xml.replace("[LAST_BUILD_DATE]", date_formatted)
 
-    print("RSS feed created")
+        # Write to file
+        with open("rss/comic_feed.xml", "w") as f:
+            f.write(xml)
+
+        print("RSS feed created")
 
 
 data = get_comic_data()

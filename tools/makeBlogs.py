@@ -284,6 +284,10 @@ def make_rss_feed(blogs_list):
         xml.append("</rss>")
         xml = "\n".join(xml)
 
+        # Replace last build date with current date and time
+        date_formatted = datetime.now().strftime("%a, %d %b %Y %H:%M:%S GMT")
+        xml = xml.replace("[LAST_BUILD_DATE]", date_formatted)
+
         # Write to file
         with open("rss/blog_feed.xml", "w") as f:
             f.write(xml)
