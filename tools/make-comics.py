@@ -3,6 +3,7 @@ import json
 import re
 from datetime import datetime
 from bs4 import BeautifulSoup
+from html import unescape
 
 # What are we gonna do?
 """
@@ -131,18 +132,29 @@ def parse_comics(data):
             f"Created page for comic {comic['name']}. {comic_num - 1} of {num_comics}"
         )
 
-    # Update index.html - find the button with the content "Comics" and replace the href
-    with open("index.html", "r") as f:
+    # Update some things in the comic index
+    with open("tools/comic_index_boilerplate.html", "r") as f:
         index_html = f.read()
 
-    # Match regex for the button link - it is of the form "/comics/.*", we want to capture the bit between the quotes and replace it
-    regex = r'(?<=<a href=")/comics/.*(?=" class="button">)'
-    replacement = links_dict["last"]
+    # We add the latest link
+    index_html = index_html.replace("[REPLACE WITH LATEST LINK]", links_dict["last"])
 
-    index_html = re.sub(regex, replacement, index_html)
+    # Latest OG image
+    og = make_OG_tags(data[-1], len(data))
+    # Get the image
+    soup = BeautifulSoup(og, "html.parser")
+    soup = soup.find("meta", {"property": "og:image"})
+    img = soup["content"]
+
+    index_html = index_html.replace("[REPLACE WITH LATEST THUMBNAIL]", img)
+
+    # Finally replace the description
+    index_html = index_html.replace(
+        "[REPLACE WITH LATEST DESCRIPTION]", data[-1]["description"]
+    )
 
     # Update
-    with open("index.html", "w") as f:
+    with open("comics_index.html", "w") as f:
         f.write(index_html)
     print("Index.html updated")
 
@@ -236,7 +248,21 @@ def make_rss_feed(data):
         for i in range(max_items - count):
             # Use a try except block to catch the case where there are fewer than max_items comics
             try:
-                xml.append(str(items[i]))
+                # We actually need to clean the text up because the xml parser escapes the html and screws everything up in general
+                item = items[i]
+                pre = "<![CDATA["
+                post = "]]>"
+                # Get the description string so it's unescaped
+                description = item.find("description").text
+                # Add pre and post tags back in
+                description = pre + description + post
+
+                # Now we can put the description back into the item
+                item.find("description").string = description
+                # Convert item to a string
+                item = str(item)
+                item = unescape(item)
+                xml.append(item)
             except:
                 break
 
@@ -249,10 +275,14 @@ def make_rss_feed(data):
         xml = xml.replace("[LAST_BUILD_DATE]", date_formatted)
 
         # Write to file
-        with open("rss/comic_feed.xml", "w") as f:
+        # NOTE I am creating a new file here because I don't want to overwrite the existing feed until I'm sure it's working
+        with open("rss/comic_feed1.xml", "w") as f:
             f.write(xml)
 
         print("RSS feed created")
+        print(
+            "NOTE: Saved to comic_feed1.xml because I want to verify it works before overwriting the existing feed"
+        )
 
 
 data = get_comic_data()

@@ -148,11 +148,12 @@ a.button:nth-of-type(7):hover {
     background-color: rgba(0, 0, 0, 1);
 }
 
-/*Homepage footer specific (it has to be absolutely positioned)*/
-#homepage-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
+a.button:nth-of-type(8) {
+    border-color: rgb(162, 14, 97);
+}
+
+a.button:nth-of-type(8):hover {
+    background-color: rgba(162, 14, 97, 1);
 }
 
 /*Markdown reader or generic article*/
@@ -496,6 +497,11 @@ So I have to apply different properties for both */
     text-align: left;
 }
 
+.comic-thumb {
+    width: 240px;
+    display: inline-block;
+}
+
 /* Rollover tooltips */
 /* Tooltip container */
 .tooltip {
@@ -503,6 +509,33 @@ So I have to apply different properties for both */
     display: inline-block;
     border-bottom: 1px dotted black;
     /* If you want dots under the hoverable text */
+}
+
+/* Uncategorisable */
+#social-icons {
+    /* THis unordered list should appear inline */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+#social-icons li {
+    margin: 0 10px;
+}
+
+#social-icons li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    margin-top: 0;
+    transition: opacity 0.2s ease-in-out, margin-top 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+#social-icons li img:hover {
+    opacity: 0.5;
+    margin-top: -10px;
 }
 
 /*Media queries*/

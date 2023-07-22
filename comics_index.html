@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css?v=2.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <title>The EdSpace</title>
+</head>
+
+<body>
+    <main>
+        <article>
+            <input type="checkbox" id="toggle-theme" />
+            <label for="toggle-theme">
+                <img src="images/lightSwitch.png" alt="A light switch" id="lightswitch" />
+            </label>
+
+            <div id="markdown">
+                <h1>Comics</h1>
+                <h2>Pixelated Peculiarities</h2>
+                <p>Pixelated Peculiarities is a hellish sprite comic inspired by a past era of bad Sonic sprite comics.
+                </p>
+                <p>These comics are carefully designed to be ridiculous, nonsensical, with bizarre art stylings and
+                    random characters.</p>
+                <h3>Latest comic:</h3>
+                <a href="comics/pages/comic_11.html" target="_self"><img class="comic-thumb"
+                        src="comics/og/comic_11.png"></a>
+                <p><i>Batman is on a giraffe mission but he can't find his giraffe suit. He is also a giraffe.</i></p>
+                <h2>Hewligg Urobokkle</h2>
+                <p>Hewligg Urobokkle is a comic I made when I was 12 years old, I managed to recover it from the
+                    Internet Archive so I'm archiving it here.</p>
+                <p>It's not nearly as terrible as you might expect.</p>
+                <h3>Read:</h3>
+                <a href="comics/hewligg_urobokkle/pages/comic_1.html" target="_self"><img class="comic-thumb"
+                        src="comics/hewliggurobokklethumb.png"></a>
+                <p><a href="/index.html">&lt;- Back to home</a></p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; <span id="year">2023</span> Edward Atkin</p>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
+    </footer>
+</body>
+
+</html>
