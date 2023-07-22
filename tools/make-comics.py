@@ -156,7 +156,7 @@ def parse_comics(data):
     # Update
     with open("comics_index.html", "w") as f:
         f.write(index_html)
-    print("Index.html updated")
+    print("Comic index page updated")
 
 
 def make_OG_tags(comic, comic_num):
@@ -275,14 +275,10 @@ def make_rss_feed(data):
         xml = xml.replace("[LAST_BUILD_DATE]", date_formatted)
 
         # Write to file
-        # NOTE I am creating a new file here because I don't want to overwrite the existing feed until I'm sure it's working
-        with open("rss/comic_feed1.xml", "w") as f:
+        with open("rss/comic_feed.xml", "w") as f:
             f.write(xml)
 
         print("RSS feed created")
-        print(
-            "NOTE: Saved to comic_feed1.xml because I want to verify it works before overwriting the existing feed"
-        )
 
 
 data = get_comic_data()

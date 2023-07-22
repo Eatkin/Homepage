@@ -1,11 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
 <channel>
 <title>Pixelated Peculiarities</title>
-<link>https://eatkin.neocities.org/comics/pages/comic_11.html</link>
+<link>https://eatkin.neocities.org/comics/pages/comic_12.html</link>
 <description>An absolute dumpster fire of a sprite comic</description>
 <atom:link href="https://eatkin.neocities.org/rss/comic_feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Fri, 21 Jul 2023 18:05:29 GMT</lastBuildDate>
+<lastBuildDate>Sat, 22 Jul 2023 16:36:13 GMT</lastBuildDate>
  <item>
+<title>Garfield Has a Zany Existential Crisis and Dies and Goes to Hell and Gets Eaten by a Demon and Dies Again and</title>
+<link>https://eatkin.neocities.org/comics/pages/comic_12.html</link>
+<description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_12.html"><img src="https://eatkin.neocities.org/comics/img/comic12.png" /></a><p>Garfield has had enough of his mundane lasgne life and decides to kill himself. He goes to hell and gets eaten by a demon and that kills him again. He is very dead. None of that actually happens in this comic though.</p>]]></description>
+<guid>https://eatkin.neocities.org/comics/pages/comic_12.html</guid>
+<pubDate>Sat, 22 Jul 2023 16:36:13 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator></item>
+<item>
 <title>Batman Giraffe and the Mystery of the Missing Giraffe Suit</title>
 <link>https://eatkin.neocities.org/comics/pages/comic_11.html</link>
 <description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_11.html"><img src="https://eatkin.neocities.org/comics/img/comic11.png" /></a><p>Batman is on a giraffe mission but he can't find his giraffe suit. He is also a giraffe.</p>]]></description>
@@ -66,13 +73,6 @@
 <link>https://eatkin.neocities.org/comics/pages/comic_3.html</link>
 <description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_3.html"><img src="https://eatkin.neocities.org/comics/img/comic3.png" /></a><p>Alex Kidd drives a car and it's whacky and wheelie.</p>]]></description>
 <guid>https://eatkin.neocities.org/comics/pages/comic_3.html</guid>
-<pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate>
-<dc:creator>Edward Atkin</dc:creator></item>
-<item>
-<title>Gotta Grow Pasta</title>
-<link>https://eatkin.neocities.org/comics/pages/comic_2.html</link>
-<description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_2.html"><img src="https://eatkin.neocities.org/comics/img/comic2.png" /></a><p>Knuckles the Echidna tries to punch Sonic but it doesn't work because he's too fast, so he grows pasta.</p>]]></description>
-<guid>https://eatkin.neocities.org/comics/pages/comic_2.html</guid>
 <pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate>
 <dc:creator>Edward Atkin</dc:creator></item>
 </channel>
