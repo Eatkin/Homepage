@@ -4,6 +4,7 @@ import markdown
 import json
 from datetime import datetime
 from bs4 import BeautifulSoup
+from html import unescape
 
 
 def get_blogs():
@@ -239,6 +240,8 @@ def make_rss_feed(blogs_list):
     xml.append(rss_components["blog_header"])
 
     i = len(blogs_list)
+    # Blogs are sorted in reverse chronological order so we need to flip the list
+    blogs_list = blogs_list[::-1]
     count = 0
     for blog in blogs_list[-max_items:]:
         # If the blog is already in the feed, we've reached the end of the new blogs, so break
@@ -258,9 +261,30 @@ def make_rss_feed(blogs_list):
             rss_components["blog_item"]
             .replace("[BLOG_TITLE]", blog["title"])
             .replace("[BLOG_LINK]", base_url + blog["url"].replace(".md", ".html"))
-            .replace("[BLOG_DESCRIPTION]", blog["description"])
             .replace("[BLOG_DATE]", date_formatted)
         )
+
+        # I am going to make this XML feed compatible with feed readers
+        # Thus I need to replace [BLOG] with the relevant cdata
+        # Like this: <![CDATA[Insert blog here]]>
+        # Use BeautifulSoup to parse the blog html to get the html between the 'markdown' div
+        blog_html = ""
+        with open(blog["filepath"].replace(".md", ".html"), "r") as f:
+            blog_html = f.read()
+
+        soup = BeautifulSoup(blog_html, "html.parser")
+        blog_html = soup.find("div", {"id": "markdown"}).decode_contents()
+
+        # Drop the final <p> tag because it's just a back button
+        final_p = soup.find_all("p")[-1]
+
+        blog_html = blog_html.replace(str(final_p), "")
+
+        # Now put it into the cdata format
+        blog_html = "<![CDATA[" + blog_html + "]]>"
+
+        # And add it into the xml item
+        xml_item = xml_item.replace("[BLOG]", blog_html)
 
         xml.append(xml_item)
         i -= 1
@@ -275,7 +299,22 @@ def make_rss_feed(blogs_list):
         for i in range(max_items - count):
             # Use a try except block to catch the case where there are fewer than max_items comics
             try:
-                xml.append(str(items[i]))
+                # We need to clean up because the xml parser escapes the html and fucks everything up
+                item = items[i]
+                pre = "<![CDATA["
+                post = "]]>"
+
+                # Get the description text
+                description = item.find("description").text
+
+                description = pre + description + post
+
+                # Now put the description back into the item
+                item.find("description").string = description
+                # Convert to string
+                item = str(item)
+                item = unescape(item)
+                xml.append(item)
             except:
                 break
 

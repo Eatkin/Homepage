@@ -4,18 +4,196 @@
 <link>https://eatkin.neocities.org/blog</link>
 <description>I am starting a blog to write about pointless anecdotes, mundane things and random musings. It will have some pictures. I hope you like it.</description>
 <atom:link href="https://eatkin.neocities.org/rss/blog_feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 18 Jul 2023 08:59:31 GMT</lastBuildDate>
+<lastBuildDate>Sun, 23 Jul 2023 10:22:50 GMT</lastBuildDate>
+<item>
+<title>On Bootcamp Disillusionment and Burnout</title>
+<link>https://eatkin.neocities.org/txt/blog/2023/July/burnout.html</link>
+<description><![CDATA[
+<h1>23/07/2023</h1>
+<h1>On Bootcamp Disillusionment and Burnout</h1>
+<p>I took a major decision in my life this year and decided to join a part time Data Science bootcamp to pivot my career in a completely new direction.</p>
+<p>I am currently a brewer, but I have always had an interest in coding, but I've just always really really struggled to learn programming alone.</p>
+<p>This is likely turning out to be one of the best decisions of my life, because as it turns out I really love doing data science things and dealing with data, but after about 2 months of pushing to learn as much as I can, I crashed hard.</p>
+<p>This is some reflections on burnout and how I feel amidst it.</p>
+<h2>The Decline</h2>
+<p>I was fully immersed in learning data science. I was doing supplementary reading, taking on my own personal projects, learning from courses on Udemy and Youtube, doing a completely insane amount of coding problems, making sure I fully understood every concept.</p>
+<p>Then one day I sat down and thought "I don't want to do this anymore.". It was like a switch had been flipped. I had gone from being completely immersed in learning, to not wanting to do anything. I spent days wasting away, feeling guilty about not doing anything, but simultaneously not feeling able to do anything.</p>
+<p>I feel like I have yet to recover from it. I struggle to focus on lectures, I struggle to focus on live code sessions. Where I used to talk and contribute, I now just stay silent and feel sad. Where I would push out my comfort zone to ask questions and get support, I now just work alone.</p>
+<p><img alt="Working alone" src="/images/blog/2023/burnout.png"/></p>
+<h2>Breaking Free</h2>
+<p>I did have one project that partially snapped me out of my rut. A completely unguided project where we had to work on a machine learning model to predict house prices (it was a Kaggle competition). That day, I spent the best part of 12 hours working on the project, so there is some spark still there, it's just that it's hiding away within me.</p>
+<p>Unfortunately, whilst this project has shifted the baseline up a little bit, I'm still feeling fried.</p>
+<p>The worst thing is that when I think about these things, I feel sad. Like I've gone from doing incredibly well at everything, feeling fulfilled, to just being okay at it.</p>
+<p>It's all too reminiscent of University where my first year went very well, then after that, it all went down the drain and I was unable to ever recover from my poor mental state.</p>
+<h2>Anti Rewards</h2>
+<p>Have you ever found that you find a song you love, you listen to it over and over again, then one day you just can't stand it anymore?</p>
+<p>I found great joy in solving coding problems on Codewars. I did a completely mad amount of problems, racking up about 600 solutions in 3 months. I almost found them addictive and I hit the top 0.8% of users on the site for number of problems solved.</p>
+<p>But since the crash, my brain's anti-reward system seems to find coding problems repellent. I can barely find myself able to read the problem, let alone sit down and write code.</p>
+<p>Not only that, but I feel like somehow by not doing these problems, my brain is losing the ability. Right now as I'm typing this, my knowledge of SQL queries I worked so hard to practise is surely being deleted from my head.</p>
+<p>Now I would love this to be an inspirational story about how I managed to break free of these feelings and am now back to my old self, but I'm not. I don't know how to break out of this state of mind, but surely merely being in this state of mind is having a negative impact, causing a negative feedback loop, making everything worse, making me feel worse. The guilt making me unable to actually do the one thing that would no doubt actually make me feel better - taking a break.</p>
+<p>But perhaps, at the very least, some of this might resonate with someone else who is going through the same thing.</p>
+]]></description>
+<guid>https://eatkin.neocities.org/txt/blog/2023/July/burnout.html</guid>
+<pubDate>Sun, 23 Jul 2023 10:22:50 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator></item>
 <item>
 <title>On the Wonders of RSS</title>
 <link>https://eatkin.neocities.org/txt/blog/2023/July/onrss.html</link>
-<description>I certainly spend more time than the average person complaining about how much I dislike the modern internet. And yet, here I am, still using social media, stil...</description>
+<description><![CDATA[
+<h1>18/07/2023</h1>
+<h1>On the Wonders of RSS</h1>
+<p>I certainly spend more time than the average person complaining about how much I dislike the modern internet. And yet, here I am, still using social media, still visiting Reddit, still complaining about it.</p>
+<p>Because I don't know what else to do.</p>
+<p>When I was younger, I just spent all my time on GameFAQs boards. That was basically primitive social media.</p>
+<p>Has it ever been any different? I just spent all my time on a certain ring of websites, never leaving, but at the time I think I was content with that.</p>
+<p>Am I glorifying a past that didn't exist?</p>
+<p>Well, either way, I still miss StumbleUpon helping me with internet discovery. <a href="https://www.youtube.com/watch?v=5Sy7e-pz2c8">I made a video about it</a>. <a href="https://eatkin.neocities.org/txt/blog/2023/February/stumbleupon">I wrote a blog about it</a>. I'm talking about it now. I just won't let it go.</p>
+<p>But an ancient technology has been around for a long time, one which I haven't used until recently, and it might be what's going to save us.</p>
+<p>I'm talking about RSS - Really Simple Syndication. This is, in essence, an XML file containing a website's latest updates.</p>
+<p>Have you come across a blog you enjoyed? No need to bookmark it and check for updates, or subscribe to that newsletter, just follow their RSS feed.</p>
+<p>Comic you enjoy? Follow it with RSS.</p>
+<p>Website you like? Maybe they'll have an RSS feed. I get updates from <a href="https://www.fieggen.com/shoelace/index.htm">Ian's Shoelace Site</a> delivered to my RSS inbox every day and get a daily dose of photos of great shoelacing patterns.</p>
+<h2>Getting Started with RSS</h2>
+<p>This isn't actually my first time using RSS, I used it once before. A long, long time ago, to follow Garfield Minus Garfield. Setting up the feed was weird and confusing and I just had a feed on my bookmarks bar which I still had to manually check.</p>
+<p>But those times are long gone, RSS readers are widespread, and make the whole process painless.</p>
+<p>I personally recommend <a href="https://feedly.com/">Feedly</a>, although it only allows you to follow up to 100 feeds for free. It has nice features though. You can search for RSS feeds by topic, so you don't have to know what you want to follow in advance.</p>
+<p>Once you have it set up, you can just hop onto Feedly and get a chronological list of updates from websites you follow. Website <em>you</em> want to follow. No more Reddit hivemind deciding what's popular. No more social media. No more clickbait nonsense. This is yours to control.</p>
+<p><img alt="RSS is Cool" src="/images/blog/2023/rss.png"/></p>
+<p>There's alternatives to Feedly of course. <a href="https://feedreader.com/">Feed Reader/Feed Reader Online</a> doesn't seem to have restrictions, but it certainly leaves something to be desired compared in terms of appearance and mobile responsiveness.</p>
+<p>If you don't care about being able to take your feeds with you on your phone, you can use a desktop reader like <a href="https://www.rssowl.org/">RSS Owl</a>.</p>
+<p>You can organise your feeds into folders.</p>
+<p>You can export your organised list of feeds and take them wherever you want.</p>
+<p>You can put Youtube channels and podcasts in your RSS Reader of choice to avoid having to even go to Youtube's homepage or check for podcast updates.</p>
+<p>You can follow this <a href="https://eatkin.neocities.org/rss/blog_feed.xml">blog's updates</a> and my <a href="https://eatkin.neocities.org/rss/comic_feed.xml">comic's updates</a>.</p>
+<p>RSS has been around since 1999, and I don't see it mentioned much. But it deserves more love.</p>
+<p>Social media is linked to depression and misery, but I feel like part of the difficultly in leaving is simply because you don't know what other options there are.</p>
+<p>RSS has turned my internet experience around. And I genuinely feel more positive for it.</p>
+]]></description>
 <guid>https://eatkin.neocities.org/txt/blog/2023/July/onrss.html</guid>
 <pubDate>Tue, 18 Jul 2023 08:59:31 GMT</pubDate>
 <dc:creator>Edward Atkin</dc:creator></item>
 <item>
+<title>In Which I Discuss Multiple Failed Attempts At Making Websites</title>
+<link>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</link>
+<description><![CDATA[
+<h1>20/06/2023</h1>
+<h1>In Which I Discuss Multiple Failed Attempts At Making Websites</h1>
+<p>This website isn't my first rodeo. Or my second. Or my third. I think it's probably my 6th or so?</p>
+<p>So let's talk about some internet history that surely nobody will care about!</p>
+<h2>The First Website</h2>
+<p>I've been on the internet since a young age, my dad worked in IT so we were hooked up to the internet in the early 90s.</p>
+<p>He decided it'd be a fun idea to make his kids a website each, and so that was my first website.</p>
+<p>No trace of this website exists any longer. It was simply one page, with a photo of me and a little about me. I remember saying that my favourite website was <a href="https://3drealms.com/">3d Realms</a>, which would you believe it, is still going today!</p>
+<p>3D Realms hosted a whole host of shareware games so I could fill my boots with games that I never did very well at because I was about 5 years old and terrible at playing video games.</p>
+<h2>The Website I Don't Even Remember</h2>
+<p>Nothing on the internet is ever deleted. Except my first website, pretty sure that's gone without a trace.</p>
+<p>There is, however, a second incarnation that made it onto the internet archive (somehow). I was 12 years old.</p>
+<p>Here's a tip for you, don't let a 12 year old try and make a website.</p>
+<p>Made with the archaic Microsoft Frontpage, it features such wonders as "Sonic", "ratchet and clank" and "Message boards" (which didn't work because I had no idea how to make websites).</p>
+<p>I have managed to dig up on very excellent sprite comic I made though, which I will share with you now. I present, "Chao Wars 2" (Chao Wars 1 wasn't archived).</p>
+<p><img alt="Chao Wars 2 Comic" src="/images/blog/2023/chao_w1.jpg"/></p>
+<h2>I Decide To Make Sprite Comics</h2>
+<p>Sometimes when people are younger they do things they subsequently prefer to forget about, and for me it was hosting a sprite comic website. Inspired by the very terrible in hindsight <a href="https://www.angelfire.com/anime3/tms/new.html">That's My Sonic!</a>, many Sonic fans of the era thought it would be fun to make their own sprite comics. Maybe they still do, but Web 1.0 is over, and nobody will see them anymore.</p>
+<p>It wasn't even just me making the comics, there were maybe 4 of us all creating what were probably terrible comics that probably nobody even looked at. Bleh. It may be a good 18 years on from then but looking back on this still gives me butterflies in my stomach.</p>
+<p>Surprisingly, a lot of this stuff was actually archived and I uncovered such forgotten relics as "Jonic Heroes" which will surely have been buried forever should I not have decided to mention it here.</p>
+<p>So here I present to you the final comic in the Hewligg Urobokkle series (Hewligg Urobokkle is an enemy from Megaman and I just thought the sprite looked cool so I made a comic based around him, despite having never played Megaman).</p>
+<p><img alt="Hewligg Urobokkle 50" src="/images/blog/2023/hu.png"/></p>
+<p>This series ended with me getting older, realising I was wasting away spending all my time on the internet, and in an emotional outburst, permanently deleting the entire website and cutting all ties with online forums.</p>
+<p>But remember, nothing on the internet is ever truly deleted.</p>
+<h2>I Attempt Food Blogging</h2>
+<p>There's not too much in this I made some recipes, thought I'd blog about it. It was also going to be a beer blog in which I documented my quest to drink a beer from every country in the world (I failed when I got to Saudi Arabia for some reason).</p>
+<p>I didn't have the stomach to write those long, sprawling, rambling blog posts that seem to be a requirement for SEO rankings and quickly realised food blogging was annoying and gave up.</p>
+<p>I did actually manage quite a good go at it before getting bored though, with 14 recipes making it up.</p>
+<p>Sadly, there is absolutely no trace of Food Bear left online, contradicting what I just said above about nothing on the internet ever being truly deleted. I still have the photos I took for my recipes though, and a folder called "stupid pictures". And so, here is a photo of my chin.</p>
+<p><img alt="My chin" src="/images/blog/2023/chin.jpg"/></p>
+<h2>I Attempt Video Game Blogging</h2>
+<p>Whilst I was totally into indie game development a while ago, I decided I should start writing devlogs, and thus I created an accompanying Wordpress website.</p>
+<p>I branched out into writing about indie games, along with other obscure retro games. But soon the curse of novelties wearing off got to me once again and updates became slower, until I decided not to bother anymore.</p>
+<p>The thing is, blogging about video games just felt like an awkward medium for it. I had such vocal shyness that I couldn't possibly imagine getting a microphone and putting myself out there for the world to hear.</p>
+<p>I actually always liked to idea of making Youtube videos, and I've been watching Youtube pretty much since it first existed, but I never could bring myself to do it.</p>
+<p>Eventually, I actually pulled the trigger and bought a microphone and moved my medium to video. The first voiceover I tried to record filled me with such a heightened sense of anxiety. The thought of even recording myself, let alone having to listen back to myself and have <em>other people</em> listen to me as well, was truly too much for me.</p>
+<p>It's hard to put myself in those shoes now, because recording myself just feels fine now I've done it a few times.</p>
+<p>And so this was the direct precursor to my Youtube Channel <a href="https://www.youtube.com/@ClassicEd">Classic Ed</a> becoming a reality.</p>
+<h2>This Website</h2>
+<p>The previous website was a Wordpress website, and I think managing a Wordpress site somewhat contributed to my dislike of the whole Web 2.0 thing. It just felt so soulless, I hadn't put any work into it, I just banged out blogs and a backend did the rest of the work for me. I didn't feel attached to it, I didn't feel like it reflected me and I just didn't really like it.</p>
+<p>And so here we are on Neocities, a place I feel harks back to the Web 1.0 days that I won't stop talking about.</p>
+<p>I was introduced to Freecodecamp by my boss and tried out their frontend web development course, something I never thought I could possibly enjoy, but I gave it a good go regardless. And wouldn't you know it, I think it's alright.</p>
+<p>It took a while to get to where we are today, but this website is truly something I'm happy with and proud of creating. It looks good (at least I think so), I made it by hand and it's more made for myself than anyone else.</p>
+<p>And so concludes a short history of my failed websites.</p>
+]]></description>
+<guid>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</guid>
+<pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator>
+</item>
+<item>
+<title>In Which I Discuss My Alcoholism</title>
+<link>https://eatkin.neocities.org/txt/blog/2023/June/alcoholism.html</link>
+<description><![CDATA[
+<h1>05/06/2023</h1>
+<h1>In Which I Discuss My Alcoholism</h1>
+<h2>An Intro To Everyday Alcoholism</h2>
+<p>Often when you think of alcoholics, you think of the people who are drinking in Wetherspoons (a cheap British pub chain for the uninitiated) at 7am. You think of homeless people, or people who have lost their jobs and families. You think of people who have hit rock bottom. But alcoholics walk among us, and a lot of the time, you wouldn't even know it.</p>
+<p>There is no definitive definition of what it takes to be an alcoholic, but a generally accepted principle is that, if you have ever wondered if you are an alcoholic, you probably are one.</p>
+<p>Generally alcoholism starts because we want to escape from something, and obliterating our minds is the only coping mechanism we can think of. Or it can simply be a slippery slope. You drink on Friday and Saturday. Eventually you add Sunday in. You had a bad day on Monday so you have a drink to take the edge off. Then it creeps up and up until you're drinking every day.</p>
+<p>It happened to me, it's happened to lots of people, it could happen to you. And alcohol's grip on your addicted brain will mean you do anything you can to justify it. Plus, let's be real here, it's embarrassing to admit you're an alcoholic. It has so many negative connatations, and it's not something you want to admit to even yourself, let alone other people.</p>
+<p>But this blog isn't necessarily supposed to be about the negatives of alcoholism, it's more a reflection on the positives that I've enjoyed since I stopped drinking, and hopefully it can provide a source of inspiration to some people.</p>
+<p>It feels like giving up drinking is just that, giving something up, something you <em>think</em> you enjoy.</p>
+<p>But it's not. By not drinking you're actually freeing yourself. If drinking is making you miserable, then you're not giving up anything valuable.</p>
+<p>If you woke up every day and threw yourself down the stairs, you wouldn't think "Oh no, I'm giving up throwing myself down the stairs, I'm going to miss it". You'd think "Thank god I'm not throwing myself down the stairs anymore".</p>
+<p>2023 will be my 5th year of no alcohol and thus far, there has not been one single day that I've woken up thinking "I wish I'd had a drink last night". I suspect there never will be.</p>
+<p><img alt="A drawing of a stickman falling down some stairs" src="/images/blog/2023/stairs.png"/></p>
+<h2>The Positives</h2>
+<h3>I've Taken Up Loads of New Hobbies</h3>
+<p>Everything I used to do was accompanied by a drink. Everything. At the same time, alcohol drove my drive to do anything to zero. After even one drink I would just be sedentary for the remainder of the evening.</p>
+<p>I didn't have any hobbies. I didn't do anything. I just sat around and drank. And when I tried to do anything, I couldn't commit to it. Which then made me feel bad, which made me drink more.</p>
+<p>But fastforward to the present day, I now have a lot of hobbies.</p>
+<p>Do you know how long I tried to play guitar for without success? 13 years. But I'm finally actually capable of putting in effort and practice to get at least a little bit better. I would even say that playing guitar is enjoyable now.</p>
+<p>I've also taken up active hobbies. I go running, I go out on inline skates and recently I've taken up surfskating. These are all things I would never have done before because I would have been too hungover, or I wouldn't have felt like it, or I'd have made some excuse, or I'd just be feeling too anxious and self-conscious to go out and do something.</p>
+<p>Actually I still feel self-conscious now, but because I actually get a good, undisturbed night's sleep and wake up feeling good, I can leave the house at 6am to practise things when nobody else is about.</p>
+<h3>I Made A Game</h3>
+<p>One thing that really hit me when I stopped drinking was just how bored I felt. It was like the only reason I found anything entertaining was because I had a drink in my hand.</p>
+<p>When I was younger I used to mess around making games in Gamemaker, so I thought hey, maybe I'll give that a shot again. And I did.</p>
+<p>I made a massive game called <a href="https://eatkin.itch.io/other-minds">Other Minds</a> which I dedicated two years of effort to.</p>
+<p>Okay, looking back it isn't as good as I thought it was at the time, but it's still an absolutely massive accomplishment. And most importantly it laid the groundwork for my next point.</p>
+<h3>I'm Actually Learning Things</h3>
+<p>I made this website. Maybe that doesn't seem like much but I've never made a website before (at least, nothing that didn't look like a dumpster fire), and not for lack of trying. Infact I've tried learning programming many times before, but never really succeeded.</p>
+<p>Without alcohol flowing through my veins, I've been able to actually see joy in learning. It's no longer a means to an end, I'm actually actively interested in knowing about things and how to do things. I'm not just doing it because I think I should.</p>
+<p>I've always quite enjoyed programming, but struggled to get out of my comfort zone. But now I feel like I'm making real progress. I'm learning new things every day and I'm actually enjoying it. I'm always looking forward to the next thing I'm going to learn.</p>
+<h3>Closing</h3>
+<p>It's been a long road to get to this point. Quitting drinking isn't just flicking a switch and instantly your life is amazing. We all have things to deal with, and alcohol doesn't mean you don't have to deal with them. Drinking yourself into obliteration just means you're not dealing with them. And you're also drunk. And hungover. And miserable.</p>
+<p>Quitting drinking, for me, was the first step in a long journey of self-improvement. One which I hope will continue throughout the rest of my life.</p>
+<p>I write this blog for my friend who has just started his journey of sobriety.</p>
+<p>Here's some good links:</p>
+<ul>
+<li><a href="https://www.reddit.com/r/stopdrinking/">Reddit's Stop Drinking subreddit - A great, understanding community of people who want to support you</a></li>
+<li><a href="https://eatkin.itch.io/beer">Beer - A bitsy game I made about drinking. You can walk around and read the narrative</a></li>
+</ul>
+]]></description>
+<guid>https://eatkin.neocities.org/txt/blog/2023/June/alcoholism.html</guid>
+<pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator>
+</item>
+<item>
 <title>In Which I Break Free From My Sister's Banana Boycott</title>
 <link>https://eatkin.neocities.org/txt/blog/2023/April/bananas.html</link>
-<description>I was the younger sibling in my household, thus, I had the tendancy to copy what my older sister did. I used to eat bananas, until one day, she said she hated b...</description>
+<description><![CDATA[
+<h1>17/04/2023</h1>
+<h1>In Which I Break Free From My Sister's Banana Boycott</h1>
+<p>I was the younger sibling in my household, thus, I had the tendancy to copy what my older sister did.</p>
+<p>I used to eat bananas, until one day, she said she hated bananas. Well, I must hate bananas too!</p>
+<p>I never ate a banana again.</p>
+<p>The End.</p>
+<p><img alt="A really badly drawn, out of proportion banana" src="/images/blog/2023/banana.png"/></p>
+<p>Actually more recently, I've been trying to get over my preconceptions of foods I don't "like". Despite never touching oranges, clementines or kiwis, I now regularly eat all of them.</p>
+<p>But bananas, those were a psychological barrier that I found incredibly difficult to overcome. I've had them blended up into smoothies where you can't tell they're there, but an actual, whole banana? I couldn't do it.</p>
+<p>One day, I just thought this is ridiculous. I've read enough psychology books to know that if I eat bananas, my brain will decide "Why would we eat bananas if we didn't like them?".</p>
+<p>So I ate a damn banana, finally, and although my body resisted by making me feel nauseous, that banana was perfectly good.</p>
+<p>Infact, now, I love bananas. I eat them all the time, they're the ideal fruit. So easy and convenient to eat. I even save the skins and cook and eat those as well.</p>
+<p>Oh and by the way, my sister has been merrily eating bananas this whole time because it turns out she was just being a petulant child.</p>
+<p>This is about bananas, but it's also about overcoming preconceptions. There are so many things I don't do or put off because they're scary, or it's easier to just not do them.</p>
+<p>So basically I didn't eat a banana for about 25 years because somebody else said they didn't like them.</p>
+<p>Just eat the damn banana.</p>
+]]></description>
 <guid>https://eatkin.neocities.org/txt/blog/2023/April/bananas.html</guid>
 <pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate>
 <dc:creator>Edward Atkin</dc:creator>
@@ -23,25 +201,31 @@
 <item>
 <title>In Which I Reminisce About The Early Days Of The Internet</title>
 <link>https://eatkin.neocities.org/txt/blog/2023/February/stumbleupon.html</link>
-<description>Remember the internet? Back when everything was less centralised, and things looked worse. I spend most of my time on Discord and Reddit now, never leaving much...</description>
+<description><![CDATA[
+<h1>22/02/2023</h1>
+<h1>In Which I Reminisce About The Early Days Of The Internet</h1>
+<p>Remember the internet? Back when everything was less centralised, and things looked worse.</p>
+<p>I spend most of my time on Discord and Reddit now, never leaving much. It's kind of sad.</p>
+<p>SEO has basically ruined everything. That's why good stuff is buried and the spammiest spam is pushed to the top of search results. That's why when you look up a recipe you have to scroll through 5 minutes of fluff that I'm not convinced anyone ever reads to actually find the recipe.</p>
+<p>Let's not be too critical though, the internet is a wonderful tool. I can literally pull a phone out my pocket and look up anything I want immediately. It's a rare occassion I can't find what I'm looking for.</p>
+<p>But it just doesn't feel as expressive as it used to be.</p>
+<h2>Stumble Upon</h2>
+<p>I made a video recently musing about <a href="https://www.youtube.com/watch?v=5Sy7e-pz2c8">StumbleUpon</a>, it was a discovery engine that took you to cool random websites. In modern times, with SEO spam, it's become more difficult than ever to find cool stuff.</p>
+<p>It was just when we needed StumbleUpon more than ever that it was shut down, replaced by some awful service called <a href="https://mix.com/">Mix</a>. Mix seems to just send you to blogs I've just been complaining about.</p>
+<p>Mix is bad. It's been almost 5 years since StumbleUpon shut down now and there's no replacement. Or maybe there is a replacement, but because of the curse of SEO, I can't find it.</p>
+<p>People used to make things for the sake of it. Now there seems to be a ton of focus on monetisation. Even this website that I personally made just points you to stuff I've made, some of which requires you to pay money to access.</p>
+<p><img alt="Drawing of me using StumbleUpon" src="/images/blog/2023/stumbleUpon.png"/></p>
+<h2>Neocities</h2>
+<p>I love Neocities, because it kind of goes against the modern internet. There's no soulless corporate Wordpress sites here. You make an account, and you're given an index.html. That's it. That's all there is. And you can really show off your personality through an amateur looking website. And it's that amateur look I miss dearly.</p>
+<p>Stuff on Neocities is cool. Check out this page I found called Tesseract. <a href="https://boxy.neocities.org/tesseract">It's a page full of tesseracts</a>. </p>
+<p>It doesn't try to sell you anything, it doesn't try and justify its existense, it's just a page of tesseracts. And it's for that reason that it's very memorable.</p>
+<h2>The Blog's Life's Purpose</h2>
+<p>So that's why I'm here, writing this. I want to write about nothing, random musings, pointless ramblings.</p>
+<p>I want to remember why I make content in the first place. It's for myself, I want to talk about stuff. And it's thanks to the internet I can share stuff with the world. It's just not guaranteed that anybody will actually read it.</p>
+<p>Hopefully I don't just forget about this and never write anything ever again.</p>
+]]></description>
 <guid>https://eatkin.neocities.org/txt/blog/2023/February/stumbleupon.html</guid>
 <pubDate>Wed, 22 Feb 2023 00:00:00 GMT</pubDate>
-<dc:creator>Edward Atkin</dc:creator>
-</item>
-<item>
-<title>In Which I Discuss My Alcoholism</title>
-<link>https://eatkin.neocities.org/txt/blog/2023/June/alcoholism.html</link>
-<description>Often when you think of alcoholics, you think of the people who are drinking in Wetherspoons (a cheap British pub chain for the uninitiated) at 7am. You think o...</description>
-<guid>https://eatkin.neocities.org/txt/blog/2023/June/alcoholism.html</guid>
-<pubDate>Mon, 05 Jun 2023 00:00:00 GMT</pubDate>
-<dc:creator>Edward Atkin</dc:creator>
-</item>
-<item>
-<title>In Which I Discuss Multiple Failed Attempts At Making Websites</title>
-<link>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</link>
-<description>This website isn't my first rodeo. Or my second. Or my third. I think it's probably my 6th or so? So let's talk about some internet history that surely nobody w...</description>
-<guid>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</guid>
-<pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
 <dc:creator>Edward Atkin</dc:creator>
 </item>
 </channel>
