@@ -141,19 +141,19 @@ a.button:nth-of-type(6):hover {
 }
 
 a.button:nth-of-type(7) {
-    border-color: rgb(0, 0, 0);
-}
-
-a.button:nth-of-type(7):hover {
-    background-color: rgba(0, 0, 0, 1);
-}
-
-a.button:nth-of-type(8) {
     border-color: rgb(162, 14, 97);
 }
 
-a.button:nth-of-type(8):hover {
+a.button:nth-of-type(7):hover {
     background-color: rgba(162, 14, 97, 1);
+}
+
+a.button:nth-of-type(8) {
+    border-color: rgb(0, 0, 0);
+}
+
+a.button:nth-of-type(8):hover {
+    background-color: rgba(0, 0, 0, 1);
 }
 
 /*Markdown reader or generic article*/
