@@ -1,5 +1,6 @@
+# 29/07/2023
 # On the Dusty Drawers Full of Abandoned Hobbies
-# 25/07/2023
+
 
 ## Raspberry Pis
 
@@ -27,7 +28,7 @@ I never used them to learn programming, I never spent more than one day on my PI
 
 I am more than capable of doing these things I just...don't.
 
-[Image: a stack of raspberry pis with a spiderweb to indicate age]
+![A stack of sad, unused Raspberry Pis and electronics equipment](/images/blog/2023/hobbies.png)
 
 ## The Fate of Adult Hobbies
 
@@ -61,9 +62,7 @@ It was horrible. Unlike many adults taking up inlines in their 30s, I had never 
 
 But somehow I pushed past all that. I found the motivation to go out at 6am so nobody would see me, and learnt to skate properly.
 
-It's nearly a year on and I love it. Although I found out they are an incredibly impractical mode of transport for various reasons.
-
-[Image: me riding some inline skates]
+It's nearly a year on and I love it. Although I found out they are an incredibly impractical mode of transport for various reasons
 
 So I ordered a surfskate to get around instead, which again sat gathering dust for a while - I did have an excuse this time because I had a bad leg injury.
 
@@ -72,6 +71,8 @@ Eventually, after about 6 months, I managed to push myself to actually learn pro
 I now surfskate to get around and it's immensely enjoyable, albeit incredibly tiring and I have to carry around a heavy board with me. Impractical in a different way to roller skates.
 
 ## Going Outside
+
+![An outdoor scene](/images/blog/2023/outside.png)
 
 You know what I think the difference is? Why I learnt to take up something like inline skating at 30 years old, when I'm usually so scared to do something new, when I have stacks of failed attempts at hobbies?
 
