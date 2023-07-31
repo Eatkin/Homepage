@@ -1,11 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
 <channel>
 <title>Pixelated Peculiarities</title>
-<link>https://eatkin.neocities.org/comics/pages/comic_12.html</link>
+<link>https://eatkin.neocities.org/comics/pages/comic_13.html</link>
 <description>An absolute dumpster fire of a sprite comic</description>
 <atom:link href="https://eatkin.neocities.org/rss/comic_feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Sat, 22 Jul 2023 16:36:13 GMT</lastBuildDate>
+<lastBuildDate>Sun, 30 Jul 2023 08:20:31 GMT</lastBuildDate>
  <item>
+<title>Disco Chicken Visits the Disco</title>
+<link>https://eatkin.neocities.org/comics/pages/comic_13.html</link>
+<description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_13.html"><img src="https://eatkin.neocities.org/comics/img/comic13.png" /></a><p>Disco Chicken is a chicken and he likes disco. He goes to the disco and dances. Wallace from Wallace and Gromit is there. Rayman is bad at dancing so he is executed.</p>]]></description>
+<guid>https://eatkin.neocities.org/comics/pages/comic_13.html</guid>
+<pubDate>Sun, 30 Jul 2023 08:20:31 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator></item>
+<item>
 <title>Garfield Has a Zany Existential Crisis and Dies and Goes to Hell and Gets Eaten by a Demon and Dies Again and</title>
 <link>https://eatkin.neocities.org/comics/pages/comic_12.html</link>
 <description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_12.html"><img src="https://eatkin.neocities.org/comics/img/comic12.png" /></a><p>Garfield has had enough of his mundane lasgne life and decides to kill himself. He goes to hell and gets eaten by a demon and that kills him again. He is very dead. None of that actually happens in this comic though.</p>]]></description>
@@ -67,13 +74,6 @@
 <description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_4.html"><img src="https://eatkin.neocities.org/comics/img/comic4.png" /></a><p>Guybrush Threepwood finds a perfectly normal rurbber chicken with a pulley in the middle. OR DOES HE? (He does.) Oh, and there's a monkey. And a pirate. named LeChuck. And a ghost. nee nee noo noo</p>]]></description>
 <guid>https://eatkin.neocities.org/comics/pages/comic_4.html</guid>
 <pubDate>Thu, 06 Jul 2023 00:00:00 GMT</pubDate>
-<dc:creator>Edward Atkin</dc:creator></item>
-<item>
-<title>Alex Kidd's Whacky Wheelie Adventure</title>
-<link>https://eatkin.neocities.org/comics/pages/comic_3.html</link>
-<description><![CDATA[ <a href="https://eatkin.neocities.org/comics/pages/comic_3.html"><img src="https://eatkin.neocities.org/comics/img/comic3.png" /></a><p>Alex Kidd drives a car and it's whacky and wheelie.</p>]]></description>
-<guid>https://eatkin.neocities.org/comics/pages/comic_3.html</guid>
-<pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate>
 <dc:creator>Edward Atkin</dc:creator></item>
 </channel>
 </rss>
