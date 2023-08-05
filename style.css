@@ -29,13 +29,12 @@ h1 {
     text-align: center;
 }
 
-a {
+a.button {
     text-decoration-style: wavy;
 }
 
 a {
     color: #fff600;
-    text-decoration-style: wavy;
 }
 
 a:hover {
