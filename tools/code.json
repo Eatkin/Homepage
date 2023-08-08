@@ -14,13 +14,22 @@
   },
   {
     "title": "The Git & Github Bootcamp",
-    "description": "Certification from Colt Steele's Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.",
+    "description": "Certificate of completion of Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.",
     "link": "certs/git-github-bootcamp.pdf",
     "tags": [
       "git",
       "udemy",
       "certificate",
       "command-line"
+    ]
+  },
+  {
+    "title": "Design a CPU",
+    "description": "Certificate of completion of Udemy course on CPU design. The course covers the design of a CPU from the ground up, including the design of the instruction set, the ALU, the control unit, the memory unit, and the assembler.",
+    "link": "certs/design-a-cpu.pdf",
+    "tags": [
+      "udemy",
+      "certificate"
     ]
   },
   {
