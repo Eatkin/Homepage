@@ -3,7 +3,7 @@ about.html,1690022724.3711264
 android-chrome-192x192.png,1685707734.0
 android-chrome-512x512.png,1685707734.0
 apple-touch-icon.png,1685707734.0
-blog.html,1691232216.4974446
+blog.html,1691492539.7966712
 browserconfig.xml,1685707734.0
 code.css,1691410724.9136918
 code.html,1691410724.911689
@@ -187,6 +187,7 @@ images\blog\2023\hu.png,1687265862.7817109
 images\blog\2023\outside.png,1690617862.008648
 images\blog\2023\rss.png,1689666704.3464692
 images\blog\2023\stairs.png,1686063074.946569
+images\blog\2023\stress.png,1691492239.8668232
 images\blog\2023\stumbleUpon.png,1681733716.666023
 images\games\acidTrip.png,1677312985.399555
 images\games\aRelaxingTypingGame.png,1677312623.8323474
@@ -223,10 +224,12 @@ images\icons\rss.svg,1690019082.7208874
 images\icons\tumblr.svg,1690018896.5958986
 images\icons\twitter.svg,1690018879.6694577
 images\icons\youtube.svg,1690019128.4909596
-rss\blog_feed.xml,1690617952.4829104
+rss\blog_feed.xml,1691492539.8426726
 rss\comic_feed.xml,1690701631.1970916
 txt\blog\2023\April\bananas.html,1689244631.6558766
 txt\blog\2023\April\bananas.md,1687186219.1321216
+txt\blog\2023\August\stress.html,1691492857.4091482
+txt\blog\2023\August\stress.md,1691492536.2123046
 txt\blog\2023\February\stumbleupon.html,1689244631.6618774
 txt\blog\2023\February\stumbleupon.md,1686202473.0052984
 txt\blog\2023\July\burnout.html,1690104170.355026
