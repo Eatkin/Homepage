@@ -5,10 +5,10 @@ android-chrome-512x512.png,1685707734.0
 apple-touch-icon.png,1685707734.0
 blog.html,1691492539.7966712
 browserconfig.xml,1685707734.0
-code.css,1691410724.9136918
-code.html,1691410724.911689
+code.css,1692439133.802754
+code.html,1692439133.800755
 comics_index.html,1690701631.1590934
-contact.html,1690020312.9013598
+contact.html,1691496905.419318
 favicon-16x16.png,1685707735.0
 favicon-32x32.png,1685707735.0
 favicon.ico,1685707736.0
@@ -24,6 +24,7 @@ style.css,1691232114.7752514
 videos.html,1688882785.3638647
 certs\design-a-cpu.pdf,1691410533.9012113
 certs\git-github-bootcamp.pdf,1682580590.933858
+certs\python-machine-learning.pdf,1692432308.3727603
 comics\hewliggurobokklethumb.png,1690016527.9593427
 comics\hewligg_urobokkle\1.PNG,1688643277.6141543
 comics\hewligg_urobokkle\10.PNG,1688643295.8311038
@@ -220,6 +221,7 @@ images\games\ulysses.png,1677687285.4144206
 images\games\veryGood.png,1677685219.0808706
 images\icons\github.svg,1690019076.6658366
 images\icons\itchdotio.svg,1690018889.0515907
+images\icons\linkedin.svg,1691496811.2537506
 images\icons\rss.svg,1690019082.7208874
 images\icons\tumblr.svg,1690018896.5958986
 images\icons\twitter.svg,1690018879.6694577

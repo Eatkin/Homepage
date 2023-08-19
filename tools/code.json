@@ -13,6 +13,17 @@
     ]
   },
   {
+    "title": "Python for Data Science and Machine Learning Bootcamp",
+    "description": "Certificate of completion of Udemy course on Python for Data Science and Machine Learning. The course covers fundamentals of Data Science from usage of Numpy and Python right through to deep learning.",
+    "link": "certs/python-machine-learning.pdf",
+    "tags": [
+      "python",
+      "udemy",
+      "certificate",
+      "data"
+    ]
+  },
+  {
     "title": "The Git & Github Bootcamp",
     "description": "Certificate of completion of Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.",
     "link": "certs/git-github-bootcamp.pdf",
