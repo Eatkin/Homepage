@@ -52,6 +52,35 @@
                     <img src="/comics/navigation/last.png" alt="Last Comic" />
                 </a>
             </div>
+            
+    <label for="comic-selection" style="display: none;">Jump to comic:</label>
+            <select name="comic-selection" id="comic-selection" onchange="window.location.href = this.value;"
+                style="display: none; width: 4em;">
+                <option value="/comics/pages/comic_1.html">1</option>
+<option value="/comics/pages/comic_2.html">2</option>
+<option value="/comics/pages/comic_3.html">3</option>
+<option value="/comics/pages/comic_4.html">4</option>
+<option value="/comics/pages/comic_5.html">5</option>
+<option value="/comics/pages/comic_6.html">6</option>
+<option value="/comics/pages/comic_7.html">7</option>
+<option value="/comics/pages/comic_8.html">8</option>
+<option value="/comics/pages/comic_9.html">9</option>
+<option value="/comics/pages/comic_10.html">10</option>
+<option value="/comics/pages/comic_11.html">11</option>
+<option value="/comics/pages/comic_12.html">12</option>
+<option value="/comics/pages/comic_13.html">13</option>
+
+            </select>
+
+            <script>
+                // enable the dropdown after the page has loaded
+                // It won't work with no javascript so it's hidden by default
+                document.addEventListener('DOMContentLoaded', function () {
+                    document.getElementById('comic-selection').style.display = 'block';
+                    document.getElementsByTagName('label')[0].style.display = 'block';
+                });
+            </script>
+            
             <p>
                 <a href="/comics_index.html">&#60;- Back to comics index</a>
             </p>

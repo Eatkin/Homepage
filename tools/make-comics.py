@@ -77,6 +77,30 @@ def parse_comics(data):
     previous_link = ""
     next_link = "/comics/pages/comic_2.html"
 
+    # Construct the select box element
+    select_options = ""
+    # Fill the contents of the select box
+    for i in range(1, num_comics + 1):
+        select_options += f'<option value="/comics/pages/comic_{i}.html">{i}</option>\n'
+
+    # Then construct the full element
+    combo_html = f"""
+    <label for="comic-selection" style="display: none;">Jump to comic:</label>
+            <select name="comic-selection" id="comic-selection" onchange="window.location.href = this.value;"
+                style="display: none; width: 4em;">
+                {select_options}
+            </select>
+
+            <script>
+                // enable the dropdown after the page has loaded
+                // It won't work with no javascript so it's hidden by default
+                document.addEventListener('DOMContentLoaded', function () {{
+                    document.getElementById('comic-selection').style.display = 'block';
+                    document.getElementsByTagName('label')[0].style.display = 'block';
+                }});
+            </script>
+            """
+
     for comic in data:
         # Construct the navigation buttons
         nav = ""
@@ -107,6 +131,9 @@ def parse_comics(data):
 
         # Replace navigation
         html = html.replace("[REPLACE WITH NAV]", nav)
+
+        # Replace select box
+        html = html.replace("[REPLACE WITH SELECT BOX]", combo_html)
 
         # Replace tooltip
         html = html.replace("[REPLACE WITH TOOLTIP]", comic["tooltip"])
