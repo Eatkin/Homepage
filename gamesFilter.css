@@ -46,6 +46,18 @@ input#tag-2022-check {
     display: none;
 }
 
+div.tag-2023 {
+    display: none;
+}
+
+#tag-2023-check:checked~main section .grid-container div.tag-2023 {
+    display: flex;
+}
+
+input#tag-2023-check {
+    display: none;
+}
+
 div.tag-adventure {
     display: none;
 }
@@ -562,6 +574,6 @@ input#tag-windows-check {
     display: none;
 }
 
-#tag-2006-check:not(:checked)~#tag-2020-check:not(:checked)~#tag-2021-check:not(:checked)~#tag-2022-check:not(:checked)~#tag-adventure-check:not(:checked)~#tag-android-check:not(:checked)~#tag-arg-check:not(:checked)~#tag-bad-check:not(:checked)~#tag-ball-dude-check:not(:checked)~#tag-best-of-check:not(:checked)~#tag-bitsy-check:not(:checked)~#tag-booklet-check:not(:checked)~#tag-browser-check:not(:checked)~#tag-bullet-hell-check:not(:checked)~#tag-casual-check:not(:checked)~#tag-cats-check:not(:checked)~#tag-collab-check:not(:checked)~#tag-dank-check:not(:checked)~#tag-demo-check:not(:checked)~#tag-educational-check:not(:checked)~#tag-falling-to-bitsy-check:not(:checked)~#tag-free-check:not(:checked)~#tag-game-jam-check:not(:checked)~#tag-gameboy-check:not(:checked)~#tag-horror-check:not(:checked)~#tag-linux-check:not(:checked)~#tag-mobile-check:not(:checked)~#tag-mod-check:not(:checked)~#tag-open-source-check:not(:checked)~#tag-paid-check:not(:checked)~#tag-personal-check:not(:checked)~#tag-platformer-check:not(:checked)~#tag-point-and-click-check:not(:checked)~#tag-prototype-check:not(:checked)~#tag-puzzle-check:not(:checked)~#tag-racing-check:not(:checked)~#tag-raspberry-pi-check:not(:checked)~#tag-roguelike-check:not(:checked)~#tag-schmup-check:not(:checked)~#tag-soundtrack-check:not(:checked)~#tag-story-rich-check:not(:checked)~#tag-strategy-check:not(:checked)~#tag-tennis-check:not(:checked)~#tag-top-down-check:not(:checked)~#tag-turn-based-check:not(:checked)~#tag-typing-check:not(:checked)~#tag-windows-check:not(:checked)~main section .grid-container div.hideable {
+#tag-2006-check:not(:checked)~#tag-2020-check:not(:checked)~#tag-2021-check:not(:checked)~#tag-2022-check:not(:checked)~#tag-2023-check:not(:checked)~#tag-adventure-check:not(:checked)~#tag-android-check:not(:checked)~#tag-arg-check:not(:checked)~#tag-bad-check:not(:checked)~#tag-ball-dude-check:not(:checked)~#tag-best-of-check:not(:checked)~#tag-bitsy-check:not(:checked)~#tag-booklet-check:not(:checked)~#tag-browser-check:not(:checked)~#tag-bullet-hell-check:not(:checked)~#tag-casual-check:not(:checked)~#tag-cats-check:not(:checked)~#tag-collab-check:not(:checked)~#tag-dank-check:not(:checked)~#tag-demo-check:not(:checked)~#tag-educational-check:not(:checked)~#tag-falling-to-bitsy-check:not(:checked)~#tag-free-check:not(:checked)~#tag-game-jam-check:not(:checked)~#tag-gameboy-check:not(:checked)~#tag-horror-check:not(:checked)~#tag-linux-check:not(:checked)~#tag-mobile-check:not(:checked)~#tag-mod-check:not(:checked)~#tag-open-source-check:not(:checked)~#tag-paid-check:not(:checked)~#tag-personal-check:not(:checked)~#tag-platformer-check:not(:checked)~#tag-point-and-click-check:not(:checked)~#tag-prototype-check:not(:checked)~#tag-puzzle-check:not(:checked)~#tag-racing-check:not(:checked)~#tag-raspberry-pi-check:not(:checked)~#tag-roguelike-check:not(:checked)~#tag-schmup-check:not(:checked)~#tag-soundtrack-check:not(:checked)~#tag-story-rich-check:not(:checked)~#tag-strategy-check:not(:checked)~#tag-tennis-check:not(:checked)~#tag-top-down-check:not(:checked)~#tag-turn-based-check:not(:checked)~#tag-typing-check:not(:checked)~#tag-windows-check:not(:checked)~main section .grid-container div.hideable {
     display: flex;
 }

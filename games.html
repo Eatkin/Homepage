@@ -4,15 +4,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css?v=2.1">
-    <link rel="stylesheet" type="text/css" href="gamesFilter.css?v=2.1">
+    <link rel="stylesheet" href="style.css?v=3.0">
+    <link rel="stylesheet" type="text/css" href="gamesFilter.css?v=3.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
@@ -27,13 +20,13 @@
             up the hobby again in 2018. Since then, I've made many games in a variety of genres, styles and qualities.
         </p>
         <p>Filter by <i>best-of</i> for the good stuff.</p>
-        <p><a href="/index.html">&#60;- Back to home</a></p>
     </header>
     <div id="games-container">
         <input type="checkbox" id="tag-2006-check"><label for="tag-2006-check" class="filter-label">2006</label>
         <input type="checkbox" id="tag-2020-check"><label for="tag-2020-check" class="filter-label">2020</label>
         <input type="checkbox" id="tag-2021-check"><label for="tag-2021-check" class="filter-label">2021</label>
         <input type="checkbox" id="tag-2022-check"><label for="tag-2022-check" class="filter-label">2022</label>
+        <input type="checkbox" id="tag-2023-check"><label for="tag-2023-check" class="filter-label">2023</label>
         <input type="checkbox" id="tag-adventure-check"><label for="tag-adventure-check"
             class="filter-label">adventure</label>
         <input type="checkbox" id="tag-android-check"><label for="tag-android-check"
@@ -104,6 +97,22 @@
         <main>
             <section id="games">
                 <div class="grid-container">
+                    <div
+                        class="tag-game-jam tag-free tag-browser tag-story-rich tag-2023 tag-best-of tag-top-down tag-casual hideable">
+                        <div class="grid-item image-container">
+                            <img src="images/games/ertWurm.png" alt="Ert Wurm Title Card">
+                        </div>
+                        <div class="grid-item text-container">
+                            <h2>Ert Wurm</h2>
+                            <h3>Ert Wurm lives in Shittown&#8482; and he and everyone else are all so happy!</h3>
+                            <p>Ert Wurm is a game of personal expression and exploration.</p>
+                            <p>It contains extremely coarse language.</p>
+                            <p>Made for Lame Jam 32</p>
+                            <a href="https://eatkin.itch.io/ert-wurm" class="game-button" target="_blank">Play Ert
+                                Wurm</a>
+                            <p><b>Tags:</b> game-jam, free, browser, story-rich, 2023, best-of, top-down, casual</p>
+                        </div>
+                    </div>
                     <div
                         class="tag-soundtrack tag-typing tag-casual tag-educational tag-browser tag-windows tag-linux tag-free tag-open-source tag-2021 tag-best-of hideable">
                         <div class="grid-item image-container">
@@ -586,7 +595,7 @@
                 </div>
             </section>
             <section>
-                <p>Page info for nerds: This page is generated using a Python script.</p>
+                <p>Page info for nerds: This page is generated from .json using a Python script.</p>
                 <p>The filtering is done with absolutely no javascript. CSS only. If you want an idea of what absolute
                     sins against programming I had to do to accomplish this, check out <a
                         href="gamesFilter.css">gamesFilter.css</a>.</p>

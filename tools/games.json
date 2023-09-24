@@ -1,5 +1,22 @@
 [
     {
+        "gameTitle": "Ert Wurm",
+        "shortDesc": "Ert Wurm lives in Shittown&#8482; and he and everyone else are all so happy!",
+        "longDesc": "<p>Ert Wurm is a game of personal expression and exploration.</p><p>It contains extremely coarse language.</p><p>Made for Lame Jam 32</p>",
+        "img": "ertWurm.png",
+        "link": "https://eatkin.itch.io/ert-wurm",
+        "tags": [
+            "game-jam",
+            "free",
+            "browser",
+            "story-rich",
+            "2023",
+            "best-of",
+            "top-down",
+            "casual"
+        ]
+    },
+    {
         "gameTitle": "A Relaxing Typing Game",
         "shortDesc": "Type out public domain poetry and stories whilst listening to chill music",
         "longDesc": "<p>A game I made as a pure typing game.</p><p>Includes a variety of public domain stories and poems to type out, along with a custom text loader in the downloadable version of the game.</p><p>It turned out to be an unexpected hit and is my most played game to date.</p>",
