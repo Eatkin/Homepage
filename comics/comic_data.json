@@ -89,5 +89,19 @@
         "date": "2023-07-30",
         "src": "comic13.png",
         "tooltip": "Why is Wallace from Wallace and Gromit at the disco? Nobody knows. Also colour a dinosaur is a real game. Hello."
+    },
+    {
+        "name": "Gear Gringers",
+        "description": "Gear Gringers is a game about gringing gears. It is a very good game and you should play it. Spyro the Dragon is a dragon and he is also a spy. Peter Griffin is a griffin.",
+        "date": "2023-12-11",
+        "src": "comic14.png",
+        "tooltip": "Well it turns out Mordecai and Rigby are in this comic too. Don't tell Billy Mitchell he's in the comic though because he'll get angry and sue me."
+    },
+    {
+        "name": "Pea Games",
+        "description": "Bean the Dynamite and someone from a Pokemon game are playing pea games. Plankton tries to stop them but he can't because he dies of super soup poisoning.",
+        "date": "2023-12-12",
+        "src": "comic15.png",
+        "tooltip": "Bean the Dynamite is from Dynamite Headdy. He is a bean. He's actually from Sonic the Fighters but he's also in Dynamite Headdy. He's a bean. He's a bean. He is still a bean."
     }
 ]
