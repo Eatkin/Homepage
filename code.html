@@ -11,7 +11,7 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="style.css?v=2.6">
+    <link rel="stylesheet" href="style.css?v=5">
     <link rel="stylesheet" href="code.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,237 +33,334 @@
     </header>
 
     <div id="code-container">
-        <input type="checkbox" id="tag-algorithms-check"><label for="tag-algorithms-check" class="filter-label">algorithms</label>
-        <input type="checkbox" id="tag-backtracking-check"><label for="tag-backtracking-check" class="filter-label">backtracking</label>
-        <input type="checkbox" id="tag-beautiful-soup-check"><label for="tag-beautiful-soup-check" class="filter-label">beautiful-soup</label>
-        <input type="checkbox" id="tag-brainfuck-check"><label for="tag-brainfuck-check" class="filter-label">brainfuck</label>
-        <input type="checkbox" id="tag-browser-extension-check"><label for="tag-browser-extension-check" class="filter-label">browser-extension</label>
+        <input type="checkbox" id="tag-algorithms-check"><label for="tag-algorithms-check"
+            class="filter-label">algorithms</label>
+        <input type="checkbox" id="tag-backtracking-check"><label for="tag-backtracking-check"
+            class="filter-label">backtracking</label>
+        <input type="checkbox" id="tag-beautiful-soup-check"><label for="tag-beautiful-soup-check"
+            class="filter-label">beautiful-soup</label>
+        <input type="checkbox" id="tag-brainfuck-check"><label for="tag-brainfuck-check"
+            class="filter-label">brainfuck</label>
+        <input type="checkbox" id="tag-browser-extension-check"><label for="tag-browser-extension-check"
+            class="filter-label">browser-extension</label>
         <input type="checkbox" id="tag-c-check"><label for="tag-c-check" class="filter-label">c</label>
-        <input type="checkbox" id="tag-c-sharp-check"><label for="tag-c-sharp-check" class="filter-label">c-sharp</label>
-        <input type="checkbox" id="tag-certificate-check"><label for="tag-certificate-check" class="filter-label">certificate</label>
-        <input type="checkbox" id="tag-codepen-check"><label for="tag-codepen-check" class="filter-label">codepen</label>
-        <input type="checkbox" id="tag-codewars-check"><label for="tag-codewars-check" class="filter-label">codewars</label>
-        <input type="checkbox" id="tag-command-line-check"><label for="tag-command-line-check" class="filter-label">command-line</label>
+        <input type="checkbox" id="tag-c-sharp-check"><label for="tag-c-sharp-check"
+            class="filter-label">c-sharp</label>
+        <input type="checkbox" id="tag-certificate-check"><label for="tag-certificate-check"
+            class="filter-label">certificate</label>
+        <input type="checkbox" id="tag-codepen-check"><label for="tag-codepen-check"
+            class="filter-label">codepen</label>
+        <input type="checkbox" id="tag-codewars-check"><label for="tag-codewars-check"
+            class="filter-label">codewars</label>
+        <input type="checkbox" id="tag-command-line-check"><label for="tag-command-line-check"
+            class="filter-label">command-line</label>
         <input type="checkbox" id="tag-css-check"><label for="tag-css-check" class="filter-label">css</label>
         <input type="checkbox" id="tag-data-check"><label for="tag-data-check" class="filter-label">data</label>
-        <input type="checkbox" id="tag-data-structures-check"><label for="tag-data-structures-check" class="filter-label">data-structures</label>
-        <input type="checkbox" id="tag-esoteric-programming-check"><label for="tag-esoteric-programming-check" class="filter-label">esoteric-programming</label>
-        <input type="checkbox" id="tag-frontend-check"><label for="tag-frontend-check" class="filter-label">frontend</label>
+        <input type="checkbox" id="tag-data-structures-check"><label for="tag-data-structures-check"
+            class="filter-label">data-structures</label>
+        <input type="checkbox" id="tag-esoteric-programming-check"><label for="tag-esoteric-programming-check"
+            class="filter-label">esoteric-programming</label>
+        <input type="checkbox" id="tag-frontend-check"><label for="tag-frontend-check"
+            class="filter-label">frontend</label>
         <input type="checkbox" id="tag-fun-check"><label for="tag-fun-check" class="filter-label">fun</label>
-        <input type="checkbox" id="tag-game-dev-check"><label for="tag-game-dev-check" class="filter-label">game-dev</label>
+        <input type="checkbox" id="tag-game-dev-check"><label for="tag-game-dev-check"
+            class="filter-label">game-dev</label>
         <input type="checkbox" id="tag-gist-check"><label for="tag-gist-check" class="filter-label">gist</label>
         <input type="checkbox" id="tag-git-check"><label for="tag-git-check" class="filter-label">git</label>
-        <input type="checkbox" id="tag-hello-world-check"><label for="tag-hello-world-check" class="filter-label">hello-world</label>
+        <input type="checkbox" id="tag-hello-world-check"><label for="tag-hello-world-check"
+            class="filter-label">hello-world</label>
         <input type="checkbox" id="tag-html-check"><label for="tag-html-check" class="filter-label">html</label>
-        <input type="checkbox" id="tag-javascript-check"><label for="tag-javascript-check" class="filter-label">javascript</label>
-        <input type="checkbox" id="tag-mathematics-check"><label for="tag-mathematics-check" class="filter-label">mathematics</label>
+        <input type="checkbox" id="tag-javascript-check"><label for="tag-javascript-check"
+            class="filter-label">javascript</label>
+        <input type="checkbox" id="tag-mathematics-check"><label for="tag-mathematics-check"
+            class="filter-label">mathematics</label>
         <input type="checkbox" id="tag-oop-check"><label for="tag-oop-check" class="filter-label">oop</label>
-        <input type="checkbox" id="tag-powershell-check"><label for="tag-powershell-check" class="filter-label">powershell</label>
+        <input type="checkbox" id="tag-powershell-check"><label for="tag-powershell-check"
+            class="filter-label">powershell</label>
         <input type="checkbox" id="tag-prolog-check"><label for="tag-prolog-check" class="filter-label">prolog</label>
         <input type="checkbox" id="tag-python-check"><label for="tag-python-check" class="filter-label">python</label>
-        <input type="checkbox" id="tag-recursion-check"><label for="tag-recursion-check" class="filter-label">recursion</label>
+        <input type="checkbox" id="tag-recursion-check"><label for="tag-recursion-check"
+            class="filter-label">recursion</label>
         <input type="checkbox" id="tag-regex-check"><label for="tag-regex-check" class="filter-label">regex</label>
-        <input type="checkbox" id="tag-selenium-check"><label for="tag-selenium-check" class="filter-label">selenium</label>
+        <input type="checkbox" id="tag-selenium-check"><label for="tag-selenium-check"
+            class="filter-label">selenium</label>
         <input type="checkbox" id="tag-shell-check"><label for="tag-shell-check" class="filter-label">shell</label>
         <input type="checkbox" id="tag-sql-check"><label for="tag-sql-check" class="filter-label">sql</label>
         <input type="checkbox" id="tag-udemy-check"><label for="tag-udemy-check" class="filter-label">udemy</label>
-        <input type="checkbox" id="tag-unit-testing-check"><label for="tag-unit-testing-check" class="filter-label">unit-testing</label>
+        <input type="checkbox" id="tag-unit-testing-check"><label for="tag-unit-testing-check"
+            class="filter-label">unit-testing</label>
         <input type="checkbox" id="tag-web-check"><label for="tag-web-check" class="filter-label">web</label>
-        <input type="checkbox" id="tag-web-scraping-check"><label for="tag-web-scraping-check" class="filter-label">web-scraping</label>
-        
+        <input type="checkbox" id="tag-web-scraping-check"><label for="tag-web-scraping-check"
+            class="filter-label">web-scraping</label>
+
         <main>
             <section id="code">
                 <div class="grid-container">
                     <div class="tag-web tag-html tag-css tag-javascript tag-python tag-frontend hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/Homepage" class="code-link">Homepage</a></h2>
-                <p>The repository for this website. It's my website for showing things I've worked on and for occassionally writing meaningless blog posts. The repo contains various tools I use to generate some of the pages for this website (like this one!)</p>
-                <p><b>Tags:</b> web, html, css, javascript, python, frontend</p>
-            </div>
-        </div>
-        <div class="tag-python tag-udemy tag-certificate tag-data hideable">
-            <div class="grid-item text-container">
-                <h2><a href="certs/python-machine-learning.pdf" class="code-link">Python for Data Science and Machine Learning Bootcamp</a></h2>
-                <p>Certificate of completion of Udemy course on Python for Data Science and Machine Learning. The course covers fundamentals of Data Science from usage of Numpy and Python right through to deep learning.</p>
-                <p><b>Tags:</b> python, udemy, certificate, data</p>
-            </div>
-        </div>
-        <div class="tag-git tag-udemy tag-certificate tag-command-line hideable">
-            <div class="grid-item text-container">
-                <h2><a href="certs/git-github-bootcamp.pdf" class="code-link">The Git & Github Bootcamp</a></h2>
-                <p>Certificate of completion of Udemy course on Git and Github. The course covers basic and advanced use of Git, Github and different workflows.</p>
-                <p><b>Tags:</b> git, udemy, certificate, command-line</p>
-            </div>
-        </div>
-        <div class="tag-udemy tag-certificate hideable">
-            <div class="grid-item text-container">
-                <h2><a href="certs/design-a-cpu.pdf" class="code-link">Design a CPU</a></h2>
-                <p>Certificate of completion of Udemy course on CPU design. The course covers the design of a CPU from the ground up, including the design of the instruction set, the ALU, the control unit, the memory unit, and the assembler.</p>
-                <p><b>Tags:</b> udemy, certificate</p>
-            </div>
-        </div>
-        <div class="tag-python tag-web-scraping tag-beautiful-soup tag-selenium tag-codewars hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/codewars-scraper" class="code-link">Codewars Solutions Scraper</a></h2>
-                <p>Offline Beautiful Soup or live Selenium web scraper for Codewars solutions. Scrapes solutions from Codewars and categorises them into files and folders.</p>
-                <p><b>Tags:</b> python, web-scraping, beautiful-soup, selenium, codewars</p>
-            </div>
-        </div>
-        <div class="tag-algorithms tag-python tag-mathematics tag-regex tag-codewars tag-javascript tag-c tag-c-sharp tag-sql tag-shell tag-command-line tag-brainfuck tag-esoteric-programming tag-prolog tag-powershell tag-oop hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/codewars-solutions/" class="code-link">Codewars Solutions Set</a></h2>
-                <p>This is my solutions set for all Codewars problems I have solved. I scrape the solutions using the solutions scraper I made. The problems are categorised into files and folders for easy navigation. Each individual solution links back to the original problem on Codewars.</p>
-                <p><b>Tags:</b> algorithms, python, mathematics, regex, codewars, javascript, c, c-sharp, sql, shell, command-line, brainfuck, esoteric-programming, prolog, powershell, oop</p>
-            </div>
-        </div>
-        <div class="tag-python tag-web-scraping tag-selenium tag-codewars tag-regex tag-data hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/codewars-data-analysis" class="code-link">Codewars Data Analysis</a></h2>
-                <p>A Jupyter Notebook which both sources and analyses data gathered from Codewars problems I've solved. This is an all-inclusive project showing data sourcing, cleaning and visualisation.</p>
-                <p><b>Tags:</b> python, web-scraping, selenium, codewars, regex, data</p>
-            </div>
-        </div>
-        <div class="tag-web tag-frontend tag-html tag-css tag-javascript hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/DOScord" class="code-link">DOScord</a></h2>
-                <p>A static website with a visual style inspired by DOS. The website is based off Discord, allowing you to explore different servers and channels and see what people have been saying. The website is built using HTML, CSS and Javascript. It is very much a work in progress.</p>
-                <p><b>Tags:</b> web, frontend, html, css, javascript</p>
-            </div>
-        </div>
-        <div class="tag-web tag-html tag-css tag-javascript tag-frontend hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/tombstone-tapes" class="code-link">Tombstone Tapes</a></h2>
-                <p>Tombstone Tapes is a website in the style of Windows 95. It features a Windows 95 theme, real time clock, and functional Start Menu.</p>
-                <p><b>Tags:</b> web, html, css, javascript, frontend</p>
-            </div>
-        </div>
-        <div class="tag-web tag-html tag-css tag-codepen tag-frontend hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://codepen.io/eatkin/pen/yLxbxgL" class="code-link">No-Javascript Tag Filtering</a></h2>
-                <p>A simple tag filtering system that uses only CSS. No Javascript required. It's used on this site!</p>
-                <p><b>Tags:</b> web, html, css, codepen, frontend</p>
-            </div>
-        </div>
-        <div class="tag-game-dev hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/BenWasAssimilated" class="code-link">Ben Was Assimilated</a></h2>
-                <p>Ben Was Assimilated is a hack n slash style game where things only move when you do. Includes assimilation. This game is extremely modular and can be easily modified to create new levels and enemies.</p>
-                <p><b>Tags:</b> game-dev</p>
-            </div>
-        </div>
-        <div class="tag-game-dev hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/Relaxing-Open-Source-Game" class="code-link">A Relaxing Typing Game</a></h2>
-                <p>A Relaxing Typing Game is a chill typing game for people who like typing for the sake of typing. To date, this is my most popular game. It was front-paged on Newgrounds with over 20,000 plays.</p>
-                <p><b>Tags:</b> game-dev</p>
-            </div>
-        </div>
-        <div class="tag-game-dev hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/OtherMinds" class="code-link">Other Minds</a></h2>
-                <p>Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who you can use for your standard platforming action, whereas Sage can fly around freely and take control of any other character. Other Minds was my first major project and also a major learning experience. It features highly modular character code and complex emergent behaviour.</p>
-                <p><b>Tags:</b> game-dev</p>
-            </div>
-        </div>
-        <div class="tag-game-dev hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/RememberMary" class="code-link">Remember Mary</a></h2>
-                <p>Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young girl in a world filled with her friends who she can help or hurt. Presented in squigglevision. I made it in about 9 days for the "I can't write but want to tell a story" jam. It is purposefully simplistic in its gameplay so that the player can focus on the story and the world. It has a morality system and multiple endings, such that your actions are meaningful and also the order you take your actions in can also affect the game world and feel. It's also secretly a game about how 18th Century feminist philosopher Mary Wollstonecraft found herself driven to suicide because she found her life to be in such a hopeless situation.</p>
-                <p><b>Tags:</b> game-dev</p>
-            </div>
-        </div>
-        <div class="tag-game-dev hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/SilentBill" class="code-link">Silent Bill</a></h2>
-                <p>The evil ducks have trapped you in a beach hut, you must find a way to escape before they kill you! Silent Bill was made for the "I can't draw but I want to make a game" game jam, and so, artwork very much takes a back seat here. The game is a simple point and click escape room with a few puzzles.</p>
-                <p><b>Tags:</b> game-dev</p>
-            </div>
-        </div>
-        <div class="tag-game-dev hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/JustinWallsCookingSimulator" class="code-link">Justin Wall's Cooking Simulator</a></h2>
-                <p>Cook dinner and murder your entire family! Justin Wall's Cooking Simulator is an ARG-styled game that consists of a series of 4 games. Players must both find the link to the next game, and also find the password in order to access the next game. Each game features two endings. One of which will allow you to progress.</p>
-                <p><b>Tags:</b> game-dev</p>
-            </div>
-        </div>
-        <div class="tag-game-dev tag-fun tag-esoteric-programming hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/gbkt8" class="code-link">BalL DuDe AdVENtures TOo</a></h2>
-                <p>Ball Dude is back and he has eaten too much jelly (jello if you're American). Sometimes it's good to take a step back and stop worrying so much about making something that's actually good. With great skill as a developer, you have the power to make something really bad. Not just bad by accident, an actively hateful game. This game was made for the Game Breaker's Toolkit 8 game jam.</p>
-                <p><b>Tags:</b> game-dev, fun, esoteric-programming</p>
-            </div>
-        </div>
-        <div class="tag-python tag-gist tag-algorithms tag-mathematics tag-backtracking tag-recursion hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://gist.github.com/Eatkin/b966c14a9528931eac866d021c58b6a3" class="code-link">Sudoku Solve Algorithm</a></h2>
-                <p>Algorithm built in Python that uses recursion to test every possible valid combination of numbers until a solution is found. Can solve human-unsolvable sudokus.</p>
-                <p><b>Tags:</b> python, gist, algorithms, mathematics, backtracking, recursion</p>
-            </div>
-        </div>
-        <div class="tag-javascript tag-web tag-browser-extension hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/DiscordComicSansifier" class="code-link">Discord Comic Sans-ifier</a></h2>
-                <p>A Google Chrome browser extension to replace all text on Discord with Comic Sans.</p>
-                <p><b>Tags:</b> javascript, web, browser-extension</p>
-            </div>
-        </div>
-        <div class="tag-web tag-html tag-css tag-codepen tag-frontend hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://codepen.io/eatkin/pen/WNgjOoz" class="code-link">Vaporwave Button</a></h2>
-                <p>A very aesthetic button.</p>
-                <p><b>Tags:</b> web, html, css, codepen, frontend</p>
-            </div>
-        </div>
-        <div class="tag-web tag-html tag-css tag-codepen tag-frontend hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://codepen.io/eatkin/pen/qBMKObE" class="code-link">Cool Rainbow Buttons</a></h2>
-                <p>Some very cool buttons that I made. Used on this website's homepage!</p>
-                <p><b>Tags:</b> web, html, css, codepen, frontend</p>
-            </div>
-        </div>
-        <div class="tag-web tag-html tag-css tag-frontend tag-fun tag-esoteric-programming hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://github.com/Eatkin/badCss" class="code-link">The Worst CSS Ever!</a></h2>
-                <p>I was tasked with making the worst CSS ever for the Gamebreaker's Toolkit 8 game jam. I think I succeeded.</p>
-                <p><b>Tags:</b> web, html, css, frontend, fun, esoteric-programming</p>
-            </div>
-        </div>
-        <div class="tag-python tag-data-structures tag-gist tag-oop tag-unit-testing hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://gist.github.com/Eatkin/a0dddcc948ee966b9991e6ed70a22be5" class="code-link">Python Implementation of Linked Lists</a></h2>
-                <p>A linked list implementation including a few methods: insert at position, remove at position, get position, reverse, and more. Also includes a few unit tests.</p>
-                <p><b>Tags:</b> python, data-structures, gist, oop, unit-testing</p>
-            </div>
-        </div>
-        <div class="tag-javascript tag-gist tag-hello-world tag-fun tag-esoteric-programming hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://gist.github.com/Eatkin/5ce14427172dc81640dede821d81eb46" class="code-link">Hello World but it's stupid</a></h2>
-                <p>A really stupid Hello World program in Javascript.</p>
-                <p><b>Tags:</b> javascript, gist, hello-world, fun, esoteric-programming</p>
-            </div>
-        </div>
-        <div class="tag-python tag-gist tag-algorithms tag-mathematics hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://gist.github.com/Eatkin/356a438ad9607d4e3a944a9f4475d23e" class="code-link">Colourful numbers checker</a></h2>
-                <p>A colourful number is a number for which the product of each subset of digits is unique. This program checks if a number is colourful or not.</p>
-                <p><b>Tags:</b> python, gist, algorithms, mathematics</p>
-            </div>
-        </div>
-        <div class="tag-python tag-gist tag-oop tag-fun tag-esoteric-programming hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://gist.github.com/Eatkin/5cec8b4996154c25a5401665b21a7208" class="code-link">Fizz Buzz but it's OOP</a></h2>
-                <p>Modular Fizz Buzz implementation using object oriented programming in Python.</p>
-                <p><b>Tags:</b> python, gist, oop, fun, esoteric-programming</p>
-            </div>
-        </div>
-        <div class="tag-javascript tag-gist tag-hello-world tag-fun tag-esoteric-programming hideable">
-            <div class="grid-item text-container">
-                <h2><a href="https://gist.github.com/Eatkin/c974e6f25c52d222e7d1a81c9b1cfe00" class="code-link">Hello World but it's horribly inefficient</a></h2>
-                <p>An implementation of Hello World which takes a really long time to run. Unless it doesn't. Because it's random. I got this to pass on Codewars without timing out (eventually).</p>
-                <p><b>Tags:</b> javascript, gist, hello-world, fun, esoteric-programming</p>
-            </div>
-        </div>
-        
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/Homepage" class="code-link">Homepage</a></h2>
+                            <p>The repository for this website. It's my website for showing things I've worked on and
+                                for occassionally writing meaningless blog posts. The repo contains various tools I use
+                                to generate some of the pages for this website (like this one!)</p>
+                            <p><b>Tags:</b> web, html, css, javascript, python, frontend</p>
+                        </div>
+                    </div>
+                    <div class="tag-python tag-udemy tag-certificate tag-data hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="certs/python-machine-learning.pdf" class="code-link">Python for Data Science
+                                    and Machine Learning Bootcamp</a></h2>
+                            <p>Certificate of completion of Udemy course on Python for Data Science and Machine
+                                Learning. The course covers fundamentals of Data Science from usage of Numpy and Python
+                                right through to deep learning.</p>
+                            <p><b>Tags:</b> python, udemy, certificate, data</p>
+                        </div>
+                    </div>
+                    <div class="tag-git tag-udemy tag-certificate tag-command-line hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="certs/git-github-bootcamp.pdf" class="code-link">The Git & Github Bootcamp</a>
+                            </h2>
+                            <p>Certificate of completion of Udemy course on Git and Github. The course covers basic and
+                                advanced use of Git, Github and different workflows.</p>
+                            <p><b>Tags:</b> git, udemy, certificate, command-line</p>
+                        </div>
+                    </div>
+                    <div class="tag-udemy tag-certificate hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="certs/design-a-cpu.pdf" class="code-link">Design a CPU</a></h2>
+                            <p>Certificate of completion of Udemy course on CPU design. The course covers the design of
+                                a CPU from the ground up, including the design of the instruction set, the ALU, the
+                                control unit, the memory unit, and the assembler.</p>
+                            <p><b>Tags:</b> udemy, certificate</p>
+                        </div>
+                    </div>
+                    <div class="tag-python tag-web-scraping tag-beautiful-soup tag-selenium tag-codewars hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/codewars-scraper" class="code-link">Codewars
+                                    Solutions Scraper</a></h2>
+                            <p>Offline Beautiful Soup or live Selenium web scraper for Codewars solutions. Scrapes
+                                solutions from Codewars and categorises them into files and folders.</p>
+                            <p><b>Tags:</b> python, web-scraping, beautiful-soup, selenium, codewars</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-algorithms tag-python tag-mathematics tag-regex tag-codewars tag-javascript tag-c tag-c-sharp tag-sql tag-shell tag-command-line tag-brainfuck tag-esoteric-programming tag-prolog tag-powershell tag-oop hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/codewars-solutions/" class="code-link">Codewars
+                                    Solutions Set</a></h2>
+                            <p>This is my solutions set for all Codewars problems I have solved. I scrape the solutions
+                                using the solutions scraper I made. The problems are categorised into files and folders
+                                for easy navigation. Each individual solution links back to the original problem on
+                                Codewars.</p>
+                            <p><b>Tags:</b> algorithms, python, mathematics, regex, codewars, javascript, c, c-sharp,
+                                sql, shell, command-line, brainfuck, esoteric-programming, prolog, powershell, oop</p>
+                        </div>
+                    </div>
+                    <div class="tag-python tag-web-scraping tag-selenium tag-codewars tag-regex tag-data hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/codewars-data-analysis" class="code-link">Codewars
+                                    Data Analysis</a></h2>
+                            <p>A Jupyter Notebook which both sources and analyses data gathered from Codewars problems
+                                I've solved. This is an all-inclusive project showing data sourcing, cleaning and
+                                visualisation.</p>
+                            <p><b>Tags:</b> python, web-scraping, selenium, codewars, regex, data</p>
+                        </div>
+                    </div>
+                    <div class="tag-web tag-frontend tag-html tag-css tag-javascript hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/DOScord" class="code-link">DOScord</a></h2>
+                            <p>A static website with a visual style inspired by DOS. The website is based off Discord,
+                                allowing you to explore different servers and channels and see what people have been
+                                saying. The website is built using HTML, CSS and Javascript. It is very much a work in
+                                progress.</p>
+                            <p><b>Tags:</b> web, frontend, html, css, javascript</p>
+                        </div>
+                    </div>
+                    <div class="tag-web tag-html tag-css tag-javascript tag-frontend hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/tombstone-tapes" class="code-link">Tombstone
+                                    Tapes</a></h2>
+                            <p>Tombstone Tapes is a website in the style of Windows 95. It features a Windows 95 theme,
+                                real time clock, and functional Start Menu.</p>
+                            <p><b>Tags:</b> web, html, css, javascript, frontend</p>
+                        </div>
+                    </div>
+                    <div class="tag-web tag-html tag-css tag-codepen tag-frontend hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://codepen.io/eatkin/pen/yLxbxgL" class="code-link">No-Javascript Tag
+                                    Filtering</a></h2>
+                            <p>A simple tag filtering system that uses only CSS. No Javascript required. It's used on
+                                this site!</p>
+                            <p><b>Tags:</b> web, html, css, codepen, frontend</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/BenWasAssimilated" class="code-link">Ben Was
+                                    Assimilated</a></h2>
+                            <p>Ben Was Assimilated is a hack n slash style game where things only move when you do.
+                                Includes assimilation. This game is extremely modular and can be easily modified to
+                                create new levels and enemies.</p>
+                            <p><b>Tags:</b> game-dev</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/Relaxing-Open-Source-Game" class="code-link">A
+                                    Relaxing Typing Game</a></h2>
+                            <p>A Relaxing Typing Game is a chill typing game for people who like typing for the sake of
+                                typing. To date, this is my most popular game. It was front-paged on Newgrounds with
+                                over 20,000 plays.</p>
+                            <p><b>Tags:</b> game-dev</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/OtherMinds" class="code-link">Other Minds</a></h2>
+                            <p>Other Minds is a pixel art style game where you play as Ed and Sage. Ed is your human who
+                                you can use for your standard platforming action, whereas Sage can fly around freely and
+                                take control of any other character. Other Minds was my first major project and also a
+                                major learning experience. It features highly modular character code and complex
+                                emergent behaviour.</p>
+                            <p><b>Tags:</b> game-dev</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/RememberMary" class="code-link">Remember Mary</a>
+                            </h2>
+                            <p>Remember Mary is a narrative-driven surrealist adventure game. It follows Mary, a young
+                                girl in a world filled with her friends who she can help or hurt. Presented in
+                                squigglevision. I made it in about 9 days for the "I can't write but want to tell a
+                                story" jam. It is purposefully simplistic in its gameplay so that the player can focus
+                                on the story and the world. It has a morality system and multiple endings, such that
+                                your actions are meaningful and also the order you take your actions in can also affect
+                                the game world and feel. It's also secretly a game about how 18th Century feminist
+                                philosopher Mary Wollstonecraft found herself driven to suicide because she found her
+                                life to be in such a hopeless situation.</p>
+                            <p><b>Tags:</b> game-dev</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/SilentBill" class="code-link">Silent Bill</a></h2>
+                            <p>The evil ducks have trapped you in a beach hut, you must find a way to escape before they
+                                kill you! Silent Bill was made for the "I can't draw but I want to make a game" game
+                                jam, and so, artwork very much takes a back seat here. The game is a simple point and
+                                click escape room with a few puzzles.</p>
+                            <p><b>Tags:</b> game-dev</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/JustinWallsCookingSimulator" class="code-link">Justin
+                                    Wall's Cooking Simulator</a></h2>
+                            <p>Cook dinner and murder your entire family! Justin Wall's Cooking Simulator is an
+                                ARG-styled game that consists of a series of 4 games. Players must both find the link to
+                                the next game, and also find the password in order to access the next game. Each game
+                                features two endings. One of which will allow you to progress.</p>
+                            <p><b>Tags:</b> game-dev</p>
+                        </div>
+                    </div>
+                    <div class="tag-game-dev tag-fun tag-esoteric-programming hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/gbkt8" class="code-link">BalL DuDe AdVENtures TOo</a>
+                            </h2>
+                            <p>Ball Dude is back and he has eaten too much jelly (jello if you're American). Sometimes
+                                it's good to take a step back and stop worrying so much about making something that's
+                                actually good. With great skill as a developer, you have the power to make something
+                                really bad. Not just bad by accident, an actively hateful game. This game was made for
+                                the Game Breaker's Toolkit 8 game jam.</p>
+                            <p><b>Tags:</b> game-dev, fun, esoteric-programming</p>
+                        </div>
+                    </div>
+                    <div
+                        class="tag-python tag-gist tag-algorithms tag-mathematics tag-backtracking tag-recursion hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://gist.github.com/Eatkin/b966c14a9528931eac866d021c58b6a3"
+                                    class="code-link">Sudoku Solve Algorithm</a></h2>
+                            <p>Algorithm built in Python that uses recursion to test every possible valid combination of
+                                numbers until a solution is found. Can solve human-unsolvable sudokus.</p>
+                            <p><b>Tags:</b> python, gist, algorithms, mathematics, backtracking, recursion</p>
+                        </div>
+                    </div>
+                    <div class="tag-javascript tag-web tag-browser-extension hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/DiscordComicSansifier" class="code-link">Discord
+                                    Comic Sans-ifier</a></h2>
+                            <p>A Google Chrome browser extension to replace all text on Discord with Comic Sans.</p>
+                            <p><b>Tags:</b> javascript, web, browser-extension</p>
+                        </div>
+                    </div>
+                    <div class="tag-web tag-html tag-css tag-codepen tag-frontend hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://codepen.io/eatkin/pen/WNgjOoz" class="code-link">Vaporwave Button</a>
+                            </h2>
+                            <p>A very aesthetic button.</p>
+                            <p><b>Tags:</b> web, html, css, codepen, frontend</p>
+                        </div>
+                    </div>
+                    <div class="tag-web tag-html tag-css tag-codepen tag-frontend hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://codepen.io/eatkin/pen/qBMKObE" class="code-link">Cool Rainbow
+                                    Buttons</a></h2>
+                            <p>Some very cool buttons that I made. Used on this website's homepage!</p>
+                            <p><b>Tags:</b> web, html, css, codepen, frontend</p>
+                        </div>
+                    </div>
+                    <div class="tag-web tag-html tag-css tag-frontend tag-fun tag-esoteric-programming hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://github.com/Eatkin/badCss" class="code-link">The Worst CSS Ever!</a>
+                            </h2>
+                            <p>I was tasked with making the worst CSS ever for the Gamebreaker's Toolkit 8 game jam. I
+                                think I succeeded.</p>
+                            <p><b>Tags:</b> web, html, css, frontend, fun, esoteric-programming</p>
+                        </div>
+                    </div>
+                    <div class="tag-python tag-data-structures tag-gist tag-oop tag-unit-testing hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://gist.github.com/Eatkin/a0dddcc948ee966b9991e6ed70a22be5"
+                                    class="code-link">Python Implementation of Linked Lists</a></h2>
+                            <p>A linked list implementation including a few methods: insert at position, remove at
+                                position, get position, reverse, and more. Also includes a few unit tests.</p>
+                            <p><b>Tags:</b> python, data-structures, gist, oop, unit-testing</p>
+                        </div>
+                    </div>
+                    <div class="tag-javascript tag-gist tag-hello-world tag-fun tag-esoteric-programming hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://gist.github.com/Eatkin/5ce14427172dc81640dede821d81eb46"
+                                    class="code-link">Hello World but it's stupid</a></h2>
+                            <p>A really stupid Hello World program in Javascript.</p>
+                            <p><b>Tags:</b> javascript, gist, hello-world, fun, esoteric-programming</p>
+                        </div>
+                    </div>
+                    <div class="tag-python tag-gist tag-algorithms tag-mathematics hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://gist.github.com/Eatkin/356a438ad9607d4e3a944a9f4475d23e"
+                                    class="code-link">Colourful numbers checker</a></h2>
+                            <p>A colourful number is a number for which the product of each subset of digits is unique.
+                                This program checks if a number is colourful or not.</p>
+                            <p><b>Tags:</b> python, gist, algorithms, mathematics</p>
+                        </div>
+                    </div>
+                    <div class="tag-python tag-gist tag-oop tag-fun tag-esoteric-programming hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://gist.github.com/Eatkin/5cec8b4996154c25a5401665b21a7208"
+                                    class="code-link">Fizz Buzz but it's OOP</a></h2>
+                            <p>Modular Fizz Buzz implementation using object oriented programming in Python.</p>
+                            <p><b>Tags:</b> python, gist, oop, fun, esoteric-programming</p>
+                        </div>
+                    </div>
+                    <div class="tag-javascript tag-gist tag-hello-world tag-fun tag-esoteric-programming hideable">
+                        <div class="grid-item text-container">
+                            <h2><a href="https://gist.github.com/Eatkin/c974e6f25c52d222e7d1a81c9b1cfe00"
+                                    class="code-link">Hello World but it's horribly inefficient</a></h2>
+                            <p>An implementation of Hello World which takes a really long time to run. Unless it
+                                doesn't. Because it's random. I got this to pass on Codewars without timing out
+                                (eventually).</p>
+                            <p><b>Tags:</b> javascript, gist, hello-world, fun, esoteric-programming</p>
+                        </div>
+                    </div>
+
                 </div>
             </section>
         </main>
