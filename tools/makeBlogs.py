@@ -230,7 +230,7 @@ def make_rss_feed(blogs_list):
     # Get all items
     items = soup.find_all("item")
 
-    # Loop through the comics and create new items for any that are missing from the feed
+    # Loop through the blogs and create new items for any that are missing from the feed
     # Get all titles already in the feed
     titles = [item.find("title").text for item in items]
 
@@ -243,7 +243,7 @@ def make_rss_feed(blogs_list):
     # Blogs are sorted in reverse chronological order so we need to flip the list
     blogs_list = blogs_list[::-1]
     count = 0
-    for blog in blogs_list[-max_items:]:
+    for blog in blogs_list[:max_items]:
         # If the blog is already in the feed, we've reached the end of the new blogs, so break
         if blog["title"] in titles:
             continue
