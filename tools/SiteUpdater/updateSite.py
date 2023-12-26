@@ -15,6 +15,7 @@ IGNORE_FILES = [
 
 def neocities_init():
     """Gets username and password to construct a URL for uploading files to neocities."""
+    print("It'd be a really good idea to use environment variables for this lol.")
     # Get the password from the user
     unparsed_password = input("Enter password: ")
 
