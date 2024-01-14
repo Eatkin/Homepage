@@ -159,6 +159,8 @@ def construct_blog_index(blogs_list):
     It organises blogs in reverse chronological order and groups them by year
     """
 
+    # TODO: Fix this, because it sets the current year as 2023 always
+
     # Sort the blogs_list by year, month, then day
     blogs_list = sorted(
         blogs_list, key=lambda k: (k["year"], k["month"], k["day"]), reverse=True
