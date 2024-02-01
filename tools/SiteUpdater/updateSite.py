@@ -10,7 +10,9 @@ IGNORE_FOLDERS = ["tools", "api_testing"]
 IGNORE_FILES = [
     "README.md",
     "comic_data.json",
-rf#j2g_NUSGVxQj]
+    "code.json",
+    "rss_feed_components.json",
+]
 
 
 def neocities_init():

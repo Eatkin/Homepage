@@ -158,9 +158,6 @@ def construct_blog_index(blogs_list):
     It will then save the html file in the same directory as the blog's source markdown file
     It organises blogs in reverse chronological order and groups them by year
     """
-
-    # TODO: Fix this, because it sets the current year as 2023 always
-
     # Sort the blogs_list by year, month, then day
     blogs_list = sorted(
         blogs_list, key=lambda k: (k["year"], k["month"], k["day"]), reverse=True
@@ -170,6 +167,8 @@ def construct_blog_index(blogs_list):
     currentYear = 0
 
     for blog in blogs_list:
+        print(f"Adding blog {blog['title']} to blog index")
+        print(f"Year: {blog['year']}, Month: {blog['month']}, Day: {blog['day']}")
         # If the year changes, add a new year heading and open an undered list
         if blog["year"] != currentYear:
             # Close the unordered list
@@ -177,8 +176,8 @@ def construct_blog_index(blogs_list):
                 html += "</ul>"
 
             currentYear = blog["year"]
-            html += """<div class="year-box">
-                            <h2>2023</h2>
+            html += f"""<div class="year-box">
+                            <h2>{currentYear}</h2>
                     </div>"""
 
             # Open the unordered list
