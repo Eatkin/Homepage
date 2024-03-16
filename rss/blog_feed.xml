@@ -4,7 +4,40 @@
 <link>https://eatkin.neocities.org/blog</link>
 <description>I am starting a blog to write about pointless anecdotes, mundane things and random musings. It will have some pictures. I hope you like it.</description>
 <atom:link href="https://eatkin.neocities.org/rss/blog_feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Thu, 01 Feb 2024 17:08:29 GMT</lastBuildDate>
+<lastBuildDate>Sat, 16 Mar 2024 11:08:54 GMT</lastBuildDate>
+<item>
+<title>Can You Make Money From Horse Racing?</title>
+<link>https://eatkin.neocities.org/txt/blog/2024/March/horses.html</link>
+<description><![CDATA[
+<h1>14/03/2024</h1>
+<h1>Can You Make Money From Horse Racing?</h1>
+<p>Short answer: maybe. But not much.</p>
+<h2>The Start</h2>
+<p>I got into horse racing after looking up ways to make money from gambling. Obviously a silly thing to look up, but as it happens, some people do make money from gambling. Well, not exactly. They make money from matched betting, which is a way to exploit free bets offered by bookmakers. It's not gambling, it's a mathematical certainty that you will make money.</p>
+<p>So I did this, and it was amazing for a while. During Cheltenham festival I made literally over £1000. But then bookmakers started to catch on and I was banned from most of them.</p>
+<p>But I had a taste for it now. I wanted to make money from gambling, so I started playing around with horse racing betting systems.</p>
+<h2>The Middle</h2>
+<p>Okay so I didn't exactly lose money from horse racing, but I didn't make much either. I don't like losing money, so if I had a reasonably big loss, I stopped.</p>
+<p>But occassionally I would get a thirst for trying again, trying stupid betting systems which worked and then didn't work, using other people's tips because for some reason I trusted them but not myself.</p>
+<p>I tried backing horses, I tried betting against horse, I tried trading on Betfair. I tried everything.</p>
+<p>Once me and my dad won £300 from a £5 bet because I was using some stupid statistical system I decided to try and it picked a stupidly priced horse that won. But that was just a fluke. It wasn't long term sustainable.</p>
+<p>So I hung up my boots and decided to focus on other things.</p>
+<p>I think what always brought me back was basically, depression. I wasn't happy with where I was in life and the idea of making money from horse racing seemed like a way out. But it wasn't. It just kind of crushed me when things didn't work out. And this is how a gambling habit is formed.</p>
+<p>Fortunately the pain of losing money was too much for me to bear, so I never got too deep into it.</p>
+<p><img alt="A running horse" src="/images/blog/2024/horse.png"/></p>
+<h2>The End</h2>
+<p>Well in a surprise turn of events I now actually am profitible from horse racing, so far. Over 5 months my returns are £17.93 based on £1 level stakes. That's money. From gambling. I made money from gambling.</p>
+<p>Well it's not exactly life changing riches, but you know, it makes me feel pretty happy that I've finally made money from horse racing. I finally made it.</p>
+<p>But this really shows how much the odds truly are against you, my win rate sits at 52%, which is extremely high for horse racing, and I've made £17.93.</p>
+<p>So how did I do it?</p>
+<p>Well it was easy.</p>
+<p>All I did was spend 6 months at a Data Science bootcamp, which I paid £1500 upfront for, and took out a future finance agreement for, learnt Python, SQL, machine learning, stastical analysis, and then applied it to horse racing, utterly failed, got up, tried again, succeeded in principle, made loads of mistakes getting my model applied to real world data, deployed a service to automate everything, realised my data collection was failing for over a month meaning all my bets were based on old data, fixed it, and then made £17.93.</p>
+<p>Really, so simple.</p>
+<p>So there you have it, if you want to make money from horse racing, just spend 6 months learning data science and then apply it to horse racing and get a computer to tell you what to do and before you know it you'll be making a fairly insignififcant amount of money.</p>
+]]></description>
+<guid>https://eatkin.neocities.org/txt/blog/2024/March/horses.html</guid>
+<pubDate>Thu, 14 Mar 2024 11:08:54 GMT</pubDate>
+<dc:creator>Edward Atkin</dc:creator></item>
 <item>
 <title>Why Do I Keep Injuring My Left Hip Specifically?</title>
 <link>https://eatkin.neocities.org/txt/blog/2024/February/hip.html</link>
@@ -301,58 +334,5 @@
 <guid>https://eatkin.neocities.org/txt/blog/2023/July/onrss.html</guid>
 <pubDate>Tue, 18 Jul 2023 08:59:31 GMT</pubDate>
 <dc:creator>Edward Atkin</dc:creator></item>
-<item>
-<title>In Which I Discuss Multiple Failed Attempts At Making Websites</title>
-<link>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</link>
-<description><![CDATA[
-<h1>20/06/2023</h1>
-<h1>In Which I Discuss Multiple Failed Attempts At Making Websites</h1>
-<p>This website isn't my first rodeo. Or my second. Or my third. I think it's probably my 6th or so?</p>
-<p>So let's talk about some internet history that surely nobody will care about!</p>
-<h2>The First Website</h2>
-<p>I've been on the internet since a young age, my dad worked in IT so we were hooked up to the internet in the early 90s.</p>
-<p>He decided it'd be a fun idea to make his kids a website each, and so that was my first website.</p>
-<p>No trace of this website exists any longer. It was simply one page, with a photo of me and a little about me. I remember saying that my favourite website was <a href="https://3drealms.com/">3d Realms</a>, which would you believe it, is still going today!</p>
-<p>3D Realms hosted a whole host of shareware games so I could fill my boots with games that I never did very well at because I was about 5 years old and terrible at playing video games.</p>
-<h2>The Website I Don't Even Remember</h2>
-<p>Nothing on the internet is ever deleted. Except my first website, pretty sure that's gone without a trace.</p>
-<p>There is, however, a second incarnation that made it onto the internet archive (somehow). I was 12 years old.</p>
-<p>Here's a tip for you, don't let a 12 year old try and make a website.</p>
-<p>Made with the archaic Microsoft Frontpage, it features such wonders as "Sonic", "ratchet and clank" and "Message boards" (which didn't work because I had no idea how to make websites).</p>
-<p>I have managed to dig up on very excellent sprite comic I made though, which I will share with you now. I present, "Chao Wars 2" (Chao Wars 1 wasn't archived).</p>
-<p><img alt="Chao Wars 2 Comic" src="/images/blog/2023/chao_w1.jpg"/></p>
-<h2>I Decide To Make Sprite Comics</h2>
-<p>Sometimes when people are younger they do things they subsequently prefer to forget about, and for me it was hosting a sprite comic website. Inspired by the very terrible in hindsight <a href="https://www.angelfire.com/anime3/tms/new.html">That's My Sonic!</a>, many Sonic fans of the era thought it would be fun to make their own sprite comics. Maybe they still do, but Web 1.0 is over, and nobody will see them anymore.</p>
-<p>It wasn't even just me making the comics, there were maybe 4 of us all creating what were probably terrible comics that probably nobody even looked at. Bleh. It may be a good 18 years on from then but looking back on this still gives me butterflies in my stomach.</p>
-<p>Surprisingly, a lot of this stuff was actually archived and I uncovered such forgotten relics as "Jonic Heroes" which will surely have been buried forever should I not have decided to mention it here.</p>
-<p>So here I present to you the final comic in the Hewligg Urobokkle series (Hewligg Urobokkle is an enemy from Megaman and I just thought the sprite looked cool so I made a comic based around him, despite having never played Megaman).</p>
-<p><img alt="Hewligg Urobokkle 50" src="/images/blog/2023/hu.png"/></p>
-<p>This series ended with me getting older, realising I was wasting away spending all my time on the internet, and in an emotional outburst, permanently deleting the entire website and cutting all ties with online forums.</p>
-<p>But remember, nothing on the internet is ever truly deleted.</p>
-<h2>I Attempt Food Blogging</h2>
-<p>There's not too much in this I made some recipes, thought I'd blog about it. It was also going to be a beer blog in which I documented my quest to drink a beer from every country in the world (I failed when I got to Saudi Arabia for some reason).</p>
-<p>I didn't have the stomach to write those long, sprawling, rambling blog posts that seem to be a requirement for SEO rankings and quickly realised food blogging was annoying and gave up.</p>
-<p>I did actually manage quite a good go at it before getting bored though, with 14 recipes making it up.</p>
-<p>Sadly, there is absolutely no trace of Food Bear left online, contradicting what I just said above about nothing on the internet ever being truly deleted. I still have the photos I took for my recipes though, and a folder called "stupid pictures". And so, here is a photo of my chin.</p>
-<p><img alt="My chin" src="/images/blog/2023/chin.jpg"/></p>
-<h2>I Attempt Video Game Blogging</h2>
-<p>Whilst I was totally into indie game development a while ago, I decided I should start writing devlogs, and thus I created an accompanying Wordpress website.</p>
-<p>I branched out into writing about indie games, along with other obscure retro games. But soon the curse of novelties wearing off got to me once again and updates became slower, until I decided not to bother anymore.</p>
-<p>The thing is, blogging about video games just felt like an awkward medium for it. I had such vocal shyness that I couldn't possibly imagine getting a microphone and putting myself out there for the world to hear.</p>
-<p>I actually always liked to idea of making Youtube videos, and I've been watching Youtube pretty much since it first existed, but I never could bring myself to do it.</p>
-<p>Eventually, I actually pulled the trigger and bought a microphone and moved my medium to video. The first voiceover I tried to record filled me with such a heightened sense of anxiety. The thought of even recording myself, let alone having to listen back to myself and have <em>other people</em> listen to me as well, was truly too much for me.</p>
-<p>It's hard to put myself in those shoes now, because recording myself just feels fine now I've done it a few times.</p>
-<p>And so this was the direct precursor to my Youtube Channel <a href="https://www.youtube.com/@ClassicEd">Classic Ed</a> becoming a reality.</p>
-<h2>This Website</h2>
-<p>The previous website was a Wordpress website, and I think managing a Wordpress site somewhat contributed to my dislike of the whole Web 2.0 thing. It just felt so soulless, I hadn't put any work into it, I just banged out blogs and a backend did the rest of the work for me. I didn't feel attached to it, I didn't feel like it reflected me and I just didn't really like it.</p>
-<p>And so here we are on Neocities, a place I feel harks back to the Web 1.0 days that I won't stop talking about.</p>
-<p>I was introduced to Freecodecamp by my boss and tried out their frontend web development course, something I never thought I could possibly enjoy, but I gave it a good go regardless. And wouldn't you know it, I think it's alright.</p>
-<p>It took a while to get to where we are today, but this website is truly something I'm happy with and proud of creating. It looks good (at least I think so), I made it by hand and it's more made for myself than anyone else.</p>
-<p>And so concludes a short history of my failed websites.</p>
-]]></description>
-<guid>https://eatkin.neocities.org/txt/blog/2023/June/oldwebsites.html</guid>
-<pubDate>Tue, 20 Jun 2023 00:00:00 GMT</pubDate>
-<dc:creator>Edward Atkin</dc:creator>
-</item>
 </channel>
 </rss>
